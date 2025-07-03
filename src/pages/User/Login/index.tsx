@@ -104,6 +104,7 @@ const Login: React.FC = () => {
 
   const fetchUserInfo = async () => {
     const userInfo = await initialState?.fetchUserInfo?.();
+    console.log('userInfo:：>>', userInfo);
     if (userInfo) {
       flushSync(() => {
         setInitialState((s) => ({
@@ -123,8 +124,21 @@ const Login: React.FC = () => {
           id: 'pages.login.success',
           defaultMessage: '登录成功！',
         });
+        //set username in LoginParams to initialState
         message.success(defaultLoginSuccessMessage);
+
+        
         await fetchUserInfo();
+
+        const mid = values.username;
+        setInitialState((s) => ({
+          ...s,
+          currentUser: {
+            ...(s?.currentUser || {}),
+            mid,
+          },
+        }));
+        
         const urlParams = new URL(window.location.href).searchParams;
         history.push(urlParams.get('redirect') || '/');
         return;
@@ -187,7 +201,7 @@ const Login: React.FC = () => {
             <LoginMessage
               content={intl.formatMessage({
                 id: 'pages.login.accountLogin.errorMessage',
-                defaultMessage: '账户或密码错误(admin/ant.design)',
+                defaultMessage: 'Invalid Merchant ID or Password',
               })}
             />
           )}
@@ -201,7 +215,7 @@ const Login: React.FC = () => {
                 }}
                 placeholder={intl.formatMessage({
                   id: 'pages.login.username.placeholder',
-                  defaultMessage: '用户名: admin or user',
+                  defaultMessage: 'Merchant ID',
                 })}
                 rules={[
                   {
@@ -209,7 +223,7 @@ const Login: React.FC = () => {
                     message: (
                       <FormattedMessage
                         id="pages.login.username.required"
-                        defaultMessage="请输入用户名!"
+                        defaultMessage="Merchant ID is required"
                       />
                     ),
                   },
@@ -223,7 +237,7 @@ const Login: React.FC = () => {
                 }}
                 placeholder={intl.formatMessage({
                   id: 'pages.login.password.placeholder',
-                  defaultMessage: '密码: ant.design',
+                  defaultMessage: 'Password',
                 })}
                 rules={[
                   {
@@ -231,7 +245,7 @@ const Login: React.FC = () => {
                     message: (
                       <FormattedMessage
                         id="pages.login.password.required"
-                        defaultMessage="请输入密码！"
+                        defaultMessage="Password is required"
                       />
                     ),
                   },

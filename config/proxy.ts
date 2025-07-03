@@ -33,7 +33,7 @@ export default {
       changeOrigin: true,
       pathRewrite: { '^': '' },
     },
-    '/merchant/login': {
+    '/merchant/': {
       target: 'http://192.168.1.104:10000',
       changeOrigin: true,
       secure: false, 
