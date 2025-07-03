@@ -3,7 +3,7 @@
 import {
   IntlCache,
   createIntl,
-} from '/Users/danny.she/react/myapp01/node_modules/react-intl';
+} from '/Users/danny.she/react/stripe_payment_merchant_portal/node_modules/react-intl';
 type OptionalIntlConfig = Omit<Parameters<typeof createIntl>[0], 'locale' | 'defaultLocale'>;
 export interface IRuntimeConfig {
     locale?: {

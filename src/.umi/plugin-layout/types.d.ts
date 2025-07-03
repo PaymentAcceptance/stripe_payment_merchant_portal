@@ -3,7 +3,7 @@
 /// <reference types="@ant-design/pro-components" />
 /// <reference types="antd" />
 
-    import type { ProLayoutProps, HeaderProps } from "/Users/danny.she/react/myapp01/node_modules/@ant-design/pro-components";
+    import type { ProLayoutProps, HeaderProps } from "/Users/danny.she/react/stripe_payment_merchant_portal/node_modules/@ant-design/pro-components";
     import type InitialStateType from '@@/plugin-initialState/@@initialState';
            type InitDataType = ReturnType<typeof InitialStateType>;
         

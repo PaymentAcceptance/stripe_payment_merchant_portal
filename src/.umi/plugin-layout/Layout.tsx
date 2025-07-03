@@ -11,7 +11,7 @@ import {
 import React, { useMemo } from 'react';
 import {
   ProLayout,
-} from "/Users/danny.she/react/myapp01/node_modules/@ant-design/pro-components";
+} from "/Users/danny.she/react/stripe_payment_merchant_portal/node_modules/@ant-design/pro-components";
 import './Layout.css';
 import Logo from './Logo';
 import Exception from './Exception';
