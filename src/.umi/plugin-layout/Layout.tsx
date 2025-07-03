@@ -88,9 +88,9 @@ export default (props: any) => {
   "fixedHeader": false,
   "fixSiderbar": true,
   "colorWeak": false,
-  "title": "Ant Design Pro",
+  "title": "Merchant Center",
   "pwa": true,
-  "logo": "https://gw.alipayobjects.com/zos/rmsportal/KDpgvguMpGfqaHPjicRK.svg",
+  "logo": "./logo.png",
   "iconfontUrl": "",
   "token": {}
 };

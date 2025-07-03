@@ -45,22 +45,10 @@ export const event = new EventEmitter();
 
 export const LANG_CHANGE_EVENT = Symbol('LANG_CHANGE');
 
-import bnBD0 from 'antd/es/locale/bn_BD';
-import lang_bnBD0 from "/Users/danny.she/react/stripe_payment_merchant_portal/src/locales/bn-BD.ts";
 import enUS0 from 'antd/es/locale/en_US';
 import lang_enUS0 from "/Users/danny.she/react/stripe_payment_merchant_portal/src/locales/en-US.ts";
-import faIR0 from 'antd/es/locale/fa_IR';
-import lang_faIR0 from "/Users/danny.she/react/stripe_payment_merchant_portal/src/locales/fa-IR.ts";
-import idID0 from 'antd/es/locale/id_ID';
-import lang_idID0 from "/Users/danny.she/react/stripe_payment_merchant_portal/src/locales/id-ID.ts";
-import jaJP0 from 'antd/es/locale/ja_JP';
-import lang_jaJP0 from "/Users/danny.she/react/stripe_payment_merchant_portal/src/locales/ja-JP.ts";
-import ptBR0 from 'antd/es/locale/pt_BR';
-import lang_ptBR0 from "/Users/danny.she/react/stripe_payment_merchant_portal/src/locales/pt-BR.ts";
 import zhCN0 from 'antd/es/locale/zh_CN';
 import lang_zhCN0 from "/Users/danny.she/react/stripe_payment_merchant_portal/src/locales/zh-CN.ts";
-import zhTW0 from 'antd/es/locale/zh_TW';
-import lang_zhTW0 from "/Users/danny.she/react/stripe_payment_merchant_portal/src/locales/zh-TW.ts";
 
 const flattenMessages=(
   nestedMessages: Record<string, any>,
@@ -82,16 +70,6 @@ const flattenMessages=(
 }
 
 export const localeInfo: {[key: string]: any} = {
-  'bn-BD': {
-    messages: {
-      ...flattenMessages(lang_bnBD0),
-    },
-    locale: 'bn-BD',
-    antd: {
-      ...bnBD0,
-    },
-    momentLocale: 'bn-bd',
-  },
   'en-US': {
     messages: {
       ...flattenMessages(lang_enUS0),
@@ -102,46 +80,6 @@ export const localeInfo: {[key: string]: any} = {
     },
     momentLocale: 'en',
   },
-  'fa-IR': {
-    messages: {
-      ...flattenMessages(lang_faIR0),
-    },
-    locale: 'fa-IR',
-    antd: {
-      ...faIR0,
-    },
-    momentLocale: 'fa',
-  },
-  'id-ID': {
-    messages: {
-      ...flattenMessages(lang_idID0),
-    },
-    locale: 'id-ID',
-    antd: {
-      ...idID0,
-    },
-    momentLocale: 'id',
-  },
-  'ja-JP': {
-    messages: {
-      ...flattenMessages(lang_jaJP0),
-    },
-    locale: 'ja-JP',
-    antd: {
-      ...jaJP0,
-    },
-    momentLocale: 'ja',
-  },
-  'pt-BR': {
-    messages: {
-      ...flattenMessages(lang_ptBR0),
-    },
-    locale: 'pt-BR',
-    antd: {
-      ...ptBR0,
-    },
-    momentLocale: 'pt-br',
-  },
   'zh-CN': {
     messages: {
       ...flattenMessages(lang_zhCN0),
@@ -151,16 +89,6 @@ export const localeInfo: {[key: string]: any} = {
       ...zhCN0,
     },
     momentLocale: 'zh-cn',
-  },
-  'zh-TW': {
-    messages: {
-      ...flattenMessages(lang_zhTW0),
-    },
-    locale: 'zh-TW',
-    antd: {
-      ...zhTW0,
-    },
-    momentLocale: 'zh-tw',
   },
 };
 
