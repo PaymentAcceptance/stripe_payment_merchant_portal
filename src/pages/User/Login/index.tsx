@@ -102,8 +102,8 @@ const Login: React.FC = () => {
   const { styles } = useStyles();
   const intl = useIntl();
 
-  const fetchUserInfo = async () => {
-    const userInfo = await initialState?.fetchUserInfo?.();
+  const fetchUserInfo = async (mid: string) => {
+    const userInfo = await initialState?.fetchUserInfo?.(mid);
     console.log('userInfo:：>>', userInfo);
     if (userInfo) {
       flushSync(() => {
@@ -127,17 +127,17 @@ const Login: React.FC = () => {
         //set username in LoginParams to initialState
         message.success(defaultLoginSuccessMessage);
 
-        
-        await fetchUserInfo();
-
         const mid = values.username;
-        setInitialState((s) => ({
-          ...s,
-          currentUser: {
-            ...(s?.currentUser || {}),
-            mid,
-          },
-        }));
+        await fetchUserInfo(mid);
+
+       
+        // setInitialState((s) => ({
+        //   ...s,
+        //   currentUser: {
+        //     ...(s?.currentUser || {}),
+        //     mid,
+        //   },
+        // }));
         
         const urlParams = new URL(window.location.href).searchParams;
         history.push(urlParams.get('redirect') || '/');
@@ -180,7 +180,16 @@ const Login: React.FC = () => {
             minWidth: 280,
             maxWidth: '75vw',
           }}
-          title="Merchant Login"
+          title={
+            <span style={{ 
+              height: '48px', 
+              fontSize: '30px', 
+              fontWeight: 'bold',
+              color: '#1890ff'
+            }}>
+              Merchant Login
+            </span>
+          }
           initialValues={{
             autoLogin: true,
           }}

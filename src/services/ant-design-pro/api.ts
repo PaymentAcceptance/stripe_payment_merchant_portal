@@ -14,9 +14,12 @@ import { request } from '@umijs/max';
 // }
 
 export async function currentUser(options?: { [key: string]: any }) {
+  const mid = options?.mid
+  console.log('mid::>> ', mid);
+
   return request<{
     data: API.CurrentUser;
-  }>('/api/currentUser', {
+  }>('/merchant/' + mid, {
     method: 'GET',
     ...(options || {}),
   });
