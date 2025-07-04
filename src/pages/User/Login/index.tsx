@@ -104,7 +104,7 @@ const Login: React.FC = () => {
 
   const fetchUserInfo = async (mid: string) => {
     const userInfo = await initialState?.fetchUserInfo?.(mid);
-    console.log('userInfo:：>>', userInfo);
+    //console.log('userInfo:：>>', userInfo);
     if (userInfo) {
       flushSync(() => {
         setInitialState((s) => ({
@@ -120,6 +120,10 @@ const Login: React.FC = () => {
       // 登录
       const msg = await login({ ...values, type });
       if (msg.status === 'ok') {
+        console.log('token::>> ', msg.token);
+        // 存储 token 到 cookie，过期时间为 1 天
+        const expires = new Date(Date.now() + 24 * 60 * 60 * 1000).toUTCString();
+        document.cookie = `authorization=${msg.token}; expires=${expires}; path=/`;
         const defaultLoginSuccessMessage = intl.formatMessage({
           id: 'pages.login.success',
           defaultMessage: '登录成功！',
@@ -129,21 +133,12 @@ const Login: React.FC = () => {
 
         const mid = values.username;
         await fetchUserInfo(mid);
-
-       
-        // setInitialState((s) => ({
-        //   ...s,
-        //   currentUser: {
-        //     ...(s?.currentUser || {}),
-        //     mid,
-        //   },
-        // }));
         
         const urlParams = new URL(window.location.href).searchParams;
         history.push(urlParams.get('redirect') || '/');
         return;
       }
-      console.log(msg);
+      //console.log(msg);
       // 如果失败去设置用户错误信息
       setUserLoginState(msg);
     } catch (error) {
@@ -185,7 +180,6 @@ const Login: React.FC = () => {
               height: '48px', 
               fontSize: '30px', 
               fontWeight: 'bold',
-              color: '#1890ff'
             }}>
               Merchant Login
             </span>
