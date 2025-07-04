@@ -54,54 +54,77 @@ export async function getNotices(options?: { [key: string]: any }) {
 }
 
 /** 获取规则列表 GET /api/rule */
-export async function rule(
+export async function queryPaymentOrder(
   params: {
-    // query
-    /** 当前的页码 */
-    current?: number;
-    /** 页面的容量 */
+    paymentOrderId?: string;
+    status?: string;
+    date?: string;
+    merchantId?: string;
+    currentPage?: number;
     pageSize?: number;
   },
   options?: { [key: string]: any },
 ) {
-  return request<API.RuleList>('/api/rule', {
+  console.log('params::>> ', params);
+  // 处理 status 为 all 时，传空字符串
+  const status = params.status === 'all' ? '' : params.status;
+
+  // 从 cookie 读取 Authorization
+  function getCookie(name: string) {
+    const value = `; ${document.cookie}`;
+    const parts = value.split(`; ${name}=`);
+    if (parts.length === 2) return parts.pop()?.split(';').shift();
+    return '';
+  }
+  const authorization = getCookie('authorization');
+
+  return request<API.PaymentOrderList>('/merchant/orders', {
     method: 'GET',
     params: {
-      ...params,
+      paymentOrderId: params.paymentOrderId,
+      status,
+      date: params.date,
+      merchantId: params.merchantId,
+      currentPage: params.currentPage ?? 0,
+      pageSize: params.pageSize ?? 10,
+    },
+    headers: {
+      Authorization: authorization ? `Bearer ${authorization}` : '',
+      ...options?.headers,
     },
     ...(options || {}),
   });
 }
 
-/** 更新规则 PUT /api/rule */
-export async function updateRule(options?: { [key: string]: any }) {
-  return request<API.RuleListItem>('/api/rule', {
-    method: 'POST',
-    data:{
-      method: 'update',
-      ...(options || {}),
-    }
-  });
-}
+// /** 更新规则 PUT /api/rule */
+// export async function updateRule(options?: { [key: string]: any }) {
+//   return request<API.RuleListItem>('/api/rule', {
+//     method: 'POST',
+//     data:{
+//       method: 'update',
+//       ...(options || {}),
+//     }
+//   });
+// }
 
-/** 新建规则 POST /api/rule */
-export async function addRule(options?: { [key: string]: any }) {
-  return request<API.RuleListItem>('/api/rule', {
-    method: 'POST',
-    data:{
-      method: 'post',
-      ...(options || {}),
-    }
-  });
-}
+// /** 新建规则 POST /api/rule */
+// export async function addRule(options?: { [key: string]: any }) {
+//   return request<API.RuleListItem>('/api/rule', {
+//     method: 'POST',
+//     data:{
+//       method: 'post',
+//       ...(options || {}),
+//     }
+//   });
+// }
 
-/** 删除规则 DELETE /api/rule */
-export async function removeRule(options?: { [key: string]: any }) {
-  return request<Record<string, any>>('/api/rule', {
-    method: 'POST',
-    data:{
-      method: 'delete',
-      ...(options || {}),
-    }
-  });
-}
+// /** 删除规则 DELETE /api/rule */
+// export async function removeRule(options?: { [key: string]: any }) {
+//   return request<Record<string, any>>('/api/rule', {
+//     method: 'POST',
+//     data:{
+//       method: 'delete',
+//       ...(options || {}),
+//     }
+//   });
+// }
