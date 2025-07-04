@@ -36,7 +36,8 @@ export async function getInitialState(): Promise<{
   // 如果不是登录页面，执行
   const { location } = history;
   if (location.pathname !== loginPath) {
-    const currentUser = await fetchUserInfo();
+    const userResult = await fetchUserInfo();
+    const currentUser = userResult?.data;
     return {
       fetchUserInfo,
       currentUser,

@@ -105,7 +105,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "preset",
@@ -118,7 +118,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 17
+        "register": 4
       },
       "enableBy": "register",
       "type": "preset",
@@ -131,7 +131,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 22
+        "register": 1
       },
       "enableBy": "register",
       "type": "preset",
@@ -145,10 +145,10 @@
       "time": {
         "hooks": {
           "onStart": [
-            1
+            0
           ]
         },
-        "register": 7
+        "register": 1
       },
       "enableBy": "register",
       "type": "preset",
@@ -165,7 +165,7 @@
             0
           ]
         },
-        "register": 25
+        "register": 3
       },
       "enableBy": "register",
       "type": "plugin",
@@ -179,7 +179,7 @@
       "time": {
         "hooks": {
           "onStart": [
-            3
+            1
           ]
         },
         "register": 1
@@ -197,11 +197,10 @@
         "hooks": {
           "modifyRoutes": [
             0,
-            0,
             0
           ]
         },
-        "register": 2
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -215,15 +214,14 @@
       "time": {
         "hooks": {
           "modifyAppData": [
-            134
+            10
           ],
           "onGenerateFiles": [
-            7,
-            144,
-            90
+            2,
+            17
           ]
         },
-        "register": 78
+        "register": 13
       },
       "enableBy": "register",
       "type": "plugin",
@@ -238,8 +236,7 @@
         "hooks": {
           "addEntryCode": [
             0,
-            0,
-            1
+            0
           ]
         },
         "register": 1
@@ -256,14 +253,15 @@
       "time": {
         "hooks": {
           "onCheckConfig": [
+            0,
+            3,
+            0,
             0
           ],
           "onCheck": [
             1
           ],
           "onPrepareBuildSuccess": [
-            0,
-            0,
             0,
             0,
             0
@@ -278,7 +276,6 @@
             0,
             0,
             0,
-            1,
             0,
             0,
             0,
@@ -315,7 +312,7 @@
             0
           ]
         },
-        "register": 4
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -332,7 +329,7 @@
             0
           ]
         },
-        "register": 5
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -345,7 +342,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 5
+        "register": 0
       },
       "enableBy": "config",
       "type": "plugin",
@@ -359,10 +356,13 @@
       "time": {
         "hooks": {
           "modifyConfig": [
+            0,
+            0,
+            0,
             0
           ]
         },
-        "register": 31
+        "register": 4
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1214,7 +1214,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 3
+        "register": 0
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1228,10 +1228,10 @@
       "time": {
         "hooks": {
           "onStart": [
-            1
+            0
           ]
         },
-        "register": 2
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1245,10 +1245,10 @@
       "time": {
         "hooks": {
           "addBeforeMiddlewares": [
-            37
+            18
           ]
         },
-        "register": 4
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1261,7 +1261,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1282
+        "register": 54
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1274,7 +1274,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 304
+        "register": 70
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1287,7 +1287,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 51
+        "register": 14
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1301,25 +1301,18 @@
       "time": {
         "hooks": {
           "modifyAppData": [
-            1
+            0
           ],
           "addBeforeMiddlewares": [
             0
           ],
           "modifyHTMLFavicon": [
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
+            1,
             0,
             0
           ]
         },
-        "register": 2
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1333,17 +1326,15 @@
       "time": {
         "hooks": {
           "onGenerateFiles": [
-            3,
             1,
-            2
+            1
           ],
           "addRuntimePlugin": [
-            0,
             0,
             0
           ]
         },
-        "register": 2
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1356,7 +1347,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 3
+        "register": 0
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1369,7 +1360,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 85
+        "register": 22
       },
       "type": "plugin",
       "path": "/Users/danny.she/react/stripe_payment_merchant_portal/node_modules/@umijs/preset-umi/dist/features/mock/mock.js",
@@ -1381,7 +1372,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 2
+        "register": 0
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1394,7 +1385,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 3
+        "register": 1
       },
       "type": "plugin",
       "path": "/Users/danny.she/react/stripe_payment_merchant_portal/node_modules/@umijs/preset-umi/dist/features/okam/okam.js",
@@ -1407,13 +1398,10 @@
       "time": {
         "hooks": {
           "onGenerateFiles": [
-            1,
             0,
             0
           ],
           "addEntryImports": [
-            0,
-            0,
             0,
             0,
             0,
@@ -1433,7 +1421,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 2
+        "register": 0
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1447,23 +1435,23 @@
       "time": {
         "hooks": {
           "modifyConfig": [
-            2
+            1,
+            0,
+            2,
+            0
           ],
           "onGenerateFiles": [
-            10590,
-            624,
-            98
+            52,
+            37
           ],
           "addPolyfillImports": [
-            0,
-            1,
             0,
             0,
             0,
             0
           ]
         },
-        "register": 5
+        "register": 1
       },
       "type": "plugin",
       "path": "/Users/danny.she/react/stripe_payment_merchant_portal/node_modules/@umijs/preset-umi/dist/features/polyfill/polyfill.js",
@@ -1479,12 +1467,10 @@
             0,
             0,
             0,
-            0,
-            0,
             0
           ]
         },
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1498,12 +1484,11 @@
       "time": {
         "hooks": {
           "onGenerateFiles": [
-            5912,
-            0,
+            128,
             0
           ]
         },
-        "register": 3
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1516,7 +1501,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 2
+        "register": 0
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1530,15 +1515,14 @@
       "time": {
         "hooks": {
           "onGenerateFiles": [
-            1,
-            7,
+            0,
             0
           ],
           "addBeforeMiddlewares": [
-            1
+            0
           ]
         },
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1552,15 +1536,13 @@
       "time": {
         "hooks": {
           "onGenerateFiles": [
-            411,
-            145,
-            347,
-            125,
-            65,
-            53
+            8,
+            10,
+            7,
+            6
           ]
         },
-        "register": 11
+        "register": 2
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1573,7 +1555,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 4
+        "register": 1
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1586,7 +1568,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 5
+        "register": 0
       },
       "type": "plugin",
       "path": "/Users/danny.she/react/stripe_payment_merchant_portal/node_modules/@umijs/preset-umi/dist/features/routeProps/routeProps.js",
@@ -1598,7 +1580,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 8
+        "register": 1
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1612,12 +1594,11 @@
       "time": {
         "hooks": {
           "onGenerateFiles": [
-            4589,
-            81,
-            54
+            581,
+            17
           ]
         },
-        "register": 8
+        "register": 2
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1631,10 +1612,10 @@
       "time": {
         "hooks": {
           "addBeforeBabelPresets": [
-            1
+            0
           ]
         },
-        "register": 7
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1647,7 +1628,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 8
+        "register": 2
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1660,7 +1641,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1673,7 +1654,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 12
+        "register": 2
       },
       "type": "plugin",
       "path": "/Users/danny.she/react/stripe_payment_merchant_portal/node_modules/@umijs/preset-umi/dist/features/apiRoute/apiRoute.js",
@@ -1685,7 +1666,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 99
+        "register": 16
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1699,12 +1680,11 @@
       "time": {
         "hooks": {
           "onGenerateFiles": [
-            13,
-            5,
-            3
+            1,
+            1
           ]
         },
-        "register": 3
+        "register": 0
       },
       "type": "plugin",
       "path": "/Users/danny.she/react/stripe_payment_merchant_portal/node_modules/@umijs/preset-umi/dist/features/test/test.js",
@@ -1716,7 +1696,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 2
+        "register": 1
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1729,7 +1709,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 4
+        "register": 0
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1755,7 +1735,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 3
+        "register": 0
       },
       "type": "plugin",
       "path": "/Users/danny.she/react/stripe_payment_merchant_portal/node_modules/@umijs/preset-umi/dist/features/webpack/webpack.js",
@@ -1771,7 +1751,7 @@
             0
           ]
         },
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1784,7 +1764,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 8
+        "register": 2
       },
       "type": "plugin",
       "path": "/Users/danny.she/react/stripe_payment_merchant_portal/node_modules/@umijs/preset-umi/dist/features/ui/ui.js",
@@ -1796,7 +1776,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 3
+        "register": 0
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1809,7 +1789,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 12
+        "register": 1
       },
       "type": "plugin",
       "path": "/Users/danny.she/react/stripe_payment_merchant_portal/node_modules/@umijs/preset-umi/dist/features/hmrGuardian/hmrGuardian.js",
@@ -1822,19 +1802,12 @@
       "time": {
         "hooks": {
           "addHTMLHeadScripts": [
-            51,
-            32,
-            41,
-            1,
-            0,
-            0,
-            0,
             0,
             0,
             0
           ]
         },
-        "register": 4
+        "register": 1
       },
       "type": "plugin",
       "path": "/Users/danny.she/react/stripe_payment_merchant_portal/node_modules/@umijs/preset-umi/dist/features/routePreloadOnLoad/routePreloadOnLoad.js",
@@ -1846,7 +1819,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 3
+        "register": 1
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1860,10 +1833,10 @@
       "time": {
         "hooks": {
           "modifyUniBundler": [
-            1719
+            543
           ]
         },
-        "register": 2
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1876,7 +1849,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 14
+        "register": 2
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1889,7 +1862,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 591
+        "register": 19
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1903,13 +1876,13 @@
       "time": {
         "hooks": {
           "modifyAppData": [
-            108
+            7
           ],
           "onStart": [
             0
           ]
         },
-        "register": 86
+        "register": 26
       },
       "type": "plugin",
       "path": "/Users/danny.she/react/stripe_payment_merchant_portal/node_modules/@umijs/preset-umi/dist/commands/dev/dev.js",
@@ -1921,7 +1894,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 2
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1934,7 +1907,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1947,7 +1920,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 7
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1960,7 +1933,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 4
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1973,7 +1946,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 3
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1986,7 +1959,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 6
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1999,7 +1972,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 2
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -2012,7 +1985,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -2025,7 +1998,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 2
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -2038,7 +2011,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 10
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -2051,7 +2024,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 2
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -2064,7 +2037,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -2077,7 +2050,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 2
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -2090,7 +2063,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 2
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -2116,7 +2089,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 2
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -2129,7 +2102,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 2
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -2155,7 +2128,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 57
+        "register": 13
       },
       "enableBy": "register",
       "type": "plugin",
@@ -2168,7 +2141,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 2
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -2181,7 +2154,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 26
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -2195,20 +2168,18 @@
       "time": {
         "hooks": {
           "addRuntimePlugin": [
-            1,
-            1,
+            0,
             0
           ],
           "onGenerateFiles": [
-            21,
-            1,
+            0,
             0
           ],
           "addTmpGenerateWatcherPaths": [
             0
           ]
         },
-        "register": 8
+        "register": 1
       },
       "enableBy": "config",
       "type": "plugin",
@@ -2223,7 +2194,7 @@
       },
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "type": "plugin",
       "path": "/Users/danny.she/react/stripe_payment_merchant_portal/node_modules/@umijs/plugins/dist/analytics.js",
@@ -2236,7 +2207,10 @@
       "time": {
         "hooks": {
           "modifyConfig": [
-            4
+            2,
+            0,
+            0,
+            0
           ],
           "modifyAppData": [
             0
@@ -2245,24 +2219,19 @@
             0,
             0,
             0,
-            0,
-            0,
             0
           ],
           "addRuntimePlugin": [
-            0,
             0,
             0
           ],
           "addRuntimePluginKey": [
             0,
-            0,
             0
           ],
           "onGenerateFiles": [
-            19,
-            3,
-            4
+            5,
+            1
           ],
           "addExtraBabelPlugins": [
             0
@@ -2271,7 +2240,7 @@
             0
           ]
         },
-        "register": 19
+        "register": 3
       },
       "type": "plugin",
       "path": "/Users/danny.she/react/stripe_payment_merchant_portal/node_modules/@umijs/plugins/dist/antd.js",
@@ -2283,7 +2252,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 18
+        "register": 3
       },
       "enableBy": "config",
       "type": "plugin",
@@ -2298,21 +2267,17 @@
         "hooks": {
           "addRuntimePlugin": [
             0,
-            0,
             0
           ],
           "addRuntimePluginKey": [
             0,
-            0,
             0
           ],
           "onGenerateFiles": [
-            4,
             1,
-            0
+            1
           ],
           "addExtraModels": [
-            1,
             0,
             0
           ]
@@ -2333,33 +2298,32 @@
       "time": {
         "hooks": {
           "modifyConfig": [
+            0,
+            0,
+            0,
             0
           ],
           "addLayouts": [
             0,
-            0,
             0
           ],
           "modifyAppData": [
-            2
+            0
           ],
           "addRuntimePlugin": [
-            1,
             0,
             0
           ],
           "addRuntimePluginKey": [
             0,
-            0,
             0
           ],
           "onGenerateFiles": [
-            27,
-            6,
-            15
+            9,
+            5
           ]
         },
-        "register": 9
+        "register": 2
       },
       "enableBy": "config",
       "type": "plugin",
@@ -2373,33 +2337,28 @@
       "time": {
         "hooks": {
           "addEntryImportsAhead": [
-            25,
             0,
-            1,
             0,
-            1,
+            0,
             0
           ],
           "addRuntimePlugin": [
-            0,
             0,
             0
           ],
           "addRuntimePluginKey": [
             0,
-            0,
             0
           ],
           "onGenerateFiles": [
-            369,
-            25,
-            34
+            17,
+            4
           ],
           "addTmpGenerateWatcherPaths": [
-            9
+            3
           ]
         },
-        "register": 10
+        "register": 3
       },
       "enableBy": "config",
       "type": "plugin",
@@ -2412,7 +2371,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 7
+        "register": 1
       },
       "enableBy": "config",
       "type": "plugin",
@@ -2427,19 +2386,17 @@
         "hooks": {
           "addRuntimePlugin": [
             0,
-            0,
             0
           ],
           "onGenerateFiles": [
-            152,
-            57,
-            136
+            16,
+            6
           ],
           "addTmpGenerateWatcherPaths": [
             0
           ]
         },
-        "register": 5
+        "register": 1
       },
       "enableBy": "config",
       "type": "plugin",
@@ -2453,20 +2410,21 @@
       "time": {
         "hooks": {
           "modifyConfig": [
-            1
+            0,
+            1,
+            0,
+            0
           ],
           "addEntryCodeAhead": [
-            0,
             0,
             0
           ],
           "onGenerateFiles": [
-            4,
-            0,
-            3
+            1,
+            1
           ]
         },
-        "register": 6
+        "register": 0
       },
       "enableBy": "config",
       "type": "plugin",
@@ -2480,12 +2438,11 @@
       "time": {
         "hooks": {
           "addRuntimePluginKey": [
-            1,
             0,
             0
           ]
         },
-        "register": 2
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -2498,7 +2455,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 6
+        "register": 1
       },
       "type": "plugin",
       "path": "/Users/danny.she/react/stripe_payment_merchant_portal/node_modules/@umijs/plugins/dist/qiankun/master.js",
@@ -2510,7 +2467,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 3
+        "register": 0
       },
       "type": "plugin",
       "path": "/Users/danny.she/react/stripe_payment_merchant_portal/node_modules/@umijs/plugins/dist/qiankun/slave.js",
@@ -2522,7 +2479,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 4
+        "register": 1
       },
       "enableBy": "config",
       "type": "plugin",
@@ -2537,16 +2494,14 @@
         "hooks": {
           "addRuntimePluginKey": [
             0,
-            0,
             0
           ],
           "onGenerateFiles": [
-            12,
-            7,
-            5
+            5,
+            0
           ]
         },
-        "register": 26
+        "register": 0
       },
       "enableBy": "config",
       "type": "plugin",
@@ -2559,7 +2514,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 6
+        "register": 1
       },
       "enableBy": "config",
       "type": "plugin",
@@ -2572,7 +2527,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 19
+        "register": 0
       },
       "enableBy": "config",
       "type": "plugin",
@@ -2585,7 +2540,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 3
+        "register": 0
       },
       "enableBy": "config",
       "type": "plugin",
@@ -2599,10 +2554,13 @@
       "time": {
         "hooks": {
           "modifyConfig": [
+            0,
+            0,
+            0,
             0
           ]
         },
-        "register": 7
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -2619,7 +2577,7 @@
             0
           ]
         },
-        "register": 2
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -2633,10 +2591,10 @@
       "time": {
         "hooks": {
           "onCheckPkgJSON": [
-            0
+            1
           ]
         },
-        "register": 2
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -2650,10 +2608,13 @@
       "time": {
         "hooks": {
           "modifyConfig": [
+            0,
+            0,
+            0,
             0
           ]
         },
-        "register": 2
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -2666,7 +2627,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -2681,30 +2642,25 @@
         "hooks": {
           "modifyRoutes": [
             1,
-            0,
             0
           ],
           "onStart": [
             0
           ],
           "onGenerateFiles": [
-            5,
-            3,
+            2,
             0
           ],
           "addBeforeMiddlewares": [
             0
           ],
           "onDevCompileDone": [
-            133,
-            82,
-            62,
-            227,
-            268,
-            255
+            26,
+            3,
+            5
           ]
         },
-        "register": 895
+        "register": 149
       },
       "enableBy": "config",
       "type": "plugin",
@@ -2717,7 +2673,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 103
+        "register": 11
       },
       "enableBy": "config",
       "type": "plugin",
@@ -2732,7 +2688,7 @@
       },
       "time": {
         "hooks": {},
-        "register": 4
+        "register": 1
       },
       "enableBy": "config",
       "type": "plugin",
@@ -2755,18 +2711,20 @@
       "time": {
         "hooks": {
           "modifyConfig": [
+            0,
+            0,
+            0,
             0
           ],
           "modifyAppData": [
             0
           ],
           "onGenerateFiles": [
-            41,
-            2,
+            1,
             1
           ]
         },
-        "register": 180
+        "register": 38
       },
       "type": "plugin",
       "path": "/Users/danny.she/react/stripe_payment_merchant_portal/node_modules/@umijs/request-record/dist/cjs/index.js",
@@ -2778,7 +2736,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 2
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -4033,68 +3991,56 @@
       "__absFile": "/Users/danny.she/react/stripe_payment_merchant_portal/src/pages/User/Login/index.tsx"
     },
     "3": {
-      "path": "/welcome",
-      "name": "welcome",
-      "icon": "smile",
-      "file": "@/pages/Welcome.tsx",
-      "parentId": "ant-design-pro-layout",
-      "id": "3",
-      "absPath": "/welcome",
-      "__content": "import { PageContainer } from '@ant-design/pro-components';\nimport { useModel } from '@umijs/max';\nimport { Card, theme } from 'antd';\nimport React from 'react';\n\n/**\n * 每个单独的卡片，为了复用样式抽成了组件\n * @param param0\n * @returns\n */\nconst InfoCard: React.FC<{\n  title: string;\n  index: number;\n  desc: string;\n  href: string;\n}> = ({ title, href, index, desc }) => {\n  const { useToken } = theme;\n\n  const { token } = useToken();\n\n  return (\n    <div\n      style={{\n        backgroundColor: token.colorBgContainer,\n        boxShadow: token.boxShadow,\n        borderRadius: '8px',\n        fontSize: '14px',\n        color: token.colorTextSecondary,\n        lineHeight: '22px',\n        padding: '16px 19px',\n        minWidth: '220px',\n        flex: 1,\n      }}\n    >\n      <div\n        style={{\n          display: 'flex',\n          gap: '4px',\n          alignItems: 'center',\n        }}\n      >\n        <div\n          style={{\n            width: 48,\n            height: 48,\n            lineHeight: '22px',\n            backgroundSize: '100%',\n            textAlign: 'center',\n            padding: '8px 16px 16px 12px',\n            color: '#FFF',\n            fontWeight: 'bold',\n            backgroundImage:\n              \"url('https://gw.alipayobjects.com/zos/bmw-prod/daaf8d50-8e6d-4251-905d-676a24ddfa12.svg')\",\n          }}\n        >\n          {index}\n        </div>\n        <div\n          style={{\n            fontSize: '16px',\n            color: token.colorText,\n            paddingBottom: 8,\n          }}\n        >\n          {title}\n        </div>\n      </div>\n      <div\n        style={{\n          fontSize: '14px',\n          color: token.colorTextSecondary,\n          textAlign: 'justify',\n          lineHeight: '22px',\n          marginBottom: 8,\n        }}\n      >\n        {desc}\n      </div>\n      <a href={href} target=\"_blank\" rel=\"noreferrer\">\n        了解更多 {'>'}\n      </a>\n    </div>\n  );\n};\n\nconst Welcome: React.FC = () => {\n  const { token } = theme.useToken();\n  const { initialState } = useModel('@@initialState');\n  return (\n    <PageContainer>\n      <Card\n        style={{\n          borderRadius: 8,\n        }}\n        bodyStyle={{\n          backgroundImage:\n            initialState?.settings?.navTheme === 'realDark'\n              ? 'background-image: linear-gradient(75deg, #1A1B1F 0%, #191C1F 100%)'\n              : 'background-image: linear-gradient(75deg, #FBFDFF 0%, #F5F7FF 100%)',\n        }}\n      >\n        <div\n          style={{\n            backgroundPosition: '100% -30%',\n            backgroundRepeat: 'no-repeat',\n            backgroundSize: '274px auto',\n            backgroundImage:\n              \"url('https://gw.alipayobjects.com/mdn/rms_a9745b/afts/img/A*BuFmQqsB2iAAAAAAAAAAAAAAARQnAQ')\",\n          }}\n        >\n          <div\n            style={{\n              fontSize: '20px',\n              color: token.colorTextHeading,\n            }}\n          >\n            欢迎使用 Ant Design Pro\n          </div>\n          <p\n            style={{\n              fontSize: '14px',\n              color: token.colorTextSecondary,\n              lineHeight: '22px',\n              marginTop: 16,\n              marginBottom: 32,\n              width: '65%',\n            }}\n          >\n            Ant Design Pro 是一个整合了 umi，Ant Design 和 ProComponents\n            的脚手架方案。致力于在设计规范和基础组件的基础上，继续向上构建，提炼出典型模板/业务组件/配套设计资源，进一步提升企业级中后台产品设计研发过程中的『用户』和『设计者』的体验。\n          </p>\n          <div\n            style={{\n              display: 'flex',\n              flexWrap: 'wrap',\n              gap: 16,\n            }}\n          >\n            <InfoCard\n              index={1}\n              href=\"https://umijs.org/docs/introduce/introduce\"\n              title=\"了解 umi\"\n              desc=\"umi 是一个可扩展的企业级前端应用框架,umi 以路由为基础的，同时支持配置式路由和约定式路由，保证路由的功能完备，并以此进行功能扩展。\"\n            />\n            <InfoCard\n              index={2}\n              title=\"了解 ant design\"\n              href=\"https://ant.design\"\n              desc=\"antd 是基于 Ant Design 设计体系的 React UI 组件库，主要用于研发企业级中后台产品。\"\n            />\n            <InfoCard\n              index={3}\n              title=\"了解 Pro Components\"\n              href=\"https://procomponents.ant.design\"\n              desc=\"ProComponents 是一个基于 Ant Design 做了更高抽象的模板组件，以 一个组件就是一个页面为开发理念，为中后台开发带来更好的体验。\"\n            />\n          </div>\n        </div>\n      </Card>\n    </PageContainer>\n  );\n};\n\nexport default Welcome;\n",
-      "__isJSFile": true,
-      "__absFile": "/Users/danny.she/react/stripe_payment_merchant_portal/src/pages/Welcome.tsx"
-    },
-    "4": {
       "path": "/admin",
       "name": "admin",
       "icon": "crown",
       "access": "canAdmin",
       "parentId": "ant-design-pro-layout",
+      "id": "3",
+      "absPath": "/admin"
+    },
+    "4": {
+      "path": "/admin",
+      "redirect": "/admin/sub-page",
+      "parentId": "3",
       "id": "4",
       "absPath": "/admin"
     },
     "5": {
-      "path": "/admin",
-      "redirect": "/admin/sub-page",
-      "parentId": "4",
-      "id": "5",
-      "absPath": "/admin"
-    },
-    "6": {
       "path": "/admin/sub-page",
       "name": "sub-page",
       "file": "@/pages/Admin.tsx",
-      "parentId": "4",
-      "id": "6",
+      "parentId": "3",
+      "id": "5",
       "absPath": "/admin/sub-page",
       "__content": "import { HeartTwoTone, SmileTwoTone } from '@ant-design/icons';\nimport { PageContainer } from '@ant-design/pro-components';\nimport { useIntl } from '@umijs/max';\nimport { Alert, Card, Typography } from 'antd';\nimport React from 'react';\n\nconst Admin: React.FC = () => {\n  const intl = useIntl();\n  return (\n    <PageContainer\n      content={intl.formatMessage({\n        id: 'pages.admin.subPage.title',\n        defaultMessage: 'This page can only be viewed by admin',\n      })}\n    >\n      <Card>\n        <Alert\n          message={intl.formatMessage({\n            id: 'pages.welcome.alertMessage',\n            defaultMessage: 'Faster and stronger heavy-duty components have been released.',\n          })}\n          type=\"success\"\n          showIcon\n          banner\n          style={{\n            margin: -12,\n            marginBottom: 48,\n          }}\n        />\n        <Typography.Title level={2} style={{ textAlign: 'center' }}>\n          <SmileTwoTone /> Ant Design Pro <HeartTwoTone twoToneColor=\"#eb2f96\" /> You\n        </Typography.Title>\n      </Card>\n      <p style={{ textAlign: 'center', marginTop: 24 }}>\n        Want to add more pages? Please refer to{' '}\n        <a href=\"https://pro.ant.design/docs/block-cn\" target=\"_blank\" rel=\"noopener noreferrer\">\n          use block\n        </a>\n        。\n      </p>\n    </PageContainer>\n  );\n};\n\nexport default Admin;\n",
       "__isJSFile": true,
       "__absFile": "/Users/danny.she/react/stripe_payment_merchant_portal/src/pages/Admin.tsx"
     },
-    "7": {
+    "6": {
       "name": "list.table-list",
       "icon": "table",
       "path": "/list",
       "file": "@/pages/TableList/index.tsx",
       "parentId": "ant-design-pro-layout",
-      "id": "7",
+      "id": "6",
       "absPath": "/list",
       "__content": "import { addRule, removeRule, rule, updateRule } from '@/services/ant-design-pro/api';\nimport { PlusOutlined } from '@ant-design/icons';\nimport type { ActionType, ProColumns, ProDescriptionsItemProps } from '@ant-design/pro-components';\nimport {\n  FooterToolbar,\n  ModalForm,\n  PageContainer,\n  ProDescriptions,\n  ProFormText,\n  ProFormTextArea,\n  ProTable,\n} from '@ant-design/pro-components';\nimport { FormattedMessage, useIntl } from '@umijs/max';\nimport { Button, Drawer, Input, message } from 'antd';\nimport React, { useRef, useState } from 'react';\nimport type { FormValueType } from './components/UpdateForm';\nimport UpdateForm from './components/UpdateForm';\n\n/**\n * @en-US Add node\n * @zh-CN 添加节点\n * @param fields\n */\nconst handleAdd = async (fields: API.RuleListItem) => {\n  const hide = message.loading('正在添加');\n  try {\n    await addRule({ ...fields });\n    hide();\n    message.success('Added successfully');\n    return true;\n  } catch (error) {\n    hide();\n    message.error('Adding failed, please try again!');\n    return false;\n  }\n};\n\n/**\n * @en-US Update node\n * @zh-CN 更新节点\n *\n * @param fields\n */\nconst handleUpdate = async (fields: FormValueType) => {\n  const hide = message.loading('Configuring');\n  try {\n    await updateRule({\n      name: fields.name,\n      desc: fields.desc,\n      key: fields.key,\n    });\n    hide();\n\n    message.success('Configuration is successful');\n    return true;\n  } catch (error) {\n    hide();\n    message.error('Configuration failed, please try again!');\n    return false;\n  }\n};\n\n/**\n *  Delete node\n * @zh-CN 删除节点\n *\n * @param selectedRows\n */\nconst handleRemove = async (selectedRows: API.RuleListItem[]) => {\n  const hide = message.loading('正在删除');\n  if (!selectedRows) return true;\n  try {\n    await removeRule({\n      key: selectedRows.map((row) => row.key),\n    });\n    hide();\n    message.success('Deleted successfully and will refresh soon');\n    return true;\n  } catch (error) {\n    hide();\n    message.error('Delete failed, please try again');\n    return false;\n  }\n};\n\nconst TableList: React.FC = () => {\n  /**\n   * @en-US Pop-up window of new window\n   * @zh-CN 新建窗口的弹窗\n   *  */\n  const [createModalOpen, handleModalOpen] = useState<boolean>(false);\n  /**\n   * @en-US The pop-up window of the distribution update window\n   * @zh-CN 分布更新窗口的弹窗\n   * */\n  const [updateModalOpen, handleUpdateModalOpen] = useState<boolean>(false);\n\n  const [showDetail, setShowDetail] = useState<boolean>(false);\n\n  const actionRef = useRef<ActionType>();\n  const [currentRow, setCurrentRow] = useState<API.RuleListItem>();\n  const [selectedRowsState, setSelectedRows] = useState<API.RuleListItem[]>([]);\n\n  /**\n   * @en-US International configuration\n   * @zh-CN 国际化配置\n   * */\n  const intl = useIntl();\n\n  const columns: ProColumns<API.RuleListItem>[] = [\n    {\n      title: (\n        <FormattedMessage\n          id=\"pages.searchTable.updateForm.ruleName.nameLabel\"\n          defaultMessage=\"Rule name\"\n        />\n      ),\n      dataIndex: 'name',\n      tip: 'The rule name is the unique key',\n      render: (dom, entity) => {\n        return (\n          <a\n            onClick={() => {\n              setCurrentRow(entity);\n              setShowDetail(true);\n            }}\n          >\n            {dom}\n          </a>\n        );\n      },\n    },\n    {\n      title: <FormattedMessage id=\"pages.searchTable.titleDesc\" defaultMessage=\"Description\" />,\n      dataIndex: 'desc',\n      valueType: 'textarea',\n    },\n    {\n      title: (\n        <FormattedMessage\n          id=\"pages.searchTable.titleCallNo\"\n          defaultMessage=\"Number of service calls\"\n        />\n      ),\n      dataIndex: 'callNo',\n      sorter: true,\n      hideInForm: true,\n      renderText: (val: string) =>\n        `${val}${intl.formatMessage({\n          id: 'pages.searchTable.tenThousand',\n          defaultMessage: ' 万 ',\n        })}`,\n    },\n    {\n      title: <FormattedMessage id=\"pages.searchTable.titleStatus\" defaultMessage=\"Status\" />,\n      dataIndex: 'status',\n      hideInForm: true,\n      valueEnum: {\n        0: {\n          text: (\n            <FormattedMessage\n              id=\"pages.searchTable.nameStatus.default\"\n              defaultMessage=\"Shut down\"\n            />\n          ),\n          status: 'Default',\n        },\n        1: {\n          text: (\n            <FormattedMessage id=\"pages.searchTable.nameStatus.running\" defaultMessage=\"Running\" />\n          ),\n          status: 'Processing',\n        },\n        2: {\n          text: (\n            <FormattedMessage id=\"pages.searchTable.nameStatus.online\" defaultMessage=\"Online\" />\n          ),\n          status: 'Success',\n        },\n        3: {\n          text: (\n            <FormattedMessage\n              id=\"pages.searchTable.nameStatus.abnormal\"\n              defaultMessage=\"Abnormal\"\n            />\n          ),\n          status: 'Error',\n        },\n      },\n    },\n    {\n      title: (\n        <FormattedMessage\n          id=\"pages.searchTable.titleUpdatedAt\"\n          defaultMessage=\"Last scheduled time\"\n        />\n      ),\n      sorter: true,\n      dataIndex: 'updatedAt',\n      valueType: 'dateTime',\n      renderFormItem: (item, { defaultRender, ...rest }, form) => {\n        const status = form.getFieldValue('status');\n        if (`${status}` === '0') {\n          return false;\n        }\n        if (`${status}` === '3') {\n          return (\n            <Input\n              {...rest}\n              placeholder={intl.formatMessage({\n                id: 'pages.searchTable.exception',\n                defaultMessage: 'Please enter the reason for the exception!',\n              })}\n            />\n          );\n        }\n        return defaultRender(item);\n      },\n    },\n    {\n      title: <FormattedMessage id=\"pages.searchTable.titleOption\" defaultMessage=\"Operating\" />,\n      dataIndex: 'option',\n      valueType: 'option',\n      render: (_, record) => [\n        <a\n          key=\"config\"\n          onClick={() => {\n            handleUpdateModalOpen(true);\n            setCurrentRow(record);\n          }}\n        >\n          <FormattedMessage id=\"pages.searchTable.config\" defaultMessage=\"Configuration\" />\n        </a>,\n        <a key=\"subscribeAlert\" href=\"https://procomponents.ant.design/\">\n          <FormattedMessage\n            id=\"pages.searchTable.subscribeAlert\"\n            defaultMessage=\"Subscribe to alerts\"\n          />\n        </a>,\n      ],\n    },\n  ];\n\n  return (\n    <PageContainer>\n      <ProTable<API.RuleListItem, API.PageParams>\n        headerTitle={intl.formatMessage({\n          id: 'pages.searchTable.title',\n          defaultMessage: 'Enquiry form',\n        })}\n        actionRef={actionRef}\n        rowKey=\"key\"\n        search={{\n          labelWidth: 120,\n        }}\n        toolBarRender={() => [\n          <Button\n            type=\"primary\"\n            key=\"primary\"\n            onClick={() => {\n              handleModalOpen(true);\n            }}\n          >\n            <PlusOutlined /> <FormattedMessage id=\"pages.searchTable.new\" defaultMessage=\"New\" />\n          </Button>,\n        ]}\n        request={rule}\n        columns={columns}\n        rowSelection={{\n          onChange: (_, selectedRows) => {\n            setSelectedRows(selectedRows);\n          },\n        }}\n      />\n      {selectedRowsState?.length > 0 && (\n        <FooterToolbar\n          extra={\n            <div>\n              <FormattedMessage id=\"pages.searchTable.chosen\" defaultMessage=\"Chosen\" />{' '}\n              <a style={{ fontWeight: 600 }}>{selectedRowsState.length}</a>{' '}\n              <FormattedMessage id=\"pages.searchTable.item\" defaultMessage=\"项\" />\n              &nbsp;&nbsp;\n              <span>\n                <FormattedMessage\n                  id=\"pages.searchTable.totalServiceCalls\"\n                  defaultMessage=\"Total number of service calls\"\n                />{' '}\n                {selectedRowsState.reduce((pre, item) => pre + item.callNo!, 0)}{' '}\n                <FormattedMessage id=\"pages.searchTable.tenThousand\" defaultMessage=\"万\" />\n              </span>\n            </div>\n          }\n        >\n          <Button\n            onClick={async () => {\n              await handleRemove(selectedRowsState);\n              setSelectedRows([]);\n              actionRef.current?.reloadAndRest?.();\n            }}\n          >\n            <FormattedMessage\n              id=\"pages.searchTable.batchDeletion\"\n              defaultMessage=\"Batch deletion\"\n            />\n          </Button>\n          <Button type=\"primary\">\n            <FormattedMessage\n              id=\"pages.searchTable.batchApproval\"\n              defaultMessage=\"Batch approval\"\n            />\n          </Button>\n        </FooterToolbar>\n      )}\n      <ModalForm\n        title={intl.formatMessage({\n          id: 'pages.searchTable.createForm.newRule',\n          defaultMessage: 'New rule',\n        })}\n        width=\"400px\"\n        open={createModalOpen}\n        onOpenChange={handleModalOpen}\n        onFinish={async (value) => {\n          const success = await handleAdd(value as API.RuleListItem);\n          if (success) {\n            handleModalOpen(false);\n            if (actionRef.current) {\n              actionRef.current.reload();\n            }\n          }\n        }}\n      >\n        <ProFormText\n          rules={[\n            {\n              required: true,\n              message: (\n                <FormattedMessage\n                  id=\"pages.searchTable.ruleName\"\n                  defaultMessage=\"Rule name is required\"\n                />\n              ),\n            },\n          ]}\n          width=\"md\"\n          name=\"name\"\n        />\n        <ProFormTextArea width=\"md\" name=\"desc\" />\n      </ModalForm>\n      <UpdateForm\n        onSubmit={async (value) => {\n          const success = await handleUpdate(value);\n          if (success) {\n            handleUpdateModalOpen(false);\n            setCurrentRow(undefined);\n            if (actionRef.current) {\n              actionRef.current.reload();\n            }\n          }\n        }}\n        onCancel={() => {\n          handleUpdateModalOpen(false);\n          if (!showDetail) {\n            setCurrentRow(undefined);\n          }\n        }}\n        updateModalOpen={updateModalOpen}\n        values={currentRow || {}}\n      />\n\n      <Drawer\n        width={600}\n        open={showDetail}\n        onClose={() => {\n          setCurrentRow(undefined);\n          setShowDetail(false);\n        }}\n        closable={false}\n      >\n        {currentRow?.name && (\n          <ProDescriptions<API.RuleListItem>\n            column={2}\n            title={currentRow?.name}\n            request={async () => ({\n              data: currentRow || {},\n            })}\n            params={{\n              id: currentRow?.name,\n            }}\n            columns={columns as ProDescriptionsItemProps<API.RuleListItem>[]}\n          />\n        )}\n      </Drawer>\n    </PageContainer>\n  );\n};\n\nexport default TableList;\n",
       "__isJSFile": true,
       "__absFile": "/Users/danny.she/react/stripe_payment_merchant_portal/src/pages/TableList/index.tsx"
     },
-    "8": {
+    "7": {
       "path": "/",
-      "redirect": "/welcome",
+      "redirect": "/list",
       "parentId": "ant-design-pro-layout",
-      "id": "8",
+      "id": "7",
       "absPath": "/"
     },
-    "9": {
+    "8": {
       "path": "*",
       "layout": false,
       "file": "@/pages/404.tsx",
-      "id": "9",
+      "id": "8",
       "absPath": "/*",
       "__content": "import { history, useIntl } from '@umijs/max';\nimport { Button, Result } from 'antd';\nimport React from 'react';\n\nconst NoFoundPage: React.FC = () => (\n  <Result\n    status=\"404\"\n    title=\"404\"\n    subTitle={useIntl().formatMessage({ id: 'pages.404.subTitle' })}\n    extra={\n      <Button type=\"primary\" onClick={() => history.push('/')}>\n        {useIntl().formatMessage({ id: 'pages.404.buttonText' })}\n      </Button>\n    }\n  />\n);\n\nexport default NoFoundPage;\n",
       "__isJSFile": true,
@@ -4128,16 +4074,16 @@
     "done": true,
     "progresses": [
       {
-        "percent": 0.5741379310344827,
-        "status": "building",
-        "details": [
-          "0/2 entries 700/732 dependencies 316/325 modules"
-        ]
+        "percent": 1,
+        "status": "",
+        "details": []
       }
     ]
   },
   "mfsuBundleStatus": {
-    "done": true
+    "done": true,
+    "percent": 1,
+    "status": ""
   },
   "react": {
     "version": "18.3.1",
@@ -5487,7 +5433,7 @@
             "format": "esm"
           },
           "src/app.tsx": {
-            "bytes": 4080,
+            "bytes": 4131,
             "imports": [
               {
                 "path": "src/components/index.ts",
@@ -5638,13 +5584,8 @@
             "format": "esm"
           },
           "src/.umi/plugin-layout/icons.tsx": {
-            "bytes": 567,
+            "bytes": 415,
             "imports": [
-              {
-                "path": "/Users/danny.she/react/stripe_payment_merchant_portal/node_modules/@ant-design/icons/es/icons/SmileOutlined",
-                "kind": "import-statement",
-                "external": true
-              },
               {
                 "path": "/Users/danny.she/react/stripe_payment_merchant_portal/node_modules/@ant-design/icons/es/icons/CrownOutlined",
                 "kind": "import-statement",
@@ -6216,32 +6157,6 @@
             ],
             "format": "esm"
           },
-          "src/pages/Welcome.tsx": {
-            "bytes": 4853,
-            "imports": [
-              {
-                "path": "@ant-design/pro-components",
-                "kind": "import-statement",
-                "external": true
-              },
-              {
-                "path": "src/.umi/exports.ts",
-                "kind": "import-statement",
-                "original": "@umijs/max"
-              },
-              {
-                "path": "antd",
-                "kind": "import-statement",
-                "external": true
-              },
-              {
-                "path": "react",
-                "kind": "import-statement",
-                "external": true
-              }
-            ],
-            "format": "esm"
-          },
           "src/pages/Admin.tsx": {
             "bytes": 1377,
             "imports": [
@@ -6497,7 +6412,7 @@
             "format": "esm"
           },
           "src/.umi/core/route.tsx": {
-            "bytes": 2157,
+            "bytes": 1964,
             "imports": [
               {
                 "path": "react",
@@ -6513,11 +6428,6 @@
                 "path": "src/pages/User/Login/index.tsx",
                 "kind": "dynamic-import",
                 "original": "@/pages/User/Login/index.tsx"
-              },
-              {
-                "path": "src/pages/Welcome.tsx",
-                "kind": "dynamic-import",
-                "original": "@/pages/Welcome.tsx"
               },
               {
                 "path": "src/.umi/core/EmptyRoute.tsx",
@@ -6972,11 +6882,6 @@
                 "external": true
               },
               {
-                "path": "/Users/danny.she/react/stripe_payment_merchant_portal/node_modules/@ant-design/icons/es/icons/SmileOutlined",
-                "kind": "import-statement",
-                "external": true
-              },
-              {
                 "path": "/Users/danny.she/react/stripe_payment_merchant_portal/node_modules/@ant-design/icons/es/icons/CrownOutlined",
                 "kind": "import-statement",
                 "external": true
@@ -7118,21 +7023,6 @@
               },
               {
                 "path": "antd-style",
-                "kind": "import-statement",
-                "external": true
-              },
-              {
-                "path": "@ant-design/pro-components",
-                "kind": "import-statement",
-                "external": true
-              },
-              {
-                "path": "antd",
-                "kind": "import-statement",
-                "external": true
-              },
-              {
-                "path": "react",
                 "kind": "import-statement",
                 "external": true
               },
@@ -8519,7 +8409,7 @@
                 "bytesInOutput": 2516
               },
               "src/app.tsx": {
-                "bytesInOutput": 3518
+                "bytesInOutput": 3559
               },
               "src/.umi/core/helmetContext.ts": {
                 "bytesInOutput": 129
@@ -8543,7 +8433,7 @@
                 "bytesInOutput": 384
               },
               "src/.umi/plugin-layout/icons.tsx": {
-                "bytesInOutput": 591
+                "bytesInOutput": 439
               },
               "src/.umi/plugin-layout/runtime.tsx": {
                 "bytesInOutput": 815
@@ -8644,11 +8534,8 @@
               "src/pages/User/Login/index.tsx": {
                 "bytesInOutput": 11914
               },
-              "src/pages/Welcome.tsx": {
-                "bytesInOutput": 6705
-              },
               "src/pages/Admin.tsx": {
-                "bytesInOutput": 1917
+                "bytesInOutput": 1888
               },
               "src/pages/TableList/components/UpdateForm.tsx": {
                 "bytesInOutput": 7369
@@ -8675,7 +8562,7 @@
                 "bytesInOutput": 1323
               },
               "src/.umi/core/route.tsx": {
-                "bytesInOutput": 2302
+                "bytesInOutput": 2090
               },
               "src/.umi/testBrowser.tsx": {
                 "bytesInOutput": 2444
@@ -8696,7 +8583,7 @@
                 "bytesInOutput": 1873
               }
             },
-            "bytes": 193557
+            "bytes": 186474
           }
         }
       }
@@ -11745,10 +11632,10 @@
         {
           "end": 229,
           "importKind": "value",
-          "source": "/Users/danny.she/react/stripe_payment_merchant_portal/node_modules/@ant-design/icons/es/icons/SmileOutlined",
+          "source": "/Users/danny.she/react/stripe_payment_merchant_portal/node_modules/@ant-design/icons/es/icons/CrownOutlined",
           "specifiers": [
             {
-              "local": "SmileOutlined",
+              "local": "CrownOutlined",
               "type": "ImportDefaultSpecifier"
             }
           ],
@@ -11758,19 +11645,6 @@
         {
           "end": 366,
           "importKind": "value",
-          "source": "/Users/danny.she/react/stripe_payment_merchant_portal/node_modules/@ant-design/icons/es/icons/CrownOutlined",
-          "specifiers": [
-            {
-              "local": "CrownOutlined",
-              "type": "ImportDefaultSpecifier"
-            }
-          ],
-          "start": 230,
-          "type": "ImportDeclaration"
-        },
-        {
-          "end": 503,
-          "importKind": "value",
           "source": "/Users/danny.she/react/stripe_payment_merchant_portal/node_modules/@ant-design/icons/es/icons/TableOutlined",
           "specifiers": [
             {
@@ -11778,7 +11652,7 @@
               "type": "ImportDefaultSpecifier"
             }
           ],
-          "start": 367,
+          "start": 230,
           "type": "ImportDeclaration"
         }
       ],
@@ -14712,68 +14586,6 @@
             }
           ],
           "start": 709,
-          "type": "ImportDeclaration"
-        }
-      ],
-      "/Users/danny.she/react/stripe_payment_merchant_portal/src/pages/Welcome.tsx": [
-        {
-          "end": 60,
-          "importKind": "value",
-          "source": "@ant-design/pro-components",
-          "specifiers": [
-            {
-              "imported": "PageContainer",
-              "local": "PageContainer",
-              "type": "ImportSpecifier"
-            }
-          ],
-          "start": 1,
-          "type": "ImportDeclaration"
-        },
-        {
-          "end": 99,
-          "importKind": "value",
-          "source": "@umijs/max",
-          "specifiers": [
-            {
-              "imported": "useModel",
-              "local": "useModel",
-              "type": "ImportSpecifier"
-            }
-          ],
-          "start": 61,
-          "type": "ImportDeclaration"
-        },
-        {
-          "end": 135,
-          "importKind": "value",
-          "source": "antd",
-          "specifiers": [
-            {
-              "imported": "Card",
-              "local": "Card",
-              "type": "ImportSpecifier"
-            },
-            {
-              "imported": "theme",
-              "local": "theme",
-              "type": "ImportSpecifier"
-            }
-          ],
-          "start": 100,
-          "type": "ImportDeclaration"
-        },
-        {
-          "end": 162,
-          "importKind": "value",
-          "source": "react",
-          "specifiers": [
-            {
-              "local": "React",
-              "type": "ImportDefaultSpecifier"
-            }
-          ],
-          "start": 136,
           "type": "ImportDeclaration"
         }
       ],
