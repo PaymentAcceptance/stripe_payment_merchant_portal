@@ -4,7 +4,7 @@ import { useIntl } from '@umijs/max';
 import { Alert, Card, Typography } from 'antd';
 import React from 'react';
 
-const Admin: React.FC = () => {
+const Webhook: React.FC = () => {
   const intl = useIntl();
   return (
     <PageContainer
@@ -28,7 +28,7 @@ const Admin: React.FC = () => {
           }}
         />
         <Typography.Title level={2} style={{ textAlign: 'center' }}>
-          <SmileTwoTone /> Ant Design Pro <HeartTwoTone twoToneColor="#eb2f96" /> You
+          <SmileTwoTone /> Ant Design Pro1 <HeartTwoTone twoToneColor="#eb2f96" /> You
         </Typography.Title>
       </Card>
       <p style={{ textAlign: 'center', marginTop: 24 }}>
@@ -42,4 +42,4 @@ const Admin: React.FC = () => {
   );
 };
 
-export default Admin;
+export default Webhook;

@@ -25,28 +25,28 @@ export default [
   {
     path: '/welcome',
     name: 'welcome',
-    icon: 'smile',
+    icon: 'home',
     component: './Welcome',
   },
   {
     path: '/admin',
     name: 'admin',
-    icon: 'crown',
+    icon: 'setting',
     access: 'canAdmin',
     routes: [
       {
         path: '/admin',
-        redirect: '/admin/sub-page',
+        redirect: '/admin/webhook',
       },
       {
-        path: '/admin/sub-page',
-        name: 'sub-page',
-        component: './Admin',
+        path: '/admin/webhook',
+        name: 'webhook',
+        component: './Webhook',
       },
     ],
   },
   {
-    name: 'list.table-list',
+    name: 'list.orders',
     icon: 'table',
     path: '/list',
     component: './TableList',
