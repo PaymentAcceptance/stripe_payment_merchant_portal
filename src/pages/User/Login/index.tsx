@@ -181,7 +181,10 @@ const Login: React.FC = () => {
               fontSize: '30px', 
               fontWeight: 'bold',
             }}>
-              Merchant Login
+              {intl.formatMessage({
+                id: 'pages.login.loginTitle',
+                defaultMessage: 'Merchant Login',
+              })}
             </span>
           }
           initialValues={{
