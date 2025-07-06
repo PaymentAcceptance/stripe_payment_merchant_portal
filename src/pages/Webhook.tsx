@@ -5,6 +5,8 @@ import { Alert, Card, Typography, Input, Button, message } from 'antd';
 import React, { useState, useEffect } from 'react';
 import { useModel } from '@umijs/max';
 
+const API_BASE_URL = process.env.REACT_APP_API_BASE_URL || '';
+
 const Webhook: React.FC = () => {
   const intl = useIntl();
   const { initialState } = useModel('@@initialState');
@@ -22,7 +24,7 @@ const Webhook: React.FC = () => {
   const fetchWebhook = async () => {
     try {
       setIsLoading(true);
-      const response = await fetch(`/merchant/webhook?merchantId=${merchantId}`, {
+      const response = await fetch(`${API_BASE_URL}/merchant/webhook?merchantId=${merchantId}`, {
         method: 'GET',
         headers: {
           'Authorization': `Bearer ${getCookie('authorization')}`,
@@ -59,7 +61,7 @@ const Webhook: React.FC = () => {
   const saveWebhook = async () => {
     try {
       setIsLoading(true);
-      const response = await fetch('/merchant/updateWebhook', {
+      const response = await fetch('${API_BASE_URL}/merchant/updateWebhook', {
         method: 'POST',
         headers: {
           'Authorization': `Bearer ${getCookie('authorization')}`,

@@ -2,16 +2,7 @@
 /* eslint-disable */
 import { request } from '@umijs/max';
 
-// export async function currentUser(options?: { [key: string]: any }) {
-//   let mid = options?.mid
-
-//   return request<{
-//     data: API.CurrentUser;
-//   }>('/merchant/'+mid, {
-//     method: 'GET',
-//     ...(options || {}),
-//   });
-// }
+const API_BASE_URL = process.env.REACT_APP_API_BASE_URL || '';
 
 export async function currentUser(options?: { [key: string]: any }) {
   const mid = options?.mid
@@ -19,7 +10,7 @@ export async function currentUser(options?: { [key: string]: any }) {
 
   return request<{
     data: API.CurrentUser;
-  }>('/merchant/' + mid, {
+  }>(API_BASE_URL +'/merchant/' + mid, {
     method: 'GET',
     ...(options || {}),
   });
@@ -27,7 +18,7 @@ export async function currentUser(options?: { [key: string]: any }) {
 
 /** 退出登录接口 POST /api/login/outLogin */
 export async function outLogin(options?: { [key: string]: any }) {
-  return request<Record<string, any>>('/api/login/outLogin', {
+  return request<Record<string, any>>(API_BASE_URL +'/api/login/outLogin', {
     method: 'POST',
     ...(options || {}),
   });
@@ -35,7 +26,8 @@ export async function outLogin(options?: { [key: string]: any }) {
 
 /** 登录接口 POST /api/login/account */
 export async function login(body: API.LoginParams, options?: { [key: string]: any }) {
-  return request<API.LoginResult>('/merchant/login', {
+  console.log('API_BASE_URL==>>', API_BASE_URL);
+  return request<API.LoginResult>(API_BASE_URL +'/merchant/login', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
@@ -47,7 +39,7 @@ export async function login(body: API.LoginParams, options?: { [key: string]: an
 
 /** 此处后端没有提供注释 GET /api/notices */
 export async function getNotices(options?: { [key: string]: any }) {
-  return request<API.NoticeIconList>('/api/notices', {
+  return request<API.NoticeIconList>(API_BASE_URL +'/api/notices', {
     method: 'GET',
     ...(options || {}),
   });
@@ -78,7 +70,7 @@ export async function queryPaymentOrder(
   }
   const authorization = getCookie('authorization');
 
-  return request<API.PaymentOrderList>('/merchant/orders', {
+  return request<API.PaymentOrderList>(API_BASE_URL +'/merchant/orders', {
     method: 'GET',
     params: {
       paymentOrderId: params.paymentOrderId,

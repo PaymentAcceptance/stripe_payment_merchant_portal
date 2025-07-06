@@ -5,6 +5,8 @@ import { Alert, Card, Typography, theme, Row, Col, Statistic, Tag, Progress } fr
 import React, { useState, useEffect } from 'react';
 import { Line, Gauge } from '@ant-design/plots';
 
+const API_BASE_URL = process.env.REACT_APP_API_BASE_URL || '';
+
 /**
  * 每个单独的卡片，为了复用样式抽成了组件
  * @param param0
@@ -572,7 +574,7 @@ const Welcome: React.FC = () => {
   const fetchSummary = async () => {
     try {
       setLoading(true);
-      const response = await fetch(`/merchant/summary?merchantId=${merchantId}`, {
+      const response = await fetch(`${API_BASE_URL}/merchant/summary?merchantId=${merchantId}`, {
         method: 'GET',
         headers: {
           'Authorization': `Bearer ${getCookie('authorization')}`,
