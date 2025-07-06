@@ -88,10 +88,7 @@ export default (props: any) => {
   "fixedHeader": false,
   "fixSiderbar": true,
   "colorWeak": false,
-  "title": useIntl().formatMessage({
-    id: 'component.globalHeader.title',
-    defaultMessage: 'Merchant Center',
-  }),
+  "title": "Merchant Center",
   "pwa": true,
   "logo": "./logo.png",
   "iconfontUrl": "",

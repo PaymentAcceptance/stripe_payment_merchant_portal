@@ -1,6 +1,7 @@
+import { HeartTwoTone, SmileTwoTone } from '@ant-design/icons';
 import { PageContainer } from '@ant-design/pro-components';
-import { useModel } from '@umijs/max';
-import { Card, theme } from 'antd';
+import { useIntl, useModel } from '@umijs/max';
+import { Alert, Card, Typography, theme } from 'antd';
 import React from 'react';
 
 /**
@@ -86,6 +87,8 @@ const InfoCard: React.FC<{
 const Welcome: React.FC = () => {
   const { token } = theme.useToken();
   const { initialState } = useModel('@@initialState');
+  const currentUserName = initialState?.currentUser?.name || 'User';
+  
   return (
     <PageContainer>
       <Card
@@ -114,7 +117,7 @@ const Welcome: React.FC = () => {
               color: token.colorTextHeading,
             }}
           >
-            欢迎使用 Ant Design Pro
+            Welcome, {currentUserName}!
           </div>
           <p
             style={{
