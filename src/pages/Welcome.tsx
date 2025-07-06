@@ -91,6 +91,7 @@ const BalanceDisplay: React.FC<{
   loading?: boolean;
 }> = ({ balanceInfo, loading = false }) => {
   const { token } = theme.useToken();
+  const intl = useIntl();
 
   // 解析余额信息
   const parseBalanceInfo = (info: string) => {
@@ -152,7 +153,7 @@ const BalanceDisplay: React.FC<{
         marginBottom: '16px',
         textAlign: 'center'
       }}>
-        Balance (After Fees)
+        {intl.formatMessage({ id: 'pages.welcome.balanceAfterFees' })}
       </div>
       
       {balanceItems.length > 0 ? (
@@ -310,6 +311,7 @@ const InfoItem: React.FC<{
 // 订单走势图组件
 const OrderTrendChart: React.FC = () => {
   const { token } = theme.useToken();
+  const intl = useIntl();
   
   // 硬编码的过去7天数据
   const data = [
@@ -408,7 +410,7 @@ const OrderTrendChart: React.FC = () => {
         marginBottom: '8px',
         textAlign: 'center'
       }}>
-        Orders Trend (Last 7 Days)
+        {intl.formatMessage({ id: 'pages.welcome.ordersTrend' })}
       </div>
       <div style={{ height: '150px' }}>
         <Line {...config} />
@@ -423,6 +425,7 @@ const SuccessRateChart: React.FC<{
   succeededOrderNumber: number;
 }> = ({ totalOrderNumber, succeededOrderNumber }) => {
   const { token } = theme.useToken();
+  const intl = useIntl();
   
   // 计算成功率
   const successRate = totalOrderNumber > 0 ? (succeededOrderNumber / totalOrderNumber * 100) : 0;
@@ -523,7 +526,7 @@ const SuccessRateChart: React.FC<{
         marginBottom: '8px',
         textAlign: 'center'
       }}>
-        Current Success Rate
+        {intl.formatMessage({ id: 'pages.welcome.currentSuccessRate' })}
       </div>
       <div style={{ height: '150px', display: 'flex', alignItems: 'center', justifyContent: 'center', flexDirection: 'column' }}>
         <div style={{ marginBottom: '8px', fontSize: '12px', color: token.colorTextSecondary }}>
@@ -550,6 +553,7 @@ const SuccessRateChart: React.FC<{
 const Welcome: React.FC = () => {
   const { token } = theme.useToken();
   const { initialState } = useModel('@@initialState');
+  const intl = useIntl();
   const currentUserName = initialState?.currentUser?.name || 'User';
   const merchantId = initialState?.currentUser?.mid;
   
@@ -625,7 +629,7 @@ const Welcome: React.FC = () => {
               marginBottom: '32px',
             }}
           >
-            Welcome, <b>{currentUserName}</b>!
+            {intl.formatMessage({ id: 'pages.welcome.title' })}, <b>{currentUserName}</b>!
           </div>
 
           {/* Merchant Portal Header */}
@@ -635,25 +639,25 @@ const Welcome: React.FC = () => {
             <Row gutter={[24, 16]}>
               <Col xs={24} sm={12} md={6}>
                 <InfoItem 
-                  label="Merchant ID" 
+                  label={intl.formatMessage({ id: 'pages.welcome.merchantId' })} 
                   value={summaryData?.merchantId || '-'} 
                 />
               </Col>
               <Col xs={24} sm={12} md={6}>
                 <InfoItem 
-                  label="Fee Structure" 
+                  label={intl.formatMessage({ id: 'pages.welcome.feeStructure' })} 
                   value="Fixed Rate" 
                 />
               </Col>
               <Col xs={24} sm={12} md={6}>
                 <InfoItem 
-                  label="Fee Rate" 
+                  label={intl.formatMessage({ id: 'pages.welcome.feeRate' })} 
                   value={summaryData?.feeRate || '-'} 
                 />
               </Col>
               <Col xs={24} sm={12} md={6}>
                 <InfoItem 
-                  label="Supported Currencies" 
+                  label={intl.formatMessage({ id: 'pages.welcome.supportedCurrencies' })} 
                   value={summaryData?.supportedCurrencies || '-'} 
                 />
               </Col>
@@ -666,7 +670,7 @@ const Welcome: React.FC = () => {
               <Col xs={24} sm={8}>
                 <div>
                   <SummaryCard
-                    title="Total Orders"
+                    title={intl.formatMessage({ id: 'pages.welcome.totalOrders' })}
                     value={summaryData?.totalOrderNumber || 0}
                     loading={loading}
                   />
@@ -676,7 +680,7 @@ const Welcome: React.FC = () => {
               <Col xs={24} sm={8}>
                 <div>
                   <SummaryCard
-                    title="Succeeded Orders"
+                    title={intl.formatMessage({ id: 'pages.welcome.succeededOrders' })}
                     value={summaryData?.succeededOrderNumber || 0}
                     loading={loading}
                   />
