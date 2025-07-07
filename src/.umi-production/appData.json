@@ -119,7 +119,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 7
+        "register": 4
       },
       "enableBy": "register",
       "type": "preset",
@@ -132,7 +132,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 5
+        "register": 1
       },
       "enableBy": "register",
       "type": "preset",
@@ -183,7 +183,7 @@
             1
           ]
         },
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -200,7 +200,7 @@
             0
           ]
         },
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -214,7 +214,7 @@
       "time": {
         "hooks": {
           "modifyAppData": [
-            12
+            27
           ]
         },
         "register": 14
@@ -230,7 +230,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -250,7 +250,7 @@
             1
           ]
         },
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -267,7 +267,7 @@
             0
           ]
         },
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -280,7 +280,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "config",
       "type": "plugin",
@@ -297,7 +297,7 @@
             0
           ]
         },
-        "register": 5
+        "register": 6
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1192,7 +1192,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 52
+        "register": 51
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1205,7 +1205,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 66
+        "register": 59
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1235,7 +1235,7 @@
             0
           ]
         },
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1286,7 +1286,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1299,7 +1299,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "type": "plugin",
       "path": "/Users/danny.she/react/stripe_payment_merchant_portal/node_modules/@umijs/preset-umi/dist/features/okam/okam.js",
@@ -1338,7 +1338,7 @@
       "time": {
         "hooks": {
           "modifyConfig": [
-            0
+            1
           ]
         },
         "register": 1
@@ -1392,7 +1392,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1405,7 +1405,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 3
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1418,7 +1418,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1456,7 +1456,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 2
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1469,7 +1469,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 4
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1482,7 +1482,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 2
+        "register": 1
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1520,7 +1520,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 13
+        "register": 12
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1583,7 +1583,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "type": "plugin",
       "path": "/Users/danny.she/react/stripe_payment_merchant_portal/node_modules/@umijs/preset-umi/dist/features/webpack/webpack.js",
@@ -1661,7 +1661,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1674,7 +1674,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1687,7 +1687,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 2
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1713,7 +1713,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 29
+        "register": 25
       },
       "type": "plugin",
       "path": "/Users/danny.she/react/stripe_payment_merchant_portal/node_modules/@umijs/preset-umi/dist/commands/dev/dev.js",
@@ -1725,7 +1725,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1738,7 +1738,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1764,7 +1764,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1777,7 +1777,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1816,7 +1816,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1842,7 +1842,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1868,7 +1868,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1894,7 +1894,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1933,7 +1933,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1959,7 +1959,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 14
+        "register": 12
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1972,7 +1972,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1998,7 +1998,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 2
+        "register": 1
       },
       "enableBy": "config",
       "type": "plugin",
@@ -2032,7 +2032,7 @@
             0
           ]
         },
-        "register": 3
+        "register": 4
       },
       "type": "plugin",
       "path": "/Users/danny.she/react/stripe_payment_merchant_portal/node_modules/@umijs/plugins/dist/antd.js",
@@ -2057,7 +2057,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "config",
       "type": "plugin",
@@ -2082,7 +2082,7 @@
             0
           ]
         },
-        "register": 1
+        "register": 2
       },
       "enableBy": "config",
       "type": "plugin",
@@ -2095,7 +2095,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 2
+        "register": 1
       },
       "enableBy": "config",
       "type": "plugin",
@@ -2240,7 +2240,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "config",
       "type": "plugin",
@@ -2257,7 +2257,7 @@
             0
           ]
         },
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -2291,7 +2291,7 @@
             0
           ]
         },
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -2308,7 +2308,7 @@
             0
           ]
         },
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -2338,7 +2338,7 @@
             0
           ]
         },
-        "register": 143
+        "register": 121
       },
       "enableBy": "config",
       "type": "plugin",
@@ -2400,7 +2400,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -3628,7 +3628,7 @@
       "parentId": "ant-design-pro-layout",
       "id": "3",
       "absPath": "/welcome",
-      "__content": "import { HeartTwoTone, SmileTwoTone } from '@ant-design/icons';\nimport { PageContainer } from '@ant-design/pro-components';\nimport { useIntl, useModel } from '@umijs/max';\nimport { Alert, Card, Typography, theme, Row, Col, Statistic, Tag, Progress } from 'antd';\nimport React, { useState, useEffect } from 'react';\nimport { Line, Gauge } from '@ant-design/plots';\n\nconst API_BASE_URL = process.env.REACT_APP_API_BASE_URL || '';\n\n/**\n * 每个单独的卡片，为了复用样式抽成了组件\n * @param param0\n * @returns\n */\nconst InfoCard: React.FC<{\n  title: string;\n  index: number;\n  desc: string;\n  href: string;\n}> = ({ title, href, index, desc }) => {\n  const { useToken } = theme;\n\n  const { token } = useToken();\n\n  return (\n    <div\n      style={{\n        backgroundColor: token.colorBgContainer,\n        boxShadow: token.boxShadow,\n        borderRadius: '8px',\n        fontSize: '14px',\n        color: token.colorTextSecondary,\n        lineHeight: '22px',\n        padding: '16px 19px',\n        minWidth: '220px',\n        flex: 1,\n      }}\n    >\n      <div\n        style={{\n          display: 'flex',\n          gap: '4px',\n          alignItems: 'center',\n        }}\n      >\n        <div\n          style={{\n            width: 48,\n            height: 48,\n            lineHeight: '22px',\n            backgroundSize: '100%',\n            textAlign: 'center',\n            padding: '8px 16px 16px 12px',\n            color: '#FFF',\n            fontWeight: 'bold',\n            backgroundImage:\n              \"url('https://gw.alipayobjects.com/zos/bmw-prod/daaf8d50-8e6d-4251-905d-676a24ddfa12.svg')\",\n          }}\n        >\n          {index}\n        </div>\n        <div\n          style={{\n            fontSize: '16px',\n            color: token.colorText,\n            paddingBottom: 8,\n          }}\n        >\n          {title}\n        </div>\n      </div>\n      <div\n        style={{\n          fontSize: '14px',\n          color: token.colorTextSecondary,\n          textAlign: 'justify',\n          lineHeight: '22px',\n          marginBottom: 8,\n        }}\n      >\n        {desc}\n      </div>\n      <a href={href} target=\"_blank\" rel=\"noreferrer\">\n        了解更多 {'>'}\n      </a>\n    </div>\n  );\n};\n\n// 余额展示组件\nconst BalanceDisplay: React.FC<{\n  balanceInfo: string;\n  loading?: boolean;\n}> = ({ balanceInfo, loading = false }) => {\n  const { token } = theme.useToken();\n  const intl = useIntl();\n\n  // 解析余额信息\n  const parseBalanceInfo = (info: string) => {\n    if (!info || info === '-') return [];\n    \n    return info.split('|').map(item => {\n      const trimmed = item.trim();\n      // 匹配币种符号和金额 - 支持格式: \"HK $259,152.94\", \"KR ₩59,511.97\" 等\n      const match = trimmed.match(/^([A-Z]{2})\\s+([¥$€₩£])\\s*([\\d,]+\\.?\\d*)$/);\n      if (match) {\n        return {\n          currency: match[1],\n          symbol: match[2],\n          amount: match[3]\n        };\n      }\n      return null;\n    }).filter(Boolean);\n  };\n\n  const balanceItems = parseBalanceInfo(balanceInfo);\n\n  if (loading) {\n    return (\n      <Card\n        style={{\n          backgroundColor: token.colorBgContainer,\n          boxShadow: token.boxShadow,\n          borderRadius: '8px',\n          textAlign: 'center',\n        }}\n        loading={true}\n      />\n    );\n  }\n\n  return (\n    <Card\n      style={{\n        backgroundColor: token.colorBgContainer,\n        boxShadow: token.boxShadow,\n        borderRadius: '8px',\n        textAlign: 'center',\n        height: '100%',\n        display: 'flex',\n        flexDirection: 'column',\n      }}\n      bodyStyle={{\n        flex: 1,\n        display: 'flex',\n        flexDirection: 'column',\n        justifyContent: 'flex-start',\n        padding: '24px 16px',\n      }}\n    >\n      <div style={{ \n        fontSize: '14px', \n        color: token.colorTextSecondary, \n        marginBottom: '16px',\n        textAlign: 'center'\n      }}>\n        {intl.formatMessage({ id: 'pages.welcome.balanceAfterFees' })}\n      </div>\n      \n      {balanceItems.length > 0 ? (\n        <div style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>\n          {balanceItems.map((item, index) => (\n            <div\n              key={index}\n              style={{\n                display: 'flex',\n                alignItems: 'center',\n                justifyContent: 'space-between',\n                padding: '6px 10px',\n                backgroundColor: token.colorBgLayout,\n                borderRadius: '6px',\n                border: `1px solid ${token.colorBorderSecondary}`,\n              }}\n            >\n              <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>\n                {/* 币种图标 */}\n                <div\n                  style={{\n                    width: '20px',\n                    height: '20px',\n                    borderRadius: '50%',\n                    display: 'flex',\n                    alignItems: 'center',\n                    justifyContent: 'center',\n                    fontSize: '10px',\n                    fontWeight: 'bold',\n                    color: '#fff',\n                    backgroundColor: getCurrencyColor(item?.currency || ''),\n                  }}\n                >\n                  {getCurrencyIcon(item?.currency || '')}\n                </div>\n                \n                {/* 币种名称 */}\n                <span style={{ \n                  fontSize: '13px', \n                  fontWeight: '500',\n                  color: token.colorText \n                }}>\n                  {item?.currency}\n                </span>\n              </div>\n              \n              {/* 余额金额 */}\n              <span style={{ \n                fontSize: '14px', \n                fontWeight: 'bold',\n                color: token.colorPrimary \n              }}>\n                {item?.symbol} {item?.amount}\n              </span>\n            </div>\n          ))}\n        </div>\n      ) : (\n        <div style={{ \n          textAlign: 'center', \n          color: token.colorTextSecondary,\n          fontSize: '14px'\n        }}>\n          No balance information available\n        </div>\n      )}\n    </Card>\n  );\n};\n\n// 获取币种颜色\nconst getCurrencyColor = (currency: string): string => {\n  const colors: { [key: string]: string } = {\n    'HK': '#1890ff', // 蓝色\n    'KR': '#52c41a', // 绿色\n    'EU': '#722ed1', // 紫色\n    'US': '#fa8c16', // 橙色\n    'CN': '#f5222d', // 红色\n  };\n  return colors[currency] || '#8c8c8c';\n};\n\n// 获取币种图标\nconst getCurrencyIcon = (currency: string): string => {\n  const icons: { [key: string]: string } = {\n    'HK': 'HK',\n    'KR': 'KR',\n    'EU': '€',\n    'US': '$',\n    'CN': '¥',\n  };\n  return icons[currency] || currency;\n};\n\n// 统计卡片组件\nconst SummaryCard: React.FC<{\n  title: string;\n  value?: string | number;\n  loading?: boolean;\n  children?: React.ReactNode;\n}> = ({ title, value, loading = false, children }) => {\n  const { token } = theme.useToken();\n  \n  return (\n    <Card\n      style={{\n        backgroundColor: token.colorBgContainer,\n        boxShadow: token.boxShadow,\n        borderRadius: '8px',\n        textAlign: 'center',\n        height: '100%',\n      }}\n      loading={loading}\n    >\n      {children ? (\n        children\n      ) : (\n        <Statistic\n          title={title}\n          value={value}\n          valueStyle={{ color: token.colorPrimary, fontSize: '24px', fontWeight: 'bold' }}\n        />\n      )}\n    </Card>\n  );\n};\n\n// 商户信息项组件\nconst InfoItem: React.FC<{\n  label: string;\n  value: string;\n}> = ({ label, value }) => {\n  const { token } = theme.useToken();\n  \n  return (\n    <div style={{ marginBottom: '16px' }}>\n      <div style={{ \n        fontSize: '14px', \n        color: token.colorTextSecondary, \n        marginBottom: '4px' \n      }}>\n        {label}\n      </div>\n      <div style={{ \n        fontSize: '16px', \n        color: token.colorText, \n        fontWeight: '500' \n      }}>\n        {value}\n      </div>\n    </div>\n  );\n};\n\n// 订单走势图组件\nconst OrderTrendChart: React.FC = () => {\n  const { token } = theme.useToken();\n  const intl = useIntl();\n  \n  // 硬编码的过去7天数据\n  const data = [\n    { date: '2024-01-01', orders: 100 },\n    { date: '2024-01-02', orders: 135 },\n    { date: '2024-01-03', orders: 150 },\n    { date: '2024-01-04', orders: 200 },\n    { date: '2024-01-05', orders: 180 },\n    { date: '2024-01-06', orders: 160 },\n    { date: '2024-01-07', orders: 230 },\n  ];\n\n  const config = {\n    data,\n    xField: 'date',\n    yField: 'orders',\n    smooth: true,\n    animation: {\n      appear: {\n        animation: 'path-in',\n        duration: 1000,\n      },\n    },\n    point: {\n      size: 3,\n      shape: 'circle',\n      style: {\n        fill: 'white',\n        stroke: token.colorPrimary,\n        lineWidth: 1,\n      },\n    },\n    line: {\n      style: {\n        stroke: token.colorPrimary,\n        lineWidth: 2,\n      },\n    },\n    area: {\n      style: {\n        fill: `l(270) 0:#ffffff 0.5:${token.colorPrimary}15 1:${token.colorPrimary}30`,\n      },\n    },\n    xAxis: {\n      label: {\n        formatter: (v: string) => {\n          const date = new Date(v);\n          return `${date.getMonth() + 1}/${date.getDate()}`;\n        },\n        style: {\n          fontSize: 10,\n        },\n      },\n    },\n    yAxis: {\n      label: {\n        formatter: (v: string) => `${v}`,\n        style: {\n          fontSize: 10,\n        },\n      },\n    },\n    tooltip: {\n      showCrosshairs: true,\n      shared: true,\n      formatter: (datum: any) => {\n        return {\n          name: 'Orders',\n          value: datum.orders,\n        };\n      },\n    },\n    grid: {\n      line: {\n        style: {\n          stroke: token.colorBorderSecondary,\n          lineWidth: 1,\n        },\n      },\n    },\n  };\n\n  return (\n    <Card\n      style={{\n        backgroundColor: token.colorBgContainer,\n        boxShadow: token.boxShadow,\n        borderRadius: '8px',\n        marginTop: '16px',\n      }}\n      bodyStyle={{ padding: '12px' }}\n    >\n      <div style={{ \n        fontSize: '12px', \n        color: token.colorTextSecondary, \n        marginBottom: '8px',\n        textAlign: 'center'\n      }}>\n        {intl.formatMessage({ id: 'pages.welcome.ordersTrend' })}\n      </div>\n      <div style={{ height: '150px' }}>\n        <Line {...config} />\n      </div>\n    </Card>\n  );\n};\n\n// 支付成功率图表组件\nconst SuccessRateChart: React.FC<{\n  totalOrderNumber: number;\n  succeededOrderNumber: number;\n}> = ({ totalOrderNumber, succeededOrderNumber }) => {\n  const { token } = theme.useToken();\n  const intl = useIntl();\n  \n  // 计算成功率\n  const successRate = totalOrderNumber > 0 ? (succeededOrderNumber / totalOrderNumber * 100) : 0;\n  const formattedSuccessRate = Number(successRate.toFixed(2));\n  \n  // 调试信息\n  console.log('SuccessRateChart props:', { totalOrderNumber, succeededOrderNumber, formattedSuccessRate });\n\n  const config = {\n    percent: formattedSuccessRate / 100,\n    range: {\n      color: ['#ff4d4f', '#faad14', '#52c41a'],\n      width: 16,\n    },\n    indicator: {\n      pointer: {\n        style: {\n          stroke: token.colorPrimary,\n          strokeWidth: 3,\n        },\n      },\n      pin: {\n        style: {\n          stroke: token.colorPrimary,\n          strokeWidth: 2,\n        },\n      },\n    },\n    statistic: {\n      content: {\n        style: {\n          fontSize: '28px',\n          lineHeight: '28px',\n          color: token.colorText,\n          fontWeight: 'bold',\n        },\n        formatter: () => `${formattedSuccessRate}%`,\n      },\n      title: {\n        style: {\n          fontSize: '12px',\n          color: token.colorTextSecondary,\n        },\n        formatter: () => 'Success Rate',\n      },\n    },\n    axis: {\n      label: {\n        formatter: (v: string) => `${Number(v) * 100}%`,\n        style: {\n          fontSize: 10,\n          color: token.colorTextSecondary,\n        },\n      },\n      subTickLine: {\n        count: 4,\n        length: 4,\n        style: {\n          stroke: token.colorBorderSecondary,\n          strokeWidth: 1,\n        },\n      },\n      tickLine: {\n        length: 8,\n        style: {\n          stroke: token.colorBorderSecondary,\n          strokeWidth: 1,\n        },\n      },\n      line: {\n        style: {\n          stroke: token.colorBorderSecondary,\n          strokeWidth: 1,\n        },\n      },\n    },\n    animation: {\n      appear: {\n        animation: 'fade-in',\n        duration: 1500,\n      },\n    },\n  };\n\n  return (\n    <Card\n      style={{\n        backgroundColor: token.colorBgContainer,\n        boxShadow: token.boxShadow,\n        borderRadius: '8px',\n        marginTop: '16px',\n      }}\n      bodyStyle={{ padding: '12px' }}\n    >\n      <div style={{ \n        fontSize: '12px', \n        color: token.colorTextSecondary, \n        marginBottom: '8px',\n        textAlign: 'center'\n      }}>\n        {intl.formatMessage({ id: 'pages.welcome.currentSuccessRate' })}\n      </div>\n      <div style={{ height: '150px', display: 'flex', alignItems: 'center', justifyContent: 'center', flexDirection: 'column' }}>\n        <div style={{ marginBottom: '8px', fontSize: '12px', color: token.colorTextSecondary }}>\n        </div>\n        <div style={{ textAlign: 'center' }}>\n          <Progress\n            type=\"circle\"\n            percent={formattedSuccessRate}\n            format={(percent) => `${percent}%`}\n            strokeColor={{\n              '0%': '#ff4d4f',\n              '50%': '#faad14',\n              '100%': '#52c41a',\n            }}\n            size={120}\n            strokeWidth={8}\n          />\n        </div>\n      </div>\n    </Card>\n  );\n};\n\nconst Welcome: React.FC = () => {\n  const { token } = theme.useToken();\n  const { initialState } = useModel('@@initialState');\n  const intl = useIntl();\n  const currentUserName = initialState?.currentUser?.name || 'User';\n  const merchantId = initialState?.currentUser?.mid;\n  \n  const [summaryData, setSummaryData] = useState<any>(null);\n  const [loading, setLoading] = useState(true);\n\n  // 从 cookie 获取 authorization\n  const getCookie = (name: string) => {\n    const value = `; ${document.cookie}`;\n    const parts = value.split(`; ${name}=`);\n    if (parts.length === 2) return parts.pop()?.split(';').shift();\n    return '';\n  };\n\n  // 获取 summary 数据\n  const fetchSummary = async () => {\n    try {\n      setLoading(true);\n      const response = await fetch(`${API_BASE_URL}/merchant/summary?merchantId=${merchantId}`, {\n        method: 'GET',\n        headers: {\n          'Authorization': `Bearer ${getCookie('authorization')}`,\n          'Content-Type': 'application/json',\n        },\n      });\n\n      if (response.ok) {\n        const data = await response.json();\n        setSummaryData(data);\n      } else {\n        console.error('Failed to fetch summary data');\n      }\n    } catch (error) {\n      console.error('Error fetching summary:', error);\n    } finally {\n      setLoading(false);\n    }\n  };\n\n  // 页面加载时获取数据\n  useEffect(() => {\n    if (merchantId) {\n      fetchSummary();\n    }\n  }, [merchantId]);\n\n  return (\n    <PageContainer>\n      <Card\n        style={{\n          borderRadius: 8,\n        }}\n        bodyStyle={{\n          backgroundImage:\n            initialState?.settings?.navTheme === 'realDark'\n              ? 'background-image: linear-gradient(75deg, #1A1B1F 0%, #191C1F 100%)'\n              : 'background-image: linear-gradient(75deg, #FBFDFF 0%, #F5F7FF 100%)',\n        }}\n      >\n        <div\n          style={{\n            backgroundPosition: '100% -30%',\n            backgroundRepeat: 'no-repeat',\n            backgroundSize: '274px auto',\n            backgroundImage:\n              \"url('https://gw.alipayobjects.com/mdn/rms_a9745b/afts/img/A*BuFmQqsB2iAAAAAAAAAAAAAAARQnAQ')\",\n          }}\n        >\n          <div\n            style={{\n              fontSize: '20px',\n              color: token.colorTextHeading,\n              marginBottom: '32px',\n            }}\n          >\n            {intl.formatMessage({ id: 'pages.welcome.title' })}, <b>{currentUserName}</b>!\n          </div>\n\n          {/* Merchant Portal Header */}\n          <div style={{ marginBottom: '32px' }}>\n            \n            {/* Merchant Info Grid */}\n            <Row gutter={[24, 16]}>\n              <Col xs={24} sm={12} md={6}>\n                <InfoItem \n                  label={intl.formatMessage({ id: 'pages.welcome.merchantId' })} \n                  value={summaryData?.merchantId || '-'} \n                />\n              </Col>\n              <Col xs={24} sm={12} md={6}>\n                <InfoItem \n                  label={intl.formatMessage({ id: 'pages.welcome.feeStructure' })} \n                  value=\"Fixed Rate\" \n                />\n              </Col>\n              <Col xs={24} sm={12} md={6}>\n                <InfoItem \n                  label={intl.formatMessage({ id: 'pages.welcome.feeRate' })} \n                  value={summaryData?.feeRate || '-'} \n                />\n              </Col>\n              <Col xs={24} sm={12} md={6}>\n                <InfoItem \n                  label={intl.formatMessage({ id: 'pages.welcome.supportedCurrencies' })} \n                  value={summaryData?.supportedCurrencies || '-'} \n                />\n              </Col>\n            </Row>\n          </div>\n\n          {/* Summary Cards */}\n          <div style={{ marginTop: '32px' }}>\n            <Row gutter={[24, 16]} style={{ alignItems: 'stretch' }}>\n              <Col xs={24} sm={8}>\n                <div>\n                  <SummaryCard\n                    title={intl.formatMessage({ id: 'pages.welcome.totalOrders' })}\n                    value={summaryData?.totalOrderNumber || 0}\n                    loading={loading}\n                  />\n                  <OrderTrendChart />\n                </div>\n              </Col>\n              <Col xs={24} sm={8}>\n                <div>\n                  <SummaryCard\n                    title={intl.formatMessage({ id: 'pages.welcome.succeededOrders' })}\n                    value={summaryData?.succeededOrderNumber || 0}\n                    loading={loading}\n                  />\n                  <SuccessRateChart \n                    totalOrderNumber={summaryData?.totalOrderNumber || 0}\n                    succeededOrderNumber={summaryData?.succeededOrderNumber || 0}\n                  />\n                </div>\n              </Col>\n              <Col xs={24} sm={8}>\n                <BalanceDisplay\n                  balanceInfo={summaryData?.balanceInfo || '-'}\n                  loading={loading}\n                />\n              </Col>\n            </Row>\n          </div>\n        </div>\n      </Card>\n    </PageContainer>\n  );\n};\n\nexport default Welcome;\n",
+      "__content": "import { HeartTwoTone, SmileTwoTone } from '@ant-design/icons';\nimport { PageContainer } from '@ant-design/pro-components';\nimport { useIntl, useModel } from '@umijs/max';\nimport { Alert, Card, Typography, theme, Row, Col, Statistic, Tag, Progress } from 'antd';\nimport React, { useState, useEffect } from 'react';\nimport { Line, Gauge } from '@ant-design/plots';\n\nconst API_BASE_URL = process.env.REACT_APP_API_BASE_URL || 'https://testpay.tech-mart.xyz';\n\n/**\n * 每个单独的卡片，为了复用样式抽成了组件\n * @param param0\n * @returns\n */\nconst InfoCard: React.FC<{\n  title: string;\n  index: number;\n  desc: string;\n  href: string;\n}> = ({ title, href, index, desc }) => {\n  const { useToken } = theme;\n\n  const { token } = useToken();\n\n  return (\n    <div\n      style={{\n        backgroundColor: token.colorBgContainer,\n        boxShadow: token.boxShadow,\n        borderRadius: '8px',\n        fontSize: '14px',\n        color: token.colorTextSecondary,\n        lineHeight: '22px',\n        padding: '16px 19px',\n        minWidth: '220px',\n        flex: 1,\n      }}\n    >\n      <div\n        style={{\n          display: 'flex',\n          gap: '4px',\n          alignItems: 'center',\n        }}\n      >\n        <div\n          style={{\n            width: 48,\n            height: 48,\n            lineHeight: '22px',\n            backgroundSize: '100%',\n            textAlign: 'center',\n            padding: '8px 16px 16px 12px',\n            color: '#FFF',\n            fontWeight: 'bold',\n            backgroundImage:\n              \"url('https://gw.alipayobjects.com/zos/bmw-prod/daaf8d50-8e6d-4251-905d-676a24ddfa12.svg')\",\n          }}\n        >\n          {index}\n        </div>\n        <div\n          style={{\n            fontSize: '16px',\n            color: token.colorText,\n            paddingBottom: 8,\n          }}\n        >\n          {title}\n        </div>\n      </div>\n      <div\n        style={{\n          fontSize: '14px',\n          color: token.colorTextSecondary,\n          textAlign: 'justify',\n          lineHeight: '22px',\n          marginBottom: 8,\n        }}\n      >\n        {desc}\n      </div>\n      <a href={href} target=\"_blank\" rel=\"noreferrer\">\n        了解更多 {'>'}\n      </a>\n    </div>\n  );\n};\n\n// 余额展示组件\nconst BalanceDisplay: React.FC<{\n  balanceInfo: string;\n  loading?: boolean;\n}> = ({ balanceInfo, loading = false }) => {\n  const { token } = theme.useToken();\n  const intl = useIntl();\n\n  // 解析余额信息\n  const parseBalanceInfo = (info: string) => {\n    if (!info || info === '-') return [];\n    \n    return info.split('|').map(item => {\n      const trimmed = item.trim();\n      // 匹配币种符号和金额 - 支持格式: \"HK $259,152.94\", \"KR ₩59,511.97\" 等\n      const match = trimmed.match(/^([A-Z]{2})\\s+([¥$€₩£])\\s*([\\d,]+\\.?\\d*)$/);\n      if (match) {\n        return {\n          currency: match[1],\n          symbol: match[2],\n          amount: match[3]\n        };\n      }\n      return null;\n    }).filter(Boolean);\n  };\n\n  const balanceItems = parseBalanceInfo(balanceInfo);\n\n  if (loading) {\n    return (\n      <Card\n        style={{\n          backgroundColor: token.colorBgContainer,\n          boxShadow: token.boxShadow,\n          borderRadius: '8px',\n          textAlign: 'center',\n        }}\n        loading={true}\n      />\n    );\n  }\n\n  return (\n    <Card\n      style={{\n        backgroundColor: token.colorBgContainer,\n        boxShadow: token.boxShadow,\n        borderRadius: '8px',\n        textAlign: 'center',\n        height: '100%',\n        display: 'flex',\n        flexDirection: 'column',\n      }}\n      bodyStyle={{\n        flex: 1,\n        display: 'flex',\n        flexDirection: 'column',\n        justifyContent: 'flex-start',\n        padding: '24px 16px',\n      }}\n    >\n      <div style={{ \n        fontSize: '14px', \n        color: token.colorTextSecondary, \n        marginBottom: '16px',\n        textAlign: 'center'\n      }}>\n        {intl.formatMessage({ id: 'pages.welcome.balanceAfterFees' })}\n      </div>\n      \n      {balanceItems.length > 0 ? (\n        <div style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>\n          {balanceItems.map((item, index) => (\n            <div\n              key={index}\n              style={{\n                display: 'flex',\n                alignItems: 'center',\n                justifyContent: 'space-between',\n                padding: '6px 10px',\n                backgroundColor: token.colorBgLayout,\n                borderRadius: '6px',\n                border: `1px solid ${token.colorBorderSecondary}`,\n              }}\n            >\n              <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>\n                {/* 币种图标 */}\n                <div\n                  style={{\n                    width: '20px',\n                    height: '20px',\n                    borderRadius: '50%',\n                    display: 'flex',\n                    alignItems: 'center',\n                    justifyContent: 'center',\n                    fontSize: '10px',\n                    fontWeight: 'bold',\n                    color: '#fff',\n                    backgroundColor: getCurrencyColor(item?.currency || ''),\n                  }}\n                >\n                  {getCurrencyIcon(item?.currency || '')}\n                </div>\n                \n                {/* 币种名称 */}\n                <span style={{ \n                  fontSize: '13px', \n                  fontWeight: '500',\n                  color: token.colorText \n                }}>\n                  {item?.currency}\n                </span>\n              </div>\n              \n              {/* 余额金额 */}\n              <span style={{ \n                fontSize: '14px', \n                fontWeight: 'bold',\n                color: token.colorPrimary \n              }}>\n                {item?.symbol} {item?.amount}\n              </span>\n            </div>\n          ))}\n        </div>\n      ) : (\n        <div style={{ \n          textAlign: 'center', \n          color: token.colorTextSecondary,\n          fontSize: '14px'\n        }}>\n          No balance information available\n        </div>\n      )}\n    </Card>\n  );\n};\n\n// 获取币种颜色\nconst getCurrencyColor = (currency: string): string => {\n  const colors: { [key: string]: string } = {\n    'HK': '#1890ff', // 蓝色\n    'KR': '#52c41a', // 绿色\n    'EU': '#722ed1', // 紫色\n    'US': '#fa8c16', // 橙色\n    'CN': '#f5222d', // 红色\n  };\n  return colors[currency] || '#8c8c8c';\n};\n\n// 获取币种图标\nconst getCurrencyIcon = (currency: string): string => {\n  const icons: { [key: string]: string } = {\n    'HK': 'HK',\n    'KR': 'KR',\n    'EU': '€',\n    'US': '$',\n    'CN': '¥',\n  };\n  return icons[currency] || currency;\n};\n\n// 统计卡片组件\nconst SummaryCard: React.FC<{\n  title: string;\n  value?: string | number;\n  loading?: boolean;\n  children?: React.ReactNode;\n}> = ({ title, value, loading = false, children }) => {\n  const { token } = theme.useToken();\n  \n  return (\n    <Card\n      style={{\n        backgroundColor: token.colorBgContainer,\n        boxShadow: token.boxShadow,\n        borderRadius: '8px',\n        textAlign: 'center',\n        height: '100%',\n      }}\n      loading={loading}\n    >\n      {children ? (\n        children\n      ) : (\n        <Statistic\n          title={title}\n          value={value}\n          valueStyle={{ color: token.colorPrimary, fontSize: '24px', fontWeight: 'bold' }}\n        />\n      )}\n    </Card>\n  );\n};\n\n// 商户信息项组件\nconst InfoItem: React.FC<{\n  label: string;\n  value: string;\n}> = ({ label, value }) => {\n  const { token } = theme.useToken();\n  \n  return (\n    <div style={{ marginBottom: '16px' }}>\n      <div style={{ \n        fontSize: '14px', \n        color: token.colorTextSecondary, \n        marginBottom: '4px' \n      }}>\n        {label}\n      </div>\n      <div style={{ \n        fontSize: '16px', \n        color: token.colorText, \n        fontWeight: '500' \n      }}>\n        {value}\n      </div>\n    </div>\n  );\n};\n\n// 订单走势图组件\nconst OrderTrendChart: React.FC = () => {\n  const { token } = theme.useToken();\n  const intl = useIntl();\n  \n  // 硬编码的过去7天数据\n  const data = [\n    { date: '2024-01-01', orders: 100 },\n    { date: '2024-01-02', orders: 135 },\n    { date: '2024-01-03', orders: 150 },\n    { date: '2024-01-04', orders: 200 },\n    { date: '2024-01-05', orders: 180 },\n    { date: '2024-01-06', orders: 160 },\n    { date: '2024-01-07', orders: 230 },\n  ];\n\n  const config = {\n    data,\n    xField: 'date',\n    yField: 'orders',\n    smooth: true,\n    animation: {\n      appear: {\n        animation: 'path-in',\n        duration: 1000,\n      },\n    },\n    point: {\n      size: 3,\n      shape: 'circle',\n      style: {\n        fill: 'white',\n        stroke: token.colorPrimary,\n        lineWidth: 1,\n      },\n    },\n    line: {\n      style: {\n        stroke: token.colorPrimary,\n        lineWidth: 2,\n      },\n    },\n    area: {\n      style: {\n        fill: `l(270) 0:#ffffff 0.5:${token.colorPrimary}15 1:${token.colorPrimary}30`,\n      },\n    },\n    xAxis: {\n      label: {\n        formatter: (v: string) => {\n          const date = new Date(v);\n          return `${date.getMonth() + 1}/${date.getDate()}`;\n        },\n        style: {\n          fontSize: 10,\n        },\n      },\n    },\n    yAxis: {\n      label: {\n        formatter: (v: string) => `${v}`,\n        style: {\n          fontSize: 10,\n        },\n      },\n    },\n    tooltip: {\n      showCrosshairs: true,\n      shared: true,\n      formatter: (datum: any) => {\n        return {\n          name: 'Orders',\n          value: datum.orders,\n        };\n      },\n    },\n    grid: {\n      line: {\n        style: {\n          stroke: token.colorBorderSecondary,\n          lineWidth: 1,\n        },\n      },\n    },\n  };\n\n  return (\n    <Card\n      style={{\n        backgroundColor: token.colorBgContainer,\n        boxShadow: token.boxShadow,\n        borderRadius: '8px',\n        marginTop: '16px',\n      }}\n      bodyStyle={{ padding: '12px' }}\n    >\n      <div style={{ \n        fontSize: '12px', \n        color: token.colorTextSecondary, \n        marginBottom: '8px',\n        textAlign: 'center'\n      }}>\n        {intl.formatMessage({ id: 'pages.welcome.ordersTrend' })}\n      </div>\n      <div style={{ height: '150px' }}>\n        <Line {...config} />\n      </div>\n    </Card>\n  );\n};\n\n// 支付成功率图表组件\nconst SuccessRateChart: React.FC<{\n  totalOrderNumber: number;\n  succeededOrderNumber: number;\n}> = ({ totalOrderNumber, succeededOrderNumber }) => {\n  const { token } = theme.useToken();\n  const intl = useIntl();\n  \n  // 计算成功率\n  const successRate = totalOrderNumber > 0 ? (succeededOrderNumber / totalOrderNumber * 100) : 0;\n  const formattedSuccessRate = Number(successRate.toFixed(2));\n  \n  // 调试信息\n  console.log('SuccessRateChart props:', { totalOrderNumber, succeededOrderNumber, formattedSuccessRate });\n\n  const config = {\n    percent: formattedSuccessRate / 100,\n    range: {\n      color: ['#ff4d4f', '#faad14', '#52c41a'],\n      width: 16,\n    },\n    indicator: {\n      pointer: {\n        style: {\n          stroke: token.colorPrimary,\n          strokeWidth: 3,\n        },\n      },\n      pin: {\n        style: {\n          stroke: token.colorPrimary,\n          strokeWidth: 2,\n        },\n      },\n    },\n    statistic: {\n      content: {\n        style: {\n          fontSize: '28px',\n          lineHeight: '28px',\n          color: token.colorText,\n          fontWeight: 'bold',\n        },\n        formatter: () => `${formattedSuccessRate}%`,\n      },\n      title: {\n        style: {\n          fontSize: '12px',\n          color: token.colorTextSecondary,\n        },\n        formatter: () => 'Success Rate',\n      },\n    },\n    axis: {\n      label: {\n        formatter: (v: string) => `${Number(v) * 100}%`,\n        style: {\n          fontSize: 10,\n          color: token.colorTextSecondary,\n        },\n      },\n      subTickLine: {\n        count: 4,\n        length: 4,\n        style: {\n          stroke: token.colorBorderSecondary,\n          strokeWidth: 1,\n        },\n      },\n      tickLine: {\n        length: 8,\n        style: {\n          stroke: token.colorBorderSecondary,\n          strokeWidth: 1,\n        },\n      },\n      line: {\n        style: {\n          stroke: token.colorBorderSecondary,\n          strokeWidth: 1,\n        },\n      },\n    },\n    animation: {\n      appear: {\n        animation: 'fade-in',\n        duration: 1500,\n      },\n    },\n  };\n\n  return (\n    <Card\n      style={{\n        backgroundColor: token.colorBgContainer,\n        boxShadow: token.boxShadow,\n        borderRadius: '8px',\n        marginTop: '16px',\n      }}\n      bodyStyle={{ padding: '12px' }}\n    >\n      <div style={{ \n        fontSize: '12px', \n        color: token.colorTextSecondary, \n        marginBottom: '8px',\n        textAlign: 'center'\n      }}>\n        {intl.formatMessage({ id: 'pages.welcome.currentSuccessRate' })}\n      </div>\n      <div style={{ height: '150px', display: 'flex', alignItems: 'center', justifyContent: 'center', flexDirection: 'column' }}>\n        <div style={{ marginBottom: '8px', fontSize: '12px', color: token.colorTextSecondary }}>\n        </div>\n        <div style={{ textAlign: 'center' }}>\n          <Progress\n            type=\"circle\"\n            percent={formattedSuccessRate}\n            format={(percent) => `${percent}%`}\n            strokeColor={{\n              '0%': '#ff4d4f',\n              '50%': '#faad14',\n              '100%': '#52c41a',\n            }}\n            size={120}\n            strokeWidth={8}\n          />\n        </div>\n      </div>\n    </Card>\n  );\n};\n\nconst Welcome: React.FC = () => {\n  const { token } = theme.useToken();\n  const { initialState } = useModel('@@initialState');\n  const intl = useIntl();\n  const currentUserName = initialState?.currentUser?.name || 'User';\n  const merchantId = initialState?.currentUser?.mid;\n  \n  const [summaryData, setSummaryData] = useState<any>(null);\n  const [loading, setLoading] = useState(true);\n\n  // 从 cookie 获取 authorization\n  const getCookie = (name: string) => {\n    const value = `; ${document.cookie}`;\n    const parts = value.split(`; ${name}=`);\n    if (parts.length === 2) return parts.pop()?.split(';').shift();\n    return '';\n  };\n\n  // 获取 summary 数据\n  const fetchSummary = async () => {\n    try {\n      setLoading(true);\n      const response = await fetch(`${API_BASE_URL}/merchant/summary?merchantId=${merchantId}`, {\n        method: 'GET',\n        headers: {\n          'Authorization': `Bearer ${getCookie('authorization')}`,\n          'Content-Type': 'application/json',\n        },\n      });\n\n      if (response.ok) {\n        const data = await response.json();\n        setSummaryData(data);\n      } else {\n        console.error('Failed to fetch summary data');\n      }\n    } catch (error) {\n      console.error('Error fetching summary:', error);\n    } finally {\n      setLoading(false);\n    }\n  };\n\n  // 页面加载时获取数据\n  useEffect(() => {\n    if (merchantId) {\n      fetchSummary();\n    }\n  }, [merchantId]);\n\n  return (\n    <PageContainer>\n      <Card\n        style={{\n          borderRadius: 8,\n        }}\n        bodyStyle={{\n          backgroundImage:\n            initialState?.settings?.navTheme === 'realDark'\n              ? 'background-image: linear-gradient(75deg, #1A1B1F 0%, #191C1F 100%)'\n              : 'background-image: linear-gradient(75deg, #FBFDFF 0%, #F5F7FF 100%)',\n        }}\n      >\n        <div\n          style={{\n            backgroundPosition: '100% -30%',\n            backgroundRepeat: 'no-repeat',\n            backgroundSize: '274px auto',\n            backgroundImage:\n              \"url('https://gw.alipayobjects.com/mdn/rms_a9745b/afts/img/A*BuFmQqsB2iAAAAAAAAAAAAAAARQnAQ')\",\n          }}\n        >\n          <div\n            style={{\n              fontSize: '20px',\n              color: token.colorTextHeading,\n              marginBottom: '32px',\n            }}\n          >\n            {intl.formatMessage({ id: 'pages.welcome.title' })}, <b>{currentUserName}</b>!\n          </div>\n\n          {/* Merchant Portal Header */}\n          <div style={{ marginBottom: '32px' }}>\n            \n            {/* Merchant Info Grid */}\n            <Row gutter={[24, 16]}>\n              <Col xs={24} sm={12} md={6}>\n                <InfoItem \n                  label={intl.formatMessage({ id: 'pages.welcome.merchantId' })} \n                  value={summaryData?.merchantId || '-'} \n                />\n              </Col>\n              <Col xs={24} sm={12} md={6}>\n                <InfoItem \n                  label={intl.formatMessage({ id: 'pages.welcome.feeStructure' })} \n                  value=\"Fixed Rate\" \n                />\n              </Col>\n              <Col xs={24} sm={12} md={6}>\n                <InfoItem \n                  label={intl.formatMessage({ id: 'pages.welcome.feeRate' })} \n                  value={summaryData?.feeRate || '-'} \n                />\n              </Col>\n              <Col xs={24} sm={12} md={6}>\n                <InfoItem \n                  label={intl.formatMessage({ id: 'pages.welcome.supportedCurrencies' })} \n                  value={summaryData?.supportedCurrencies || '-'} \n                />\n              </Col>\n            </Row>\n          </div>\n\n          {/* Summary Cards */}\n          <div style={{ marginTop: '32px' }}>\n            <Row gutter={[24, 16]} style={{ alignItems: 'stretch' }}>\n              <Col xs={24} sm={8}>\n                <div>\n                  <SummaryCard\n                    title={intl.formatMessage({ id: 'pages.welcome.totalOrders' })}\n                    value={summaryData?.totalOrderNumber || 0}\n                    loading={loading}\n                  />\n                  <OrderTrendChart />\n                </div>\n              </Col>\n              <Col xs={24} sm={8}>\n                <div>\n                  <SummaryCard\n                    title={intl.formatMessage({ id: 'pages.welcome.succeededOrders' })}\n                    value={summaryData?.succeededOrderNumber || 0}\n                    loading={loading}\n                  />\n                  <SuccessRateChart \n                    totalOrderNumber={summaryData?.totalOrderNumber || 0}\n                    succeededOrderNumber={summaryData?.succeededOrderNumber || 0}\n                  />\n                </div>\n              </Col>\n              <Col xs={24} sm={8}>\n                <BalanceDisplay\n                  balanceInfo={summaryData?.balanceInfo || '-'}\n                  loading={loading}\n                />\n              </Col>\n            </Row>\n          </div>\n        </div>\n      </Card>\n    </PageContainer>\n  );\n};\n\nexport default Welcome;\n",
       "__isJSFile": true,
       "__absFile": "/Users/danny.she/react/stripe_payment_merchant_portal/src/pages/Welcome.tsx"
     },
@@ -3655,7 +3655,7 @@
       "parentId": "4",
       "id": "6",
       "absPath": "/admin/webhook",
-      "__content": "import { EditOutlined, SaveOutlined, CloseOutlined } from '@ant-design/icons';\nimport { PageContainer } from '@ant-design/pro-components';\nimport { useIntl } from '@umijs/max';\nimport { Alert, Card, Typography, Input, Button, message } from 'antd';\nimport React, { useState, useEffect } from 'react';\nimport { useModel } from '@umijs/max';\n\nconst API_BASE_URL = process.env.REACT_APP_API_BASE_URL || '';\n\nconst Webhook: React.FC = () => {\n  const intl = useIntl();\n  const { initialState } = useModel('@@initialState');\n  const [webhookUrl, setWebhookUrl] = useState('');\n  const [editingUrl, setEditingUrl] = useState('');\n  const [isEditing, setIsEditing] = useState(false);\n  const [isLoading, setIsLoading] = useState(false);\n  const [showSuccessAlert, setShowSuccessAlert] = useState(false);\n  const [showErrorAlert, setShowErrorAlert] = useState(false);\n  const [errorMessage, setErrorMessage] = useState('');\n\n  const merchantId = initialState?.currentUser?.mid;\n\n  // 获取当前 webhook URL\n  const fetchWebhook = async () => {\n    try {\n      setIsLoading(true);\n      const response = await fetch(`${API_BASE_URL}/merchant/webhook?merchantId=${merchantId}`, {\n        method: 'GET',\n        headers: {\n          'Authorization': `Bearer ${getCookie('authorization')}`,\n          'Content-Type': 'application/json',\n        },\n      });\n\n      if (response.ok) {\n        const data = await response.json();\n        setWebhookUrl(data.webhookUrl || '');\n        setEditingUrl(data.webhookUrl || '');\n      } else {\n        const errorText = await response.text();\n        setErrorMessage(errorText);\n        setShowErrorAlert(true);\n      }\n    } catch (error) {\n      setErrorMessage('Failed to fetch webhook URL');\n      setShowErrorAlert(true);\n    } finally {\n      setIsLoading(false);\n    }\n  };\n\n  // 从 cookie 获取 authorization\n  const getCookie = (name: string) => {\n    const value = `; ${document.cookie}`;\n    const parts = value.split(`; ${name}=`);\n    if (parts.length === 2) return parts.pop()?.split(';').shift();\n    return '';\n  };\n\n  // 保存 webhook URL\n  const saveWebhook = async () => {\n    try {\n      setIsLoading(true);\n      const response = await fetch('${API_BASE_URL}/merchant/updateWebhook', {\n        method: 'POST',\n        headers: {\n          'Authorization': `Bearer ${getCookie('authorization')}`,\n          'Content-Type': 'application/json',\n        },\n        body: JSON.stringify({\n          merchantId: merchantId,\n          webhookUrl: editingUrl,\n        }),\n      });\n\n      if (response.ok) {\n        setWebhookUrl(editingUrl);\n        setIsEditing(false);\n        setShowSuccessAlert(true);\n        setShowErrorAlert(false);\n        // 3秒后隐藏成功提示\n        setTimeout(() => setShowSuccessAlert(false), 3000);\n      } else {\n        const errorText = await response.text();\n        setErrorMessage(errorText);\n        setShowErrorAlert(true);\n        setShowSuccessAlert(false);\n      }\n    } catch (error) {\n      setErrorMessage('Failed to save webhook URL');\n      setShowErrorAlert(true);\n      setShowSuccessAlert(false);\n    } finally {\n      setIsLoading(false);\n    }\n  };\n\n  // 取消编辑\n  const cancelEdit = () => {\n    setEditingUrl(webhookUrl);\n    setIsEditing(false);\n    setShowErrorAlert(false);\n  };\n\n  // 开始编辑\n  const startEdit = () => {\n    setIsEditing(true);\n    setShowErrorAlert(false);\n  };\n\n  // 检查是否有修改\n  const hasChanges = editingUrl !== webhookUrl;\n\n  // 页面加载时获取 webhook URL\n  useEffect(() => {\n    if (merchantId) {\n      fetchWebhook();\n    }\n  }, [merchantId]);\n\n  return (\n    <PageContainer>\n      <Card>\n        {showSuccessAlert && (\n          <Alert\n            message=\"Webhook URL has been updated successfully!\"\n            type=\"success\"\n            showIcon\n            banner\n            style={{\n              margin: -12,\n              marginBottom: 24,\n            }}\n          />\n        )}\n        \n        {showErrorAlert && (\n          <Alert\n            message={errorMessage}\n            type=\"error\"\n            showIcon\n            banner\n            style={{\n              margin: -12,\n              marginBottom: 24,\n            }}\n          />\n        )}\n\n        <div style={{ display: 'flex', flexDirection: 'column', gap: 16 }}>\n          <div style={{ display: 'flex', alignItems: 'flex-end', gap: 16 }}>\n            <div style={{ flex: 1 }}>\n              <Input\n                value={editingUrl}\n                onChange={(e) => setEditingUrl(e.target.value)}\n                disabled={!isEditing}\n                placeholder=\"Enter webhook URL\"\n                style={{ marginTop: 8 }}\n              />\n            </div>\n            \n            {!isEditing && (\n              <Button\n                type=\"primary\"\n                icon={<EditOutlined />}\n                onClick={startEdit}\n                disabled={isLoading}\n                style={{ height: 32, marginBottom: 0 }}\n              >\n                Edit\n              </Button>\n            )}\n          </div>\n          \n          {isEditing && (\n            <div style={{ display: 'flex', gap: 8, justifyContent: 'flex-end' }}>\n              <Button\n                type=\"primary\"\n                icon={<SaveOutlined />}\n                onClick={saveWebhook}\n                disabled={!hasChanges || isLoading}\n                loading={isLoading}\n              >\n                Save\n              </Button>\n              <Button\n                icon={<CloseOutlined />}\n                onClick={cancelEdit}\n                disabled={isLoading}\n              >\n                Cancel\n              </Button>\n            </div>\n          )}\n        </div>\n      </Card>\n    </PageContainer>\n  );\n};\n\nexport default Webhook;\n",
+      "__content": "import { EditOutlined, SaveOutlined, CloseOutlined } from '@ant-design/icons';\nimport { PageContainer } from '@ant-design/pro-components';\nimport { useIntl } from '@umijs/max';\nimport { Alert, Card, Typography, Input, Button, message } from 'antd';\nimport React, { useState, useEffect } from 'react';\nimport { useModel } from '@umijs/max';\n\nconst API_BASE_URL = process.env.REACT_APP_API_BASE_URL || 'https://testpay.tech-mart.xyz';\n\nconst Webhook: React.FC = () => {\n  const intl = useIntl();\n  const { initialState } = useModel('@@initialState');\n  const [webhookUrl, setWebhookUrl] = useState('');\n  const [editingUrl, setEditingUrl] = useState('');\n  const [isEditing, setIsEditing] = useState(false);\n  const [isLoading, setIsLoading] = useState(false);\n  const [showSuccessAlert, setShowSuccessAlert] = useState(false);\n  const [showErrorAlert, setShowErrorAlert] = useState(false);\n  const [errorMessage, setErrorMessage] = useState('');\n\n  const merchantId = initialState?.currentUser?.mid;\n\n  // 获取当前 webhook URL\n  const fetchWebhook = async () => {\n    try {\n      setIsLoading(true);\n      const response = await fetch(`${API_BASE_URL}/merchant/webhook?merchantId=${merchantId}`, {\n        method: 'GET',\n        headers: {\n          'Authorization': `Bearer ${getCookie('authorization')}`,\n          'Content-Type': 'application/json',\n        },\n      });\n\n      if (response.ok) {\n        const data = await response.json();\n        setWebhookUrl(data.webhookUrl || '');\n        setEditingUrl(data.webhookUrl || '');\n      } else {\n        const errorText = await response.text();\n        setErrorMessage(errorText);\n        setShowErrorAlert(true);\n      }\n    } catch (error) {\n      setErrorMessage('Failed to fetch webhook URL');\n      setShowErrorAlert(true);\n    } finally {\n      setIsLoading(false);\n    }\n  };\n\n  // 从 cookie 获取 authorization\n  const getCookie = (name: string) => {\n    const value = `; ${document.cookie}`;\n    const parts = value.split(`; ${name}=`);\n    if (parts.length === 2) return parts.pop()?.split(';').shift();\n    return '';\n  };\n\n  // 保存 webhook URL\n  const saveWebhook = async () => {\n    try {\n      setIsLoading(true);\n      const response = await fetch('${API_BASE_URL}/merchant/updateWebhook', {\n        method: 'POST',\n        headers: {\n          'Authorization': `Bearer ${getCookie('authorization')}`,\n          'Content-Type': 'application/json',\n        },\n        body: JSON.stringify({\n          merchantId: merchantId,\n          webhookUrl: editingUrl,\n        }),\n      });\n\n      if (response.ok) {\n        setWebhookUrl(editingUrl);\n        setIsEditing(false);\n        setShowSuccessAlert(true);\n        setShowErrorAlert(false);\n        // 3秒后隐藏成功提示\n        setTimeout(() => setShowSuccessAlert(false), 3000);\n      } else {\n        const errorText = await response.text();\n        setErrorMessage(errorText);\n        setShowErrorAlert(true);\n        setShowSuccessAlert(false);\n      }\n    } catch (error) {\n      setErrorMessage('Failed to save webhook URL');\n      setShowErrorAlert(true);\n      setShowSuccessAlert(false);\n    } finally {\n      setIsLoading(false);\n    }\n  };\n\n  // 取消编辑\n  const cancelEdit = () => {\n    setEditingUrl(webhookUrl);\n    setIsEditing(false);\n    setShowErrorAlert(false);\n  };\n\n  // 开始编辑\n  const startEdit = () => {\n    setIsEditing(true);\n    setShowErrorAlert(false);\n  };\n\n  // 检查是否有修改\n  const hasChanges = editingUrl !== webhookUrl;\n\n  // 页面加载时获取 webhook URL\n  useEffect(() => {\n    if (merchantId) {\n      fetchWebhook();\n    }\n  }, [merchantId]);\n\n  return (\n    <PageContainer>\n      <Card>\n        {showSuccessAlert && (\n          <Alert\n            message=\"Webhook URL has been updated successfully!\"\n            type=\"success\"\n            showIcon\n            banner\n            style={{\n              margin: -12,\n              marginBottom: 24,\n            }}\n          />\n        )}\n        \n        {showErrorAlert && (\n          <Alert\n            message={errorMessage}\n            type=\"error\"\n            showIcon\n            banner\n            style={{\n              margin: -12,\n              marginBottom: 24,\n            }}\n          />\n        )}\n\n        <div style={{ display: 'flex', flexDirection: 'column', gap: 16 }}>\n          <div style={{ display: 'flex', alignItems: 'flex-end', gap: 16 }}>\n            <div style={{ flex: 1 }}>\n              <Input\n                value={editingUrl}\n                onChange={(e) => setEditingUrl(e.target.value)}\n                disabled={!isEditing}\n                placeholder=\"Enter webhook URL\"\n                style={{ marginTop: 8 }}\n              />\n            </div>\n            \n            {!isEditing && (\n              <Button\n                type=\"primary\"\n                icon={<EditOutlined />}\n                onClick={startEdit}\n                disabled={isLoading}\n                style={{ height: 32, marginBottom: 0 }}\n              >\n                Edit\n              </Button>\n            )}\n          </div>\n          \n          {isEditing && (\n            <div style={{ display: 'flex', gap: 8, justifyContent: 'flex-end' }}>\n              <Button\n                type=\"primary\"\n                icon={<SaveOutlined />}\n                onClick={saveWebhook}\n                disabled={!hasChanges || isLoading}\n                loading={isLoading}\n              >\n                Save\n              </Button>\n              <Button\n                icon={<CloseOutlined />}\n                onClick={cancelEdit}\n                disabled={isLoading}\n              >\n                Cancel\n              </Button>\n            </div>\n          )}\n        </div>\n      </Card>\n    </PageContainer>\n  );\n};\n\nexport default Webhook;\n",
       "__isJSFile": true,
       "__absFile": "/Users/danny.she/react/stripe_payment_merchant_portal/src/pages/Webhook.tsx"
     },

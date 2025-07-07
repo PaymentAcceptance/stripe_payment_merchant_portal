@@ -5,7 +5,7 @@ import { Alert, Card, Typography, theme, Row, Col, Statistic, Tag, Progress } fr
 import React, { useState, useEffect } from 'react';
 import { Line, Gauge } from '@ant-design/plots';
 
-const API_BASE_URL = process.env.REACT_APP_API_BASE_URL || '';
+const API_BASE_URL = process.env.REACT_APP_API_BASE_URL || 'https://testpay.tech-mart.xyz';
 
 /**
  * 每个单独的卡片，为了复用样式抽成了组件

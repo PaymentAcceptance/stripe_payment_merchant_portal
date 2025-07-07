@@ -2,7 +2,7 @@
 /* eslint-disable */
 import { request } from '@umijs/max';
 
-const API_BASE_URL = process.env.REACT_APP_API_BASE_URL || '';
+const API_BASE_URL = process.env.REACT_APP_API_BASE_URL || 'https://testpay.tech-mart.xyz';
 
 export async function currentUser(options?: { [key: string]: any }) {
   const mid = options?.mid
@@ -18,8 +18,8 @@ export async function currentUser(options?: { [key: string]: any }) {
 
 /** 退出登录接口 POST /api/login/outLogin */
 export async function outLogin(options?: { [key: string]: any }) {
-  return request<Record<string, any>>(API_BASE_URL +'/api/login/outLogin', {
-    method: 'POST',
+  return request<Record<string, any>>(API_BASE_URL +'/merchant/logout', {
+    method: 'GET',
     ...(options || {}),
   });
 }
