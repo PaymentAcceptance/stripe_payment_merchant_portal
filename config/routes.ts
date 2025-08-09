@@ -46,10 +46,42 @@ export default [
     ],
   },
   {
-    name: 'list.orders',
-    icon: 'table',
     path: '/list',
-    component: './TableList',
+    name: 'list',
+    icon: 'table',
+    routes: [
+      {
+        path: '/list',
+        redirect: '/list/orders',
+      },
+      {
+        path: '/list/orders',
+        name: 'list.orders',
+        component: './TableList',
+      },
+      {
+        path: '/list/settlements',
+        name: 'list.settlements',
+        component: './Settlements',
+      },
+      {
+        path: '/list/balances',
+        name: 'list.balances',
+        component: './Balances',
+      },
+    ],
+  },
+  {
+    path: '/disputes',
+    name: 'disputes',
+    icon: 'warning',
+    component: './Disputes',
+  },
+  {
+    path: '/message',
+    name: 'message',
+    icon: 'bell',
+    component: './Message',
   },
   {
     path: '/',

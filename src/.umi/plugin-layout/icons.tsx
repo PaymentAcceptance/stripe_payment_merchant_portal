@@ -4,4 +4,6 @@
 import HomeOutlined from '/Users/danny.she/react/stripe_payment_merchant_portal/node_modules/@ant-design/icons/es/icons/HomeOutlined';
 import SettingOutlined from '/Users/danny.she/react/stripe_payment_merchant_portal/node_modules/@ant-design/icons/es/icons/SettingOutlined';
 import TableOutlined from '/Users/danny.she/react/stripe_payment_merchant_portal/node_modules/@ant-design/icons/es/icons/TableOutlined';
-export default { HomeOutlined, SettingOutlined, TableOutlined };
+import WarningOutlined from '/Users/danny.she/react/stripe_payment_merchant_portal/node_modules/@ant-design/icons/es/icons/WarningOutlined';
+import BellOutlined from '/Users/danny.she/react/stripe_payment_merchant_portal/node_modules/@ant-design/icons/es/icons/BellOutlined';
+export default { HomeOutlined, SettingOutlined, TableOutlined, WarningOutlined, BellOutlined };

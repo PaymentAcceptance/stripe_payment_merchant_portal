@@ -1,5 +1,5 @@
-import { QuestionCircleOutlined } from '@ant-design/icons';
-import { SelectLang as UmiSelectLang } from '@umijs/max';
+import { BellOutlined, QuestionCircleOutlined } from '@ant-design/icons';
+import { history, SelectLang as UmiSelectLang } from '@umijs/max';
 import React from 'react';
 
 export type SiderTheme = 'light' | 'dark';
@@ -26,6 +26,29 @@ export const Question = () => {
       }}
     >
       <QuestionCircleOutlined />
+    </div>
+  );
+};
+
+export const NotificationBell: React.FC = () => {
+  return (
+    <div
+      style={{
+        display: 'flex',
+        alignItems: 'center',
+        height: 26,
+        cursor: 'pointer',
+        padding: 4,
+        marginLeft: 10,
+        marginRight: -10,
+      }}
+      onClick={() => {
+        history.push('/message');
+      }}
+      title="Messages"
+      aria-label="Messages"
+    >
+      <BellOutlined />
     </div>
   );
 };
