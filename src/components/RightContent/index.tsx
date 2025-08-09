@@ -1,15 +1,23 @@
 import { BellOutlined, QuestionCircleOutlined, GlobalOutlined } from '@ant-design/icons';
-import { history, useIntl } from '@umijs/max';
+import { history, useIntl, setLocale, getLocale } from '@umijs/max';
 import { Dropdown, Menu } from 'antd';
 import React from 'react';
 
 export type SiderTheme = 'light' | 'dark';
 
-// 简单的语言选择组件
+// 语言选择组件
 export const SelectLang = () => {
   const intl = useIntl();
+  const currentLocale = getLocale();
+  
+  const changeLang = ({ key }: { key: string }) => {
+    setLocale(key, false);
+  };
+  
   const langMenu = (
     <Menu
+      selectedKeys={[currentLocale]}
+      onClick={changeLang}
       items={[
         {
           key: 'zh-CN',
@@ -24,7 +32,7 @@ export const SelectLang = () => {
   );
 
   return (
-    <Dropdown overlay={langMenu} placement="bottomRight">
+    <Dropdown menu={{ items: langMenu.props.items, selectedKeys: langMenu.props.selectedKeys, onClick: changeLang }} placement="bottomRight">
       <span style={{ cursor: 'pointer', padding: '12px' }}>
         <GlobalOutlined title={intl.formatMessage({ id: 'navBar.lang' })} />
       </span>

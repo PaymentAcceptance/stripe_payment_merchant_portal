@@ -146,7 +146,7 @@
       "time": {
         "hooks": {
           "onStart": [
-            1
+            0
           ]
         },
         "register": 1
@@ -183,7 +183,7 @@
             0
           ]
         },
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -217,7 +217,7 @@
             12
           ]
         },
-        "register": 13
+        "register": 14
       },
       "enableBy": "register",
       "type": "plugin",
@@ -267,7 +267,7 @@
             0
           ]
         },
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -280,7 +280,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 2
+        "register": 0
       },
       "enableBy": "config",
       "type": "plugin",
@@ -297,7 +297,7 @@
             0
           ]
         },
-        "register": 4
+        "register": 5
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1149,7 +1149,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1179,7 +1179,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1192,7 +1192,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 49
+        "register": 50
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1205,7 +1205,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 52
+        "register": 58
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1218,7 +1218,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 11
+        "register": 12
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1248,7 +1248,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1261,7 +1261,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1286,7 +1286,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1338,10 +1338,10 @@
       "time": {
         "hooks": {
           "modifyConfig": [
-            0
+            1
           ]
         },
-        "register": 1
+        "register": 0
       },
       "type": "plugin",
       "path": "/Users/danny.she/react/stripe_payment_merchant_portal/node_modules/@umijs/preset-umi/dist/features/polyfill/polyfill.js",
@@ -1392,7 +1392,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1405,7 +1405,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 2
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1418,7 +1418,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1443,7 +1443,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 2
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1469,7 +1469,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 3
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1482,7 +1482,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 2
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1508,7 +1508,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 3
+        "register": 2
       },
       "type": "plugin",
       "path": "/Users/danny.she/react/stripe_payment_merchant_portal/node_modules/@umijs/preset-umi/dist/features/apiRoute/apiRoute.js",
@@ -1520,7 +1520,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 12
+        "register": 13
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1545,7 +1545,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1558,7 +1558,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1571,7 +1571,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1584,7 +1584,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "type": "plugin",
       "path": "/Users/danny.she/react/stripe_payment_merchant_portal/node_modules/@umijs/preset-umi/dist/features/webpack/webpack.js",
@@ -1625,7 +1625,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1662,7 +1662,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1675,7 +1675,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1688,7 +1688,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 2
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1701,7 +1701,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 19
+        "register": 20
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1721,7 +1721,7 @@
             0
           ]
         },
-        "register": 20
+        "register": 24
       },
       "type": "plugin",
       "path": "/Users/danny.she/react/stripe_payment_merchant_portal/node_modules/@umijs/preset-umi/dist/commands/dev/dev.js",
@@ -1733,7 +1733,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1759,7 +1759,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1772,7 +1772,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1811,7 +1811,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1824,7 +1824,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1915,7 +1915,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1928,7 +1928,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1967,7 +1967,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 16
+        "register": 12
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1980,7 +1980,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1993,7 +1993,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 2
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -2021,7 +2021,7 @@
       },
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "type": "plugin",
       "path": "/Users/danny.she/react/stripe_payment_merchant_portal/node_modules/@umijs/plugins/dist/analytics.js",
@@ -2034,7 +2034,7 @@
       "time": {
         "hooks": {
           "modifyConfig": [
-            6
+            3
           ],
           "modifyAppData": [
             0
@@ -2052,7 +2052,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 4
+        "register": 3
       },
       "enableBy": "config",
       "type": "plugin",
@@ -2087,10 +2087,10 @@
             0
           ],
           "modifyAppData": [
-            1
+            0
           ]
         },
-        "register": 1
+        "register": 2
       },
       "enableBy": "config",
       "type": "plugin",
@@ -2103,7 +2103,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 2
+        "register": 1
       },
       "enableBy": "config",
       "type": "plugin",
@@ -2222,7 +2222,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "config",
       "type": "plugin",
@@ -2248,7 +2248,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "config",
       "type": "plugin",
@@ -2282,7 +2282,7 @@
             0
           ]
         },
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -2299,7 +2299,7 @@
             0
           ]
         },
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -2316,7 +2316,7 @@
             0
           ]
         },
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -2329,7 +2329,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -2346,10 +2346,10 @@
             0
           ],
           "onStart": [
-            1
+            0
           ]
         },
-        "register": 112
+        "register": 124
       },
       "enableBy": "config",
       "type": "plugin",
@@ -2362,7 +2362,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 9
+        "register": 12
       },
       "enableBy": "config",
       "type": "plugin",
@@ -2399,7 +2399,7 @@
       },
       "time": {
         "hooks": {},
-        "register": 32
+        "register": 38
       },
       "type": "plugin",
       "path": "/Users/danny.she/react/stripe_payment_merchant_portal/node_modules/@umijs/request-record/dist/cjs/index.js",
