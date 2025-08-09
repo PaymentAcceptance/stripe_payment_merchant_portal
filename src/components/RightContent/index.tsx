@@ -1,16 +1,34 @@
-import { BellOutlined, QuestionCircleOutlined } from '@ant-design/icons';
-import { history, SelectLang as UmiSelectLang } from '@umijs/max';
+import { BellOutlined, QuestionCircleOutlined, GlobalOutlined } from '@ant-design/icons';
+import { history, useIntl } from '@umijs/max';
+import { Dropdown, Menu } from 'antd';
 import React from 'react';
 
 export type SiderTheme = 'light' | 'dark';
 
+// 简单的语言选择组件
 export const SelectLang = () => {
-  return (
-    <UmiSelectLang
-      style={{
-        padding: 4,
-      }}
+  const intl = useIntl();
+  const langMenu = (
+    <Menu
+      items={[
+        {
+          key: 'zh-CN',
+          label: '简体中文',
+        },
+        {
+          key: 'en-US',
+          label: 'English',
+        },
+      ]}
     />
+  );
+
+  return (
+    <Dropdown overlay={langMenu} placement="bottomRight">
+      <span style={{ cursor: 'pointer', padding: '12px' }}>
+        <GlobalOutlined title={intl.formatMessage({ id: 'navBar.lang' })} />
+      </span>
+    </Dropdown>
   );
 };
 

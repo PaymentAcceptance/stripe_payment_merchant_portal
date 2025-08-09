@@ -24,7 +24,6 @@ const DisputesPage: React.FC = () => {
     // Search-only fields
     { title: intl.formatMessage({ id: 'pages.common.from' }), dataIndex: 'from', valueType: 'date', hideInTable: true },
     { title: intl.formatMessage({ id: 'pages.common.to' }), dataIndex: 'to', valueType: 'date', hideInTable: true },
-    { title: intl.formatMessage({ id: 'pages.disputes.paymentOrderId' }), dataIndex: 'paymentOrderId', hideInTable: true },
     { title: intl.formatMessage({ id: 'pages.disputes.disputeId' }), dataIndex: 'disputeId', hideInTable: true },
     { title: intl.formatMessage({ id: 'pages.disputes.type' }), dataIndex: 'type', valueType: 'select', hideInTable: true, valueEnum: {} },
     // Table fields

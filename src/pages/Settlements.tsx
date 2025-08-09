@@ -36,7 +36,7 @@ const SettlementsPage: React.FC = () => {
       hideInTable: true,
     },
     // Table fields
-    { title: intl.formatMessage({ id: 'pages.settlements.period' }), dataIndex: 'period' },
+    { title: intl.formatMessage({ id: 'pages.settlements.period' }), dataIndex: 'period', hideInSearch: true },
     { title: intl.formatMessage({ id: 'pages.settlements.settleDate' }), dataIndex: 'settleDate', hideInSearch: true },
     { title: intl.formatMessage({ id: 'pages.settlements.succeededCount' }), dataIndex: 'succeededCount', hideInSearch: true },
     { title: intl.formatMessage({ id: 'pages.settlements.succeededAmount' }), dataIndex: 'succeededAmount', hideInSearch: true },
@@ -58,7 +58,12 @@ const SettlementsPage: React.FC = () => {
       <ProTable<SettlementRecord>
         rowKey="id"
         formRef={formRef}
-        search={{ labelWidth: 'auto', defaultCollapsed: false }}
+        search={{ 
+          labelWidth: 'auto', 
+          defaultCollapsed: false,
+          span: 8,
+          layout: 'horizontal'
+        }}
         columns={columns}
         request={async () => {
           return {

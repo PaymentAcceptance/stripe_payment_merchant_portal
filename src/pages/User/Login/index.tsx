@@ -75,7 +75,7 @@ const Lang = () => {
 
   return (
     <div className={styles.lang} data-lang>
-      {SelectLang && <SelectLang />}
+      <SelectLang />
     </div>
   );
 };
