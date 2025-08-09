@@ -52,4 +52,7 @@ export default {
   'menu.editor.flow': '流程编辑器',
   'menu.editor.mind': '脑图编辑器',
   'menu.editor.koni': '拓扑编辑器',
+  'menu.developer': '开发者',
+  'menu.security': '安全',
+  'menu.setting': '设置',
 };

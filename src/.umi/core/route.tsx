@@ -4,7 +4,7 @@
 import React from 'react';
 
 export async function getRoutes() {
-  const routes = {"1":{"path":"/user","layout":false,"id":"1"},"2":{"name":"login","path":"/user/login","parentId":"1","id":"2"},"3":{"path":"/welcome","name":"welcome","icon":"home","parentId":"ant-design-pro-layout","id":"3"},"4":{"path":"/admin","name":"admin","icon":"setting","access":"canAdmin","parentId":"ant-design-pro-layout","id":"4"},"5":{"path":"/admin","redirect":"/admin/webhook","parentId":"4","id":"5"},"6":{"path":"/admin/webhook","name":"webhook","parentId":"4","id":"6"},"7":{"path":"/payments","name":"payments","icon":"dollar","parentId":"ant-design-pro-layout","id":"7"},"8":{"path":"/settlements","name":"settlements","icon":"transaction","parentId":"ant-design-pro-layout","id":"8"},"9":{"path":"/balances","name":"balances","icon":"wallet","parentId":"ant-design-pro-layout","id":"9"},"10":{"path":"/disputes","name":"disputes","icon":"warning","parentId":"ant-design-pro-layout","id":"10"},"11":{"path":"/message","name":"message","icon":"bell","parentId":"ant-design-pro-layout","id":"11"},"12":{"path":"/","redirect":"/welcome","parentId":"ant-design-pro-layout","id":"12"},"13":{"path":"*","layout":false,"id":"13"},"ant-design-pro-layout":{"id":"ant-design-pro-layout","path":"/","isLayout":true},"umi/plugin/openapi":{"path":"/umi/plugin/openapi","id":"umi/plugin/openapi"}} as const;
+  const routes = {"1":{"path":"/user","layout":false,"id":"1"},"2":{"name":"login","path":"/user/login","parentId":"1","id":"2"},"3":{"path":"/welcome","name":"welcome","icon":"home","parentId":"ant-design-pro-layout","id":"3"},"4":{"path":"/admin","name":"admin","icon":"setting","access":"canAdmin","parentId":"ant-design-pro-layout","id":"4"},"5":{"path":"/admin","redirect":"/admin/webhook","parentId":"4","id":"5"},"6":{"path":"/admin/webhook","name":"webhook","parentId":"4","id":"6"},"7":{"path":"/payments","name":"payments","icon":"dollar","parentId":"ant-design-pro-layout","id":"7"},"8":{"path":"/settlements","name":"settlements","icon":"transaction","parentId":"ant-design-pro-layout","id":"8"},"9":{"path":"/balances","name":"balances","icon":"wallet","parentId":"ant-design-pro-layout","id":"9"},"10":{"path":"/disputes","name":"disputes","icon":"warning","parentId":"ant-design-pro-layout","id":"10"},"11":{"path":"/message","name":"message","icon":"bell","parentId":"ant-design-pro-layout","id":"11"},"12":{"path":"/developer","name":"developer","hideInMenu":true,"parentId":"ant-design-pro-layout","id":"12"},"13":{"path":"/security","name":"security","hideInMenu":true,"parentId":"ant-design-pro-layout","id":"13"},"14":{"path":"/setting","name":"setting","hideInMenu":true,"parentId":"ant-design-pro-layout","id":"14"},"15":{"path":"/","redirect":"/welcome","parentId":"ant-design-pro-layout","id":"15"},"16":{"path":"*","layout":false,"id":"16"},"ant-design-pro-layout":{"id":"ant-design-pro-layout","path":"/","isLayout":true},"umi/plugin/openapi":{"path":"/umi/plugin/openapi","id":"umi/plugin/openapi"}} as const;
   return {
     routes,
     routeComponents: {
@@ -19,8 +19,11 @@ export async function getRoutes() {
 '9': React.lazy(() => import(/* webpackChunkName: "p__Balances" */'@/pages/Balances.tsx')),
 '10': React.lazy(() => import(/* webpackChunkName: "p__Disputes" */'@/pages/Disputes.tsx')),
 '11': React.lazy(() => import(/* webpackChunkName: "p__Message" */'@/pages/Message.tsx')),
-'12': React.lazy(() => import('./EmptyRoute')),
-'13': React.lazy(() => import(/* webpackChunkName: "p__404" */'@/pages/404.tsx')),
+'12': React.lazy(() => import(/* webpackChunkName: "p__Developer__index" */'@/pages/Developer/index.tsx')),
+'13': React.lazy(() => import(/* webpackChunkName: "p__Security" */'@/pages/Security.tsx')),
+'14': React.lazy(() => import(/* webpackChunkName: "p__Setting" */'@/pages/Setting.tsx')),
+'15': React.lazy(() => import('./EmptyRoute')),
+'16': React.lazy(() => import(/* webpackChunkName: "p__404" */'@/pages/404.tsx')),
 'ant-design-pro-layout': React.lazy(() => import(/* webpackChunkName: "umi__plugin-layout__Layout" */'/Users/danny.she/react/stripe_payment_merchant_portal/src/.umi/plugin-layout/Layout.tsx')),
 'umi/plugin/openapi': React.lazy(() => import(/* webpackChunkName: "umi__plugin-openapi__openapi" */'/Users/danny.she/react/stripe_payment_merchant_portal/src/.umi/plugin-openapi/openapi.tsx')),
 },

@@ -119,7 +119,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 4
+        "register": 7
       },
       "enableBy": "register",
       "type": "preset",
@@ -132,7 +132,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 2
       },
       "enableBy": "register",
       "type": "preset",
@@ -166,7 +166,7 @@
             0
           ]
         },
-        "register": 1
+        "register": 2
       },
       "enableBy": "register",
       "type": "plugin",
@@ -180,10 +180,10 @@
       "time": {
         "hooks": {
           "onStart": [
-            0
+            1
           ]
         },
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -214,10 +214,10 @@
       "time": {
         "hooks": {
           "modifyAppData": [
-            12
+            13
           ]
         },
-        "register": 14
+        "register": 13
       },
       "enableBy": "register",
       "type": "plugin",
@@ -230,7 +230,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -280,7 +280,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "config",
       "type": "plugin",
@@ -297,7 +297,7 @@
             0
           ]
         },
-        "register": 5
+        "register": 7
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1192,7 +1192,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 50
+        "register": 49
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1205,7 +1205,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 58
+        "register": 55
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1218,7 +1218,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 12
+        "register": 10
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1248,7 +1248,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1274,7 +1274,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 22
+        "register": 21
       },
       "type": "plugin",
       "path": "/Users/danny.she/react/stripe_payment_merchant_portal/node_modules/@umijs/preset-umi/dist/features/mock/mock.js",
@@ -1286,7 +1286,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1299,7 +1299,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "type": "plugin",
       "path": "/Users/danny.she/react/stripe_payment_merchant_portal/node_modules/@umijs/preset-umi/dist/features/okam/okam.js",
@@ -1324,7 +1324,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1341,7 +1341,7 @@
             1
           ]
         },
-        "register": 0
+        "register": 1
       },
       "type": "plugin",
       "path": "/Users/danny.she/react/stripe_payment_merchant_portal/node_modules/@umijs/preset-umi/dist/features/polyfill/polyfill.js",
@@ -1392,7 +1392,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1405,7 +1405,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 3
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1508,7 +1508,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 2
+        "register": 3
       },
       "type": "plugin",
       "path": "/Users/danny.she/react/stripe_payment_merchant_portal/node_modules/@umijs/preset-umi/dist/features/apiRoute/apiRoute.js",
@@ -1520,7 +1520,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 13
+        "register": 12
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1571,7 +1571,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1584,7 +1584,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "type": "plugin",
       "path": "/Users/danny.she/react/stripe_payment_merchant_portal/node_modules/@umijs/preset-umi/dist/features/webpack/webpack.js",
@@ -1625,7 +1625,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1638,7 +1638,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 2
       },
       "type": "plugin",
       "path": "/Users/danny.she/react/stripe_payment_merchant_portal/node_modules/@umijs/preset-umi/dist/features/hmrGuardian/hmrGuardian.js",
@@ -1650,7 +1650,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "type": "plugin",
       "path": "/Users/danny.she/react/stripe_payment_merchant_portal/node_modules/@umijs/preset-umi/dist/features/routePreloadOnLoad/routePreloadOnLoad.js",
@@ -1662,7 +1662,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1675,7 +1675,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1701,7 +1701,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 20
+        "register": 19
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1721,7 +1721,7 @@
             0
           ]
         },
-        "register": 24
+        "register": 23
       },
       "type": "plugin",
       "path": "/Users/danny.she/react/stripe_payment_merchant_portal/node_modules/@umijs/preset-umi/dist/commands/dev/dev.js",
@@ -1733,7 +1733,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1759,7 +1759,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1772,7 +1772,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1811,7 +1811,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1837,7 +1837,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1863,7 +1863,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1889,7 +1889,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1915,7 +1915,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1980,7 +1980,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -2034,7 +2034,7 @@
       "time": {
         "hooks": {
           "modifyConfig": [
-            3
+            2
           ],
           "modifyAppData": [
             0
@@ -2129,7 +2129,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "config",
       "type": "plugin",
@@ -2143,10 +2143,10 @@
       "time": {
         "hooks": {
           "modifyConfig": [
-            0
+            1
           ]
         },
-        "register": 0
+        "register": 1
       },
       "enableBy": "config",
       "type": "plugin",
@@ -2184,7 +2184,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "type": "plugin",
       "path": "/Users/danny.she/react/stripe_payment_merchant_portal/node_modules/@umijs/plugins/dist/qiankun/slave.js",
@@ -2196,7 +2196,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "config",
       "type": "plugin",
@@ -2209,7 +2209,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "config",
       "type": "plugin",
@@ -2265,7 +2265,7 @@
             0
           ]
         },
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -2282,7 +2282,7 @@
             0
           ]
         },
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -2299,7 +2299,7 @@
             0
           ]
         },
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -2316,7 +2316,7 @@
             0
           ]
         },
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -2349,7 +2349,7 @@
             0
           ]
         },
-        "register": 124
+        "register": 120
       },
       "enableBy": "config",
       "type": "plugin",
@@ -2411,7 +2411,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -2493,6 +2493,24 @@
         "name": "message",
         "icon": "bell",
         "component": "./Message"
+      },
+      {
+        "path": "/developer",
+        "name": "developer",
+        "component": "./Developer",
+        "hideInMenu": true
+      },
+      {
+        "path": "/security",
+        "name": "security",
+        "component": "./Security",
+        "hideInMenu": true
+      },
+      {
+        "path": "/setting",
+        "name": "setting",
+        "component": "./Setting",
+        "hideInMenu": true
       },
       {
         "path": "/",
@@ -2673,6 +2691,24 @@
         "name": "message",
         "icon": "bell",
         "component": "./Message"
+      },
+      {
+        "path": "/developer",
+        "name": "developer",
+        "component": "./Developer",
+        "hideInMenu": true
+      },
+      {
+        "path": "/security",
+        "name": "security",
+        "component": "./Security",
+        "hideInMenu": true
+      },
+      {
+        "path": "/setting",
+        "name": "setting",
+        "component": "./Setting",
+        "hideInMenu": true
       },
       {
         "path": "/",
@@ -3779,17 +3815,53 @@
       "__absFile": "/Users/danny.she/react/stripe_payment_merchant_portal/src/pages/Message.tsx"
     },
     "12": {
+      "path": "/developer",
+      "name": "developer",
+      "hideInMenu": true,
+      "file": "@/pages/Developer/index.tsx",
+      "parentId": "ant-design-pro-layout",
+      "id": "12",
+      "absPath": "/developer",
+      "__content": "import React, { useState } from 'react';\nimport { Tabs, Card, Input, Button, Table, Tag, Space, Typography, Tooltip, message } from 'antd';\nimport { EyeOutlined, EyeInvisibleOutlined, CopyOutlined, CheckOutlined, EditOutlined, DeleteOutlined } from '@ant-design/icons';\nimport { PageContainer } from '@ant-design/pro-components';\nimport { useIntl } from '@umijs/max';\n\nconst { TabPane } = Tabs;\nconst { Text } = Typography;\n\nconst Developer: React.FC = () => {\n  const intl = useIntl();\n  const [showKey, setShowKey] = useState(false);\n  const [copied, setCopied] = useState(false);\n  \n  // Mock API Key\n  const apiKey = 'sk_test_51NXwGbCRgJgDVbVnwXWLGzPciPDCnkgGBhY7dkjfhsdkjfh';\n  \n  // Mock webhooks data\n  const webhooksData = [\n    {\n      key: '1',\n      url: 'https://example.com/webhook1',\n      secret: 'whsec_1234567890abcdef',\n      description: 'Payment webhook',\n      status: 'active',\n    },\n    {\n      key: '2',\n      url: 'https://example.com/webhook2',\n      secret: 'whsec_abcdef1234567890',\n      description: 'Refund webhook',\n      status: 'inactive',\n    },\n  ];\n  \n  const webhooksColumns = [\n    {\n      title: intl.formatMessage({ id: 'pages.developer.url', defaultMessage: 'URL' }),\n      dataIndex: 'url',\n      key: 'url',\n    },\n    {\n      title: intl.formatMessage({ id: 'pages.developer.secret', defaultMessage: 'Secret' }),\n      dataIndex: 'secret',\n      key: 'secret',\n      render: (text: string) => (\n        <Text style={{ fontFamily: 'monospace' }}>\n          {text.substring(0, 6)}...{text.substring(text.length - 4)}\n        </Text>\n      ),\n    },\n    {\n      title: intl.formatMessage({ id: 'pages.developer.description', defaultMessage: 'Description' }),\n      dataIndex: 'description',\n      key: 'description',\n    },\n    {\n      title: intl.formatMessage({ id: 'pages.developer.status', defaultMessage: 'Status' }),\n      dataIndex: 'status',\n      key: 'status',\n      render: (status: string) => (\n        <Tag color={status === 'active' ? 'green' : 'red'}>\n          {status.toUpperCase()}\n        </Tag>\n      ),\n    },\n    {\n      title: intl.formatMessage({ id: 'pages.developer.actions', defaultMessage: 'Actions' }),\n      key: 'actions',\n      render: (_: any, record: any) => (\n        <Space size=\"middle\">\n          <Button type=\"text\" icon={<EditOutlined />} />\n          <Button type=\"text\" icon={<DeleteOutlined />} />\n        </Space>\n      ),\n    },\n  ];\n  \n  // Handle copy API key\n  const handleCopyApiKey = () => {\n    navigator.clipboard.writeText(apiKey);\n    setCopied(true);\n    message.success(intl.formatMessage({ id: 'pages.developer.copied', defaultMessage: 'API Key copied to clipboard' }));\n    setTimeout(() => setCopied(false), 3000);\n  };\n  \n  // Toggle API key visibility\n  const toggleKeyVisibility = () => {\n    setShowKey(!showKey);\n  };\n  \n  return (\n    <PageContainer title={intl.formatMessage({ id: 'pages.developer.title', defaultMessage: '开发者' })}>\n      <Card>\n        <Tabs defaultActiveKey=\"1\">\n          <TabPane tab={intl.formatMessage({ id: 'pages.developer.apiKeys', defaultMessage: 'API Keys' })} key=\"1\">\n            <Card>\n              <Space direction=\"vertical\" size=\"large\" style={{ width: '100%' }}>\n                <div>\n                  <Text strong>{intl.formatMessage({ id: 'pages.developer.secretKey', defaultMessage: 'Secret key' })}</Text>\n                  <div style={{ display: 'flex', alignItems: 'center', marginTop: 8 }}>\n                    <Input.Password \n                      value={showKey ? apiKey : '•'.repeat(20)} \n                      readOnly \n                      visibilityToggle={false}\n                      style={{ fontFamily: 'monospace' }}\n                    />\n                    <Tooltip title={showKey ? intl.formatMessage({ id: 'pages.developer.hide', defaultMessage: 'Hide' }) : intl.formatMessage({ id: 'pages.developer.show', defaultMessage: 'Show' })}>\n                      <Button \n                        icon={showKey ? <EyeInvisibleOutlined /> : <EyeOutlined />} \n                        onClick={toggleKeyVisibility}\n                        style={{ marginLeft: 8 }}\n                      />\n                    </Tooltip>\n                    <Tooltip title={copied ? intl.formatMessage({ id: 'pages.developer.copied', defaultMessage: 'Copied!' }) : intl.formatMessage({ id: 'pages.developer.copy', defaultMessage: 'Copy' })}>\n                      <Button \n                        icon={copied ? <CheckOutlined /> : <CopyOutlined />} \n                        onClick={handleCopyApiKey}\n                        style={{ marginLeft: 8 }}\n                      />\n                    </Tooltip>\n                  </div>\n                </div>\n              </Space>\n            </Card>\n          </TabPane>\n          <TabPane tab={intl.formatMessage({ id: 'pages.developer.webhooks', defaultMessage: 'Webhooks' })} key=\"2\">\n            <Card>\n              <Table \n                columns={webhooksColumns} \n                dataSource={webhooksData} \n                pagination={false}\n              />\n            </Card>\n          </TabPane>\n        </Tabs>\n      </Card>\n    </PageContainer>\n  );\n};\n\nexport default Developer;",
+      "__isJSFile": true,
+      "__absFile": "/Users/danny.she/react/stripe_payment_merchant_portal/src/pages/Developer/index.tsx"
+    },
+    "13": {
+      "path": "/security",
+      "name": "security",
+      "hideInMenu": true,
+      "file": "@/pages/Security.tsx",
+      "parentId": "ant-design-pro-layout",
+      "id": "13",
+      "absPath": "/security",
+      "__content": "import React, { useState } from 'react';\nimport { Card, Form, Input, Button, Space, Typography, Modal, message } from 'antd';\nimport { EditOutlined, EyeOutlined, EyeInvisibleOutlined } from '@ant-design/icons';\nimport { useIntl } from '@umijs/max';\n\nconst { Title, Text } = Typography;\n\nconst Security: React.FC = () => {\n  const intl = useIntl();\n  const [showLoginPassword, setShowLoginPassword] = useState(false);\n  const [showTradePassword, setShowTradePassword] = useState(false);\n  const [emailModalVisible, setEmailModalVisible] = useState(false);\n  const [loginPasswordModalVisible, setLoginPasswordModalVisible] = useState(false);\n  const [tradePasswordModalVisible, setTradePasswordModalVisible] = useState(false);\n  const [form] = Form.useForm();\n  const [emailForm] = Form.useForm();\n  const [loginPasswordForm] = Form.useForm();\n  const [tradePasswordForm] = Form.useForm();\n\n  // Mock user data\n  const [userInfo, setUserInfo] = useState({\n    username: 'merchant_user_001',\n    email: 'merchant@example.com',\n    loginPassword: '••••••••',\n    tradePassword: '••••••••'\n  });\n\n  const handleEmailUpdate = () => {\n    emailForm.validateFields().then(values => {\n      setUserInfo({ ...userInfo, email: values.email });\n      setEmailModalVisible(false);\n      message.success(intl.formatMessage({ id: 'pages.security.emailUpdateSuccess', defaultMessage: '邮箱更新成功' }));\n      emailForm.resetFields();\n    });\n  };\n\n  const handleLoginPasswordUpdate = () => {\n    loginPasswordForm.validateFields().then(values => {\n      if (values.newPassword !== values.confirmPassword) {\n        message.error(intl.formatMessage({ id: 'pages.security.passwordMismatch', defaultMessage: '两次输入的密码不一致' }));\n        return;\n      }\n      setLoginPasswordModalVisible(false);\n      message.success(intl.formatMessage({ id: 'pages.security.passwordUpdateSuccess', defaultMessage: '登录密码更新成功' }));\n      loginPasswordForm.resetFields();\n    });\n  };\n\n  const handleTradePasswordUpdate = () => {\n    tradePasswordForm.validateFields().then(values => {\n      if (values.newPassword !== values.confirmPassword) {\n        message.error(intl.formatMessage({ id: 'pages.security.passwordMismatch', defaultMessage: '两次输入的密码不一致' }));\n        return;\n      }\n      setTradePasswordModalVisible(false);\n      message.success(intl.formatMessage({ id: 'pages.security.tradePasswordUpdateSuccess', defaultMessage: '交易密码更新成功' }));\n      tradePasswordForm.resetFields();\n    });\n  };\n\n  return (\n    <div style={{ padding: '24px' }}>\n      <Card>\n        <Title level={2}>{intl.formatMessage({ id: 'pages.security.title', defaultMessage: '安全设置' })}</Title>\n        \n        <Form form={form} layout=\"vertical\" style={{ maxWidth: 600 }}>\n          {/* 账户名 */}\n          <Form.Item label={intl.formatMessage({ id: 'pages.security.accountName', defaultMessage: '账户名' })}>\n            <Space style={{ width: '100%', justifyContent: 'space-between' }}>\n              <Input value={userInfo.username} readOnly style={{ flex: 1 }} />\n              <Text type=\"secondary\">{intl.formatMessage({ id: 'pages.security.readonly', defaultMessage: '只读' })}</Text>\n            </Space>\n          </Form.Item>\n\n          {/* 邮箱 */}\n          <Form.Item label={intl.formatMessage({ id: 'pages.security.email', defaultMessage: '邮箱' })}>\n            <Space style={{ width: '100%', justifyContent: 'space-between' }}>\n              <Input value={userInfo.email} readOnly style={{ flex: 1 }} />\n              <Button \n                type=\"primary\" \n                icon={<EditOutlined />}\n                onClick={() => {\n                  emailForm.setFieldsValue({ email: userInfo.email });\n                  setEmailModalVisible(true);\n                }}\n              >\n                {intl.formatMessage({ id: 'pages.security.modify', defaultMessage: '修改' })}\n              </Button>\n            </Space>\n          </Form.Item>\n\n          {/* 登录密码 */}\n          <Form.Item label={intl.formatMessage({ id: 'pages.security.loginPassword', defaultMessage: '登录密码' })}>\n            <Space style={{ width: '100%', justifyContent: 'space-between' }}>\n              <Input.Password \n                value={userInfo.loginPassword} \n                readOnly \n                style={{ flex: 1 }}\n                visibilityToggle={{\n                  visible: showLoginPassword,\n                  onVisibleChange: setShowLoginPassword,\n                }}\n              />\n              <Button \n                type=\"primary\" \n                icon={<EditOutlined />}\n                onClick={() => setLoginPasswordModalVisible(true)}\n              >\n                {intl.formatMessage({ id: 'pages.security.modify', defaultMessage: '修改' })}\n              </Button>\n            </Space>\n          </Form.Item>\n\n          {/* 交易密码 */}\n          <Form.Item label={intl.formatMessage({ id: 'pages.security.transactionPassword', defaultMessage: '交易密码' })}>\n            <Space style={{ width: '100%', justifyContent: 'space-between' }}>\n              <Input.Password \n                value={userInfo.tradePassword} \n                readOnly \n                style={{ flex: 1 }}\n                visibilityToggle={{\n                  visible: showTradePassword,\n                  onVisibleChange: setShowTradePassword,\n                }}\n              />\n              <Button \n                type=\"primary\" \n                icon={<EditOutlined />}\n                onClick={() => setTradePasswordModalVisible(true)}\n              >\n                {intl.formatMessage({ id: 'pages.security.modify', defaultMessage: '修改' })}\n              </Button>\n            </Space>\n          </Form.Item>\n        </Form>\n      </Card>\n\n      {/* 修改邮箱弹窗 */}\n      <Modal\n        title={intl.formatMessage({ id: 'pages.security.modifyEmail', defaultMessage: '修改邮箱' })}\n        open={emailModalVisible}\n        onOk={handleEmailUpdate}\n        onCancel={() => {\n          setEmailModalVisible(false);\n          emailForm.resetFields();\n        }}\n      >\n        <Form form={emailForm} layout=\"vertical\">\n          <Form.Item\n            label={intl.formatMessage({ id: 'pages.security.newEmail', defaultMessage: '新邮箱' })}\n            name=\"email\"\n            rules={[\n              { required: true, message: intl.formatMessage({ id: 'pages.security.pleaseEnterEmail', defaultMessage: '请输入邮箱' }) },\n              { type: 'email', message: intl.formatMessage({ id: 'pages.security.pleaseEnterValidEmail', defaultMessage: '请输入有效的邮箱地址' }) }\n            ]}\n          >\n            <Input placeholder={intl.formatMessage({ id: 'pages.security.pleaseEnterNewEmail', defaultMessage: '请输入新邮箱' })} />\n          </Form.Item>\n        </Form>\n      </Modal>\n\n      {/* 修改登录密码弹窗 */}\n      <Modal\n        title={intl.formatMessage({ id: 'pages.security.modifyLoginPassword', defaultMessage: '修改登录密码' })}\n        open={loginPasswordModalVisible}\n        onOk={handleLoginPasswordUpdate}\n        onCancel={() => {\n          setLoginPasswordModalVisible(false);\n          loginPasswordForm.resetFields();\n        }}\n      >\n        <Form form={loginPasswordForm} layout=\"vertical\">\n          <Form.Item\n            label={intl.formatMessage({ id: 'pages.security.currentPassword', defaultMessage: '当前密码' })}\n            name=\"currentPassword\"\n            rules={[{ required: true, message: intl.formatMessage({ id: 'pages.security.pleaseEnterCurrentPassword', defaultMessage: '请输入当前密码' }) }]}\n          >\n            <Input.Password placeholder={intl.formatMessage({ id: 'pages.security.pleaseEnterCurrentPassword', defaultMessage: '请输入当前密码' })} />\n          </Form.Item>\n          <Form.Item\n            label={intl.formatMessage({ id: 'pages.security.newPassword', defaultMessage: '新密码' })}\n            name=\"newPassword\"\n            rules={[\n              { required: true, message: intl.formatMessage({ id: 'pages.security.pleaseEnterNewPassword', defaultMessage: '请输入新密码' }) },\n              { min: 6, message: intl.formatMessage({ id: 'pages.security.passwordMinLength', defaultMessage: '密码至少6位' }) }\n            ]}\n          >\n            <Input.Password placeholder={intl.formatMessage({ id: 'pages.security.pleaseEnterNewPassword', defaultMessage: '请输入新密码' })} />\n          </Form.Item>\n          <Form.Item\n            label={intl.formatMessage({ id: 'pages.security.confirmNewPassword', defaultMessage: '确认新密码' })}\n            name=\"confirmPassword\"\n            rules={[{ required: true, message: intl.formatMessage({ id: 'pages.security.pleaseConfirmNewPassword', defaultMessage: '请确认新密码' }) }]}\n          >\n            <Input.Password placeholder={intl.formatMessage({ id: 'pages.security.pleaseEnterNewPasswordAgain', defaultMessage: '请再次输入新密码' })} />\n          </Form.Item>\n        </Form>\n      </Modal>\n\n      {/* 修改交易密码弹窗 */}\n      <Modal\n        title={intl.formatMessage({ id: 'pages.security.modifyTransactionPassword', defaultMessage: '修改交易密码' })}\n        open={tradePasswordModalVisible}\n        onOk={handleTradePasswordUpdate}\n        onCancel={() => {\n          setTradePasswordModalVisible(false);\n          tradePasswordForm.resetFields();\n        }}\n      >\n        <Form form={tradePasswordForm} layout=\"vertical\">\n          <Form.Item\n            label={intl.formatMessage({ id: 'pages.security.currentTransactionPassword', defaultMessage: '当前交易密码' })}\n            name=\"currentPassword\"\n            rules={[{ required: true, message: intl.formatMessage({ id: 'pages.security.pleaseEnterCurrentTransactionPassword', defaultMessage: '请输入当前交易密码' }) }]}\n          >\n            <Input.Password placeholder={intl.formatMessage({ id: 'pages.security.pleaseEnterCurrentTransactionPassword', defaultMessage: '请输入当前交易密码' })} />\n          </Form.Item>\n          <Form.Item\n            label={intl.formatMessage({ id: 'pages.security.newTransactionPassword', defaultMessage: '新交易密码' })}\n            name=\"newPassword\"\n            rules={[\n              { required: true, message: intl.formatMessage({ id: 'pages.security.pleaseEnterNewTransactionPassword', defaultMessage: '请输入新交易密码' }) },\n              { min: 6, message: intl.formatMessage({ id: 'pages.security.passwordMinLength', defaultMessage: '密码至少6位' }) }\n            ]}\n          >\n            <Input.Password placeholder={intl.formatMessage({ id: 'pages.security.pleaseEnterNewTransactionPassword', defaultMessage: '请输入新交易密码' })} />\n          </Form.Item>\n          <Form.Item\n            label={intl.formatMessage({ id: 'pages.security.confirmNewTransactionPassword', defaultMessage: '确认新交易密码' })}\n            name=\"confirmPassword\"\n            rules={[{ required: true, message: intl.formatMessage({ id: 'pages.security.pleaseConfirmNewTransactionPassword', defaultMessage: '请确认新交易密码' }) }]}\n          >\n            <Input.Password placeholder={intl.formatMessage({ id: 'pages.security.pleaseEnterNewTransactionPasswordAgain', defaultMessage: '请再次输入新交易密码' })} />\n          </Form.Item>\n        </Form>\n      </Modal>\n    </div>\n  );\n};\n\nexport default Security;",
+      "__isJSFile": true,
+      "__absFile": "/Users/danny.she/react/stripe_payment_merchant_portal/src/pages/Security.tsx"
+    },
+    "14": {
+      "path": "/setting",
+      "name": "setting",
+      "hideInMenu": true,
+      "file": "@/pages/Setting.tsx",
+      "parentId": "ant-design-pro-layout",
+      "id": "14",
+      "absPath": "/setting",
+      "__content": "import React, { useState } from 'react';\nimport { Card, Form, Input, Button, Upload, Avatar, Space, Typography, message } from 'antd';\nimport { UploadOutlined, UserOutlined, EditOutlined, SaveOutlined } from '@ant-design/icons';\nimport { useIntl } from '@umijs/max';\nimport type { UploadProps } from 'antd';\n\nconst { Title, Text } = Typography;\n\nconst Setting: React.FC = () => {\n  const intl = useIntl();\n  const [form] = Form.useForm();\n  const [editingMerchantName, setEditingMerchantName] = useState(false);\n  const [avatarUrl, setAvatarUrl] = useState<string>('https://gw.alipayobjects.com/zos/rmsportal/eeHMaZBwmTvLdIwMfBpg.png');\n  const [merchantName, setMerchantName] = useState('示例商户');\n  const [tempMerchantName, setTempMerchantName] = useState(merchantName);\n\n  // 头像上传配置\n  const uploadProps: UploadProps = {\n    name: 'avatar',\n    listType: 'picture',\n    showUploadList: false,\n    beforeUpload: (file) => {\n      const isJpgOrPng = file.type === 'image/jpeg' || file.type === 'image/png';\n      if (!isJpgOrPng) {\n        message.error(intl.formatMessage({ id: 'pages.setting.uploadFormatError', defaultMessage: '只能上传 JPG/PNG 格式的图片!' }));\n        return false;\n      }\n      const isLt2M = file.size / 1024 / 1024 < 2;\n      if (!isLt2M) {\n        message.error(intl.formatMessage({ id: 'pages.setting.uploadSizeError', defaultMessage: '图片大小不能超过 2MB!' }));\n        return false;\n      }\n      \n      // 创建预览URL\n      const reader = new FileReader();\n      reader.onload = (e) => {\n        if (e.target?.result) {\n          setAvatarUrl(e.target.result as string);\n          message.success(intl.formatMessage({ id: 'pages.setting.uploadSuccess', defaultMessage: '头像上传成功!' }));\n        }\n      };\n      reader.readAsDataURL(file);\n      \n      return false; // 阻止自动上传\n    },\n  };\n\n  // 保存商户名\n  const handleSaveMerchantName = () => {\n    if (tempMerchantName.trim() === '') {\n      message.error(intl.formatMessage({ id: 'pages.setting.merchantNameRequired', defaultMessage: '商户名不能为空' }));\n      return;\n    }\n    setMerchantName(tempMerchantName);\n    setEditingMerchantName(false);\n    message.success(intl.formatMessage({ id: 'pages.setting.merchantNameUpdateSuccess', defaultMessage: '商户名更新成功' }));\n  };\n\n  // 取消编辑商户名\n  const handleCancelEdit = () => {\n    setTempMerchantName(merchantName);\n    setEditingMerchantName(false);\n  };\n\n  return (\n    <div style={{ padding: '24px' }}>\n      <Card>\n        <Title level={2}>{intl.formatMessage({ id: 'pages.setting.title', defaultMessage: '设置' })}</Title>\n        \n        <Form form={form} layout=\"vertical\" style={{ maxWidth: 600 }}>\n          {/* 头像设置 */}\n          <Form.Item label={intl.formatMessage({ id: 'pages.setting.avatar', defaultMessage: '头像' })}>\n            <Space direction=\"vertical\" align=\"center\">\n              <Avatar \n                size={120} \n                src={avatarUrl} \n                icon={<UserOutlined />}\n                style={{ marginBottom: 16 }}\n              />\n              <Upload {...uploadProps}>\n                <Button icon={<UploadOutlined />}>{intl.formatMessage({ id: 'pages.setting.uploadAvatar', defaultMessage: '上传头像' })}</Button>\n              </Upload>\n              <Text type=\"secondary\" style={{ fontSize: '12px' }}>\n                {intl.formatMessage({ id: 'pages.setting.uploadTip', defaultMessage: '支持 JPG、PNG 格式，文件大小不超过 2MB' })}\n              </Text>\n            </Space>\n          </Form.Item>\n\n          {/* 商户名设置 */}\n          <Form.Item label={intl.formatMessage({ id: 'pages.setting.merchantName', defaultMessage: '商户名' })}>\n            {editingMerchantName ? (\n              <Space style={{ width: '100%' }}>\n                <Input \n                  value={tempMerchantName}\n                  onChange={(e) => setTempMerchantName(e.target.value)}\n                  placeholder={intl.formatMessage({ id: 'pages.setting.merchantNamePlaceholder', defaultMessage: '请输入商户名' })}\n                  style={{ flex: 1 }}\n                  onPressEnter={handleSaveMerchantName}\n                />\n                <Button \n                  type=\"primary\" \n                  icon={<SaveOutlined />}\n                  onClick={handleSaveMerchantName}\n                >\n                  {intl.formatMessage({ id: 'pages.setting.save', defaultMessage: '保存' })}\n                </Button>\n                <Button onClick={handleCancelEdit}>\n                  {intl.formatMessage({ id: 'pages.setting.cancel', defaultMessage: '取消' })}\n                </Button>\n              </Space>\n            ) : (\n              <Space style={{ width: '100%', justifyContent: 'space-between' }}>\n                <Input value={merchantName} readOnly style={{ flex: 1 }} />\n                <Button \n                  type=\"primary\" \n                  icon={<EditOutlined />}\n                  onClick={() => {\n                    setTempMerchantName(merchantName);\n                    setEditingMerchantName(true);\n                  }}\n                >\n                  {intl.formatMessage({ id: 'pages.setting.edit', defaultMessage: '修改' })}\n                </Button>\n              </Space>\n            )}\n          </Form.Item>\n\n          {/* 其他设置项可以在这里添加 */}\n          <Form.Item>\n            <Space>\n              <Button type=\"primary\" size=\"large\">\n                {intl.formatMessage({ id: 'pages.setting.saveAll', defaultMessage: '保存所有设置' })}\n              </Button>\n              <Button size=\"large\">\n                {intl.formatMessage({ id: 'pages.setting.reset', defaultMessage: '重置' })}\n              </Button>\n            </Space>\n          </Form.Item>\n        </Form>\n      </Card>\n    </div>\n  );\n};\n\nexport default Setting;",
+      "__isJSFile": true,
+      "__absFile": "/Users/danny.she/react/stripe_payment_merchant_portal/src/pages/Setting.tsx"
+    },
+    "15": {
       "path": "/",
       "redirect": "/welcome",
       "parentId": "ant-design-pro-layout",
-      "id": "12",
+      "id": "15",
       "absPath": "/"
     },
-    "13": {
+    "16": {
       "path": "*",
       "layout": false,
       "file": "@/pages/404.tsx",
-      "id": "13",
+      "id": "16",
       "absPath": "/*",
       "__content": "import { history, useIntl } from '@umijs/max';\nimport { Button, Result } from 'antd';\nimport React from 'react';\n\nconst NoFoundPage: React.FC = () => (\n  <Result\n    status=\"404\"\n    title=\"404\"\n    subTitle={useIntl().formatMessage({ id: 'pages.404.subTitle' })}\n    extra={\n      <Button type=\"primary\" onClick={() => history.push('/')}>\n        {useIntl().formatMessage({ id: 'pages.404.buttonText' })}\n      </Button>\n    }\n  />\n);\n\nexport default NoFoundPage;\n",
       "__isJSFile": true,

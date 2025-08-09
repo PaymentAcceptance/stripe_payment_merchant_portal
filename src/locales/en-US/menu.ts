@@ -52,4 +52,7 @@ export default {
   'menu.editor.flow': 'Flow Editor',
   'menu.editor.mind': 'Mind Editor',
   'menu.editor.koni': 'Koni Editor',
+  'menu.developer': 'Developer',
+  'menu.security': 'Security',
+  'menu.setting': 'Settings',
 };

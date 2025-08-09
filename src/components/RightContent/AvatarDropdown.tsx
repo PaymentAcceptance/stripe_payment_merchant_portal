@@ -1,5 +1,5 @@
 import { outLogin } from '@/services/ant-design-pro/api';
-import { LogoutOutlined, SettingOutlined, UserOutlined } from '@ant-design/icons';
+import { LogoutOutlined, SettingOutlined, UserOutlined, CodeOutlined, SafetyOutlined } from '@ant-design/icons';
 import { history, useModel } from '@umijs/max';
 import { Spin } from 'antd';
 import { createStyles } from 'antd-style';
@@ -72,6 +72,18 @@ export const AvatarDropdown: React.FC<GlobalHeaderRightProps> = ({ menu, childre
         loginOut();
         return;
       }
+      if (key === 'developer') {
+        history.push('/developer');
+        return;
+      }
+      if (key === 'security') {
+        history.push('/security');
+        return;
+      }
+      if (key === 'setting') {
+        history.push('/setting');
+        return;
+      }
       history.push(`/account/${key}`);
     },
     [setInitialState],
@@ -100,23 +112,24 @@ export const AvatarDropdown: React.FC<GlobalHeaderRightProps> = ({ menu, childre
   }
 
   const menuItems = [
-    ...(menu
-      ? [
-          {
-            key: 'center',
-            icon: <UserOutlined />,
-            label: '个人中心',
-          },
-          {
-            key: 'settings',
-            icon: <SettingOutlined />,
-            label: '个人设置',
-          },
-          {
-            type: 'divider' as const,
-          },
-        ]
-      : []),
+    {
+      key: 'developer',
+      icon: <CodeOutlined />,
+      label: 'Developer',
+    },
+    {
+      key: 'security',
+      icon: <SafetyOutlined />,
+      label: 'Security',
+    },
+    {
+      key: 'setting',
+      icon: <SettingOutlined />,
+      label: 'Setting',
+    },
+    {
+      type: 'divider' as const,
+    },
     {
       key: 'logout',
       icon: <LogoutOutlined />,
