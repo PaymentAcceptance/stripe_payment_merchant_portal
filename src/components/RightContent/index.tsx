@@ -65,7 +65,7 @@ export const NotificationBell: React.FC = () => {
         height: 26,
         cursor: 'pointer',
         padding: 4,
-        marginLeft: 10,
+        marginLeft: 5,
         marginRight: -10,
       }}
       onClick={() => {
