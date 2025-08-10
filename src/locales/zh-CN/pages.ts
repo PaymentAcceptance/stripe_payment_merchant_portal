@@ -124,7 +124,7 @@ export default {
   'pages.message.history': '历史事件',
   'pages.message.empty': '暂无事件',
   // Security
-  'pages.security.title': '商户安全',
+  'pages.security.title': '安全中心',
   'pages.security.accountName': '账户名',
   'pages.security.email': '邮箱',
   'pages.security.loginPassword': '登录密码',
@@ -164,7 +164,7 @@ export default {
   'pages.security.passwordUpdateError': '密码更新失败',
   'pages.security.tradePasswordUpdateSuccess': '交易密码更新成功',
   // Setting
-  'pages.setting.title': '商户设置',
+  'pages.setting.title': '设置中心',
   'pages.setting.avatar': '头像',
   'pages.setting.merchantName': '商户名称',
   'pages.setting.uploadAvatar': '上传头像',

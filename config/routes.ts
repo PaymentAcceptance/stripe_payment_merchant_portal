@@ -28,23 +28,7 @@ export default [
     icon: 'home',
     component: './Welcome',
   },
-  {
-    path: '/admin',
-    name: 'admin',
-    icon: 'setting',
-    access: 'canAdmin',
-    routes: [
-      {
-        path: '/admin',
-        redirect: '/admin/webhook',
-      },
-      {
-        path: '/admin/webhook',
-        name: 'webhook',
-        component: './Webhook',
-      },
-    ],
-  },
+
   {
     path: '/payments',
     name: 'payments',

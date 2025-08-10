@@ -1,6 +1,6 @@
 import { outLogin } from '@/services/ant-design-pro/api';
 import { LogoutOutlined, SettingOutlined, UserOutlined, CodeOutlined, SafetyOutlined } from '@ant-design/icons';
-import { history, useModel } from '@umijs/max';
+import { history, useModel, useIntl } from '@umijs/max';
 import { Spin } from 'antd';
 import { createStyles } from 'antd-style';
 import { stringify } from 'querystring';
@@ -59,6 +59,7 @@ export const AvatarDropdown: React.FC<GlobalHeaderRightProps> = ({ menu, childre
     }
   };
   const { styles } = useStyles();
+  const intl = useIntl();
 
   const { initialState, setInitialState } = useModel('@@initialState');
 
@@ -115,17 +116,17 @@ export const AvatarDropdown: React.FC<GlobalHeaderRightProps> = ({ menu, childre
     {
       key: 'developer',
       icon: <CodeOutlined />,
-      label: 'Developer',
+      label: intl.formatMessage({ id: 'menu.developer' }),
     },
     {
       key: 'security',
       icon: <SafetyOutlined />,
-      label: 'Security',
+      label: intl.formatMessage({ id: 'menu.security' }),
     },
     {
       key: 'setting',
       icon: <SettingOutlined />,
-      label: 'Setting',
+      label: intl.formatMessage({ id: 'menu.setting' }),
     },
     {
       type: 'divider' as const,
@@ -133,7 +134,7 @@ export const AvatarDropdown: React.FC<GlobalHeaderRightProps> = ({ menu, childre
     {
       key: 'logout',
       icon: <LogoutOutlined />,
-      label: '退出登录',
+      label: intl.formatMessage({ id: 'menu.account.logout' }),
     },
   ];
 

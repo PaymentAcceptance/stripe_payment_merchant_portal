@@ -127,7 +127,7 @@ export default {
   'pages.disputes.status': 'Status',
   'pages.disputes.reason': 'Reason',
   // Security
-  'pages.security.title': 'Security',
+  'pages.security.title': 'Security Center',
   'pages.security.accountName': 'Account Name',
   'pages.security.email': 'Email',
   'pages.security.loginPassword': 'Login Password',
@@ -167,7 +167,7 @@ export default {
   'pages.security.passwordUpdateError': 'Failed to update password',
   'pages.security.tradePasswordUpdateSuccess': 'Transaction password updated successfully',
   // Setting
-  'pages.setting.title': 'Merchant Setting',
+  'pages.setting.title': 'Settings',
   'pages.setting.avatar': 'Avatar',
   'pages.setting.merchantName': 'Merchant Name',
   'pages.setting.uploadAvatar': 'Upload Avatar',
