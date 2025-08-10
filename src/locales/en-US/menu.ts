@@ -54,5 +54,5 @@ export default {
   'menu.editor.koni': 'Koni Editor',
   'menu.developer': 'Developer',
   'menu.security': 'Security Center',
-  'menu.setting': 'Settings',
+  'menu.setting': 'Settings Center',
 };

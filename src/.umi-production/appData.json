@@ -106,7 +106,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "preset",
@@ -119,7 +119,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 4
+        "register": 3
       },
       "enableBy": "register",
       "type": "preset",
@@ -200,7 +200,7 @@
             0
           ]
         },
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -214,7 +214,7 @@
       "time": {
         "hooks": {
           "modifyAppData": [
-            10
+            11
           ]
         },
         "register": 13
@@ -230,7 +230,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -247,10 +247,10 @@
             0
           ],
           "onCheck": [
-            0
+            1
           ]
         },
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -267,7 +267,7 @@
             0
           ]
         },
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -280,7 +280,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 2
+        "register": 0
       },
       "enableBy": "config",
       "type": "plugin",
@@ -297,7 +297,7 @@
             0
           ]
         },
-        "register": 4
+        "register": 3
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1149,7 +1149,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1192,7 +1192,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 48
+        "register": 46
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1205,7 +1205,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 54
+        "register": 27
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1218,7 +1218,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 7
+        "register": 6
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1248,7 +1248,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1261,7 +1261,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1274,7 +1274,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 20
+        "register": 17
       },
       "type": "plugin",
       "path": "/Users/danny.she/react/stripe_payment_merchant_portal/node_modules/@umijs/preset-umi/dist/features/mock/mock.js",
@@ -1286,7 +1286,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1299,7 +1299,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "type": "plugin",
       "path": "/Users/danny.she/react/stripe_payment_merchant_portal/node_modules/@umijs/preset-umi/dist/features/okam/okam.js",
@@ -1324,7 +1324,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1341,7 +1341,7 @@
             0
           ]
         },
-        "register": 1
+        "register": 0
       },
       "type": "plugin",
       "path": "/Users/danny.she/react/stripe_payment_merchant_portal/node_modules/@umijs/preset-umi/dist/features/polyfill/polyfill.js",
@@ -1405,7 +1405,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 3
+        "register": 2
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1431,7 +1431,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "type": "plugin",
       "path": "/Users/danny.she/react/stripe_payment_merchant_portal/node_modules/@umijs/preset-umi/dist/features/routeProps/routeProps.js",
@@ -1443,7 +1443,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 2
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1482,7 +1482,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 2
+        "register": 1
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1520,7 +1520,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 12
+        "register": 10
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1557,7 +1557,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1570,7 +1570,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1599,7 +1599,7 @@
             0
           ]
         },
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1624,7 +1624,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1661,7 +1661,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1700,7 +1700,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 20
+        "register": 17
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1713,7 +1713,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 23
+        "register": 8
       },
       "type": "plugin",
       "path": "/Users/danny.she/react/stripe_payment_merchant_portal/node_modules/@umijs/preset-umi/dist/commands/dev/dev.js",
@@ -1738,7 +1738,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1829,7 +1829,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1868,7 +1868,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1881,7 +1881,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1933,7 +1933,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1946,7 +1946,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1959,7 +1959,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 13
+        "register": 14
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1985,7 +1985,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 2
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -2026,13 +2026,13 @@
       "time": {
         "hooks": {
           "modifyConfig": [
-            3
+            4
           ],
           "modifyAppData": [
             0
           ]
         },
-        "register": 3
+        "register": 1
       },
       "type": "plugin",
       "path": "/Users/danny.she/react/stripe_payment_merchant_portal/node_modules/@umijs/plugins/dist/antd.js",
@@ -2082,7 +2082,7 @@
             0
           ]
         },
-        "register": 2
+        "register": 1
       },
       "enableBy": "config",
       "type": "plugin",
@@ -2108,7 +2108,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "config",
       "type": "plugin",
@@ -2121,7 +2121,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "config",
       "type": "plugin",
@@ -2135,10 +2135,10 @@
       "time": {
         "hooks": {
           "modifyConfig": [
-            0
+            1
           ]
         },
-        "register": 1
+        "register": 0
       },
       "enableBy": "config",
       "type": "plugin",
@@ -2164,7 +2164,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "type": "plugin",
       "path": "/Users/danny.she/react/stripe_payment_merchant_portal/node_modules/@umijs/plugins/dist/qiankun/master.js",
@@ -2176,7 +2176,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "type": "plugin",
       "path": "/Users/danny.she/react/stripe_payment_merchant_portal/node_modules/@umijs/plugins/dist/qiankun/slave.js",
@@ -2188,7 +2188,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "config",
       "type": "plugin",
@@ -2257,7 +2257,7 @@
             0
           ]
         },
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -2291,7 +2291,7 @@
             0
           ]
         },
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -2321,7 +2321,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -2338,7 +2338,7 @@
             0
           ]
         },
-        "register": 111
+        "register": 61
       },
       "enableBy": "config",
       "type": "plugin",
@@ -2351,7 +2351,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 11
+        "register": 5
       },
       "enableBy": "config",
       "type": "plugin",
@@ -2388,7 +2388,7 @@
       },
       "time": {
         "hooks": {},
-        "register": 34
+        "register": 30
       },
       "type": "plugin",
       "path": "/Users/danny.she/react/stripe_payment_merchant_portal/node_modules/@umijs/request-record/dist/cjs/index.js",
@@ -2437,27 +2437,52 @@
         "component": "./Welcome"
       },
       {
-        "path": "/admin",
-        "name": "admin",
-        "icon": "setting",
-        "access": "canAdmin",
-        "routes": [
-          {
-            "path": "/admin",
-            "redirect": "/admin/webhook"
-          },
-          {
-            "path": "/admin/webhook",
-            "name": "webhook",
-            "component": "./Webhook"
-          }
-        ]
+        "path": "/payments",
+        "name": "payments",
+        "icon": "dollar",
+        "component": "./TableList"
       },
       {
-        "name": "list.orders",
-        "icon": "table",
-        "path": "/list",
-        "component": "./TableList"
+        "path": "/settlements",
+        "name": "settlements",
+        "icon": "transaction",
+        "component": "./Settlements"
+      },
+      {
+        "path": "/balances",
+        "name": "balances",
+        "icon": "wallet",
+        "component": "./Balances"
+      },
+      {
+        "path": "/disputes",
+        "name": "disputes",
+        "icon": "warning",
+        "component": "./Disputes"
+      },
+      {
+        "path": "/message",
+        "name": "message",
+        "icon": "bell",
+        "component": "./Message"
+      },
+      {
+        "path": "/developer",
+        "name": "developer",
+        "component": "./Developer",
+        "hideInMenu": true
+      },
+      {
+        "path": "/security",
+        "name": "security",
+        "component": "./Security",
+        "hideInMenu": true
+      },
+      {
+        "path": "/setting",
+        "name": "setting",
+        "component": "./Setting",
+        "hideInMenu": true
       },
       {
         "path": "/",
@@ -2593,27 +2618,52 @@
         "component": "./Welcome"
       },
       {
-        "path": "/admin",
-        "name": "admin",
-        "icon": "setting",
-        "access": "canAdmin",
-        "routes": [
-          {
-            "path": "/admin",
-            "redirect": "/admin/webhook"
-          },
-          {
-            "path": "/admin/webhook",
-            "name": "webhook",
-            "component": "./Webhook"
-          }
-        ]
+        "path": "/payments",
+        "name": "payments",
+        "icon": "dollar",
+        "component": "./TableList"
       },
       {
-        "name": "list.orders",
-        "icon": "table",
-        "path": "/list",
-        "component": "./TableList"
+        "path": "/settlements",
+        "name": "settlements",
+        "icon": "transaction",
+        "component": "./Settlements"
+      },
+      {
+        "path": "/balances",
+        "name": "balances",
+        "icon": "wallet",
+        "component": "./Balances"
+      },
+      {
+        "path": "/disputes",
+        "name": "disputes",
+        "icon": "warning",
+        "component": "./Disputes"
+      },
+      {
+        "path": "/message",
+        "name": "message",
+        "icon": "bell",
+        "component": "./Message"
+      },
+      {
+        "path": "/developer",
+        "name": "developer",
+        "component": "./Developer",
+        "hideInMenu": true
+      },
+      {
+        "path": "/security",
+        "name": "security",
+        "component": "./Security",
+        "hideInMenu": true
+      },
+      {
+        "path": "/setting",
+        "name": "setting",
+        "component": "./Setting",
+        "hideInMenu": true
       },
       {
         "path": "/",
@@ -3616,7 +3666,7 @@
       "parentId": "1",
       "id": "2",
       "absPath": "/user/login",
-      "__content": "import { Footer } from '@/components';\nimport { login } from '@/services/ant-design-pro/api';\nimport { getFakeCaptcha } from '@/services/ant-design-pro/login';\nimport {\n  AlipayCircleOutlined,\n  LockOutlined,\n  MobileOutlined,\n  TaobaoCircleOutlined,\n  UserOutlined,\n  WeiboCircleOutlined,\n} from '@ant-design/icons';\nimport {\n  LoginForm,\n  ProFormCaptcha,\n  ProFormCheckbox,\n  ProFormText,\n} from '@ant-design/pro-components';\nimport { FormattedMessage, history, SelectLang, useIntl, useModel, Helmet } from '@umijs/max';\nimport { Alert, message, Tabs } from 'antd';\nimport Settings from '../../../../config/defaultSettings';\nimport React, { useState } from 'react';\nimport { flushSync } from 'react-dom';\nimport { createStyles } from 'antd-style';\n\nconst useStyles = createStyles(({ token }) => {\n  return {\n    action: {\n      marginLeft: '8px',\n      color: 'rgba(0, 0, 0, 0.2)',\n      fontSize: '24px',\n      verticalAlign: 'middle',\n      cursor: 'pointer',\n      transition: 'color 0.3s',\n      '&:hover': {\n        color: token.colorPrimaryActive,\n      },\n    },\n    lang: {\n      width: 42,\n      height: 42,\n      lineHeight: '42px',\n      position: 'fixed',\n      right: 16,\n      borderRadius: token.borderRadius,\n      ':hover': {\n        backgroundColor: token.colorBgTextHover,\n      },\n    },\n    container: {\n      display: 'flex',\n      flexDirection: 'column',\n      height: '100vh',\n      overflow: 'auto',\n      backgroundImage:\n        \"url('https://mdn.alipayobjects.com/yuyan_qk0oxh/afts/img/V-_oS6r-i7wAAAAAAAAAAAAAFl94AQBr')\",\n      backgroundSize: '100% 100%',\n    },\n  };\n});\n\nconst ActionIcons = () => {\n  const { styles } = useStyles();\n\n  return (\n    <>\n      <AlipayCircleOutlined key=\"AlipayCircleOutlined\" className={styles.action} />\n      <TaobaoCircleOutlined key=\"TaobaoCircleOutlined\" className={styles.action} />\n      <WeiboCircleOutlined key=\"WeiboCircleOutlined\" className={styles.action} />\n    </>\n  );\n};\n\nconst Lang = () => {\n  const { styles } = useStyles();\n\n  return (\n    <div className={styles.lang} data-lang>\n      {SelectLang && <SelectLang />}\n    </div>\n  );\n};\n\nconst LoginMessage: React.FC<{\n  content: string;\n}> = ({ content }) => {\n  return (\n    <Alert\n      style={{\n        marginBottom: 24,\n      }}\n      message={content}\n      type=\"error\"\n      showIcon\n    />\n  );\n};\n\nconst Login: React.FC = () => {\n  const [userLoginState, setUserLoginState] = useState<API.LoginResult>({});\n  const [type, setType] = useState<string>('account');\n  const { initialState, setInitialState } = useModel('@@initialState');\n  const { styles } = useStyles();\n  const intl = useIntl();\n\n  const fetchUserInfo = async (mid: string) => {\n    const userInfo = await initialState?.fetchUserInfo?.(mid);\n    //console.log('userInfo:：>>', userInfo);\n    if (userInfo) {\n      flushSync(() => {\n        setInitialState((s) => ({\n          ...s,\n          currentUser: userInfo,\n        }));\n      });\n    }\n  };\n\n  const handleSubmit = async (values: API.LoginParams) => {\n    try {\n      // 登录\n      const msg = await login({ ...values, type });\n      if (msg.status === 'ok') {\n        console.log('token::>> ', msg.token);\n        // 存储 token 到 cookie，过期时间为 1 天\n        const expires = new Date(Date.now() + 24 * 60 * 60 * 1000).toUTCString();\n        document.cookie = `authorization=${msg.token}; expires=${expires}; path=/`;\n        const defaultLoginSuccessMessage = intl.formatMessage({\n          id: 'pages.login.success',\n          defaultMessage: '登录成功！',\n        });\n        //set username in LoginParams to initialState\n        message.success(defaultLoginSuccessMessage);\n\n        const mid = values.username;\n        await fetchUserInfo(mid);\n        \n        const urlParams = new URL(window.location.href).searchParams;\n        history.push(urlParams.get('redirect') || '/');\n        return;\n      }\n      //console.log(msg);\n      // 如果失败去设置用户错误信息\n      setUserLoginState(msg);\n    } catch (error) {\n      const defaultLoginFailureMessage = intl.formatMessage({\n        id: 'pages.login.failure',\n        defaultMessage: '登录失败，请重试！',\n      });\n      console.log(error);\n      message.error(defaultLoginFailureMessage);\n    }\n  };\n  const { status, type: loginType } = userLoginState;\n\n  return (\n    <div className={styles.container}>\n      <Helmet>\n        <title>\n          {intl.formatMessage({\n            id: 'menu.login',\n            defaultMessage: '登录页',\n          })}\n          - {Settings.title}\n        </title>\n      </Helmet>\n      <Lang />\n      <div\n        style={{\n          flex: '1',\n          padding: '32px 0',\n        }}\n      >\n        <LoginForm\n          contentStyle={{\n            minWidth: 280,\n            maxWidth: '75vw',\n          }}\n          title={\n            <span style={{ \n              height: '48px', \n              fontSize: '30px', \n              fontWeight: 'bold',\n            }}>\n              {intl.formatMessage({\n                id: 'pages.login.loginTitle',\n                defaultMessage: 'Merchant Login',\n              })}\n            </span>\n          }\n          initialValues={{\n            autoLogin: true,\n          }}\n          actions={[]}\n          onFinish={async (values) => {\n            await handleSubmit(values as API.LoginParams);\n          }}\n        >\n          <Tabs\n            activeKey={type}\n            onChange={setType}\n            centered\n            items={[\n            ]}\n          />\n\n          {status === 'error' && loginType === 'account' && (\n            <LoginMessage\n              content={intl.formatMessage({\n                id: 'pages.login.accountLogin.errorMessage',\n                defaultMessage: 'Invalid Merchant ID or Password',\n              })}\n            />\n          )}\n          {type === 'account' && (\n            <>\n              <ProFormText\n                name=\"username\"\n                fieldProps={{\n                  size: 'large',\n                  prefix: <UserOutlined />,\n                }}\n                placeholder={intl.formatMessage({\n                  id: 'pages.login.username.placeholder',\n                  defaultMessage: 'Merchant ID',\n                })}\n                rules={[\n                  {\n                    required: true,\n                    message: (\n                      <FormattedMessage\n                        id=\"pages.login.username.required\"\n                        defaultMessage=\"Merchant ID is required\"\n                      />\n                    ),\n                  },\n                ]}\n              />\n              <ProFormText.Password\n                name=\"password\"\n                fieldProps={{\n                  size: 'large',\n                  prefix: <LockOutlined />,\n                }}\n                placeholder={intl.formatMessage({\n                  id: 'pages.login.password.placeholder',\n                  defaultMessage: 'Password',\n                })}\n                rules={[\n                  {\n                    required: true,\n                    message: (\n                      <FormattedMessage\n                        id=\"pages.login.password.required\"\n                        defaultMessage=\"Password is required\"\n                      />\n                    ),\n                  },\n                ]}\n              />\n            </>\n          )}\n\n          {status === 'error' && loginType === 'mobile' && <LoginMessage content=\"验证码错误\" />}\n          {type === 'mobile' && (\n            <>\n              <ProFormText\n                fieldProps={{\n                  size: 'large',\n                  prefix: <MobileOutlined />,\n                }}\n                name=\"mobile\"\n                placeholder={intl.formatMessage({\n                  id: 'pages.login.phoneNumber.placeholder',\n                  defaultMessage: '手机号',\n                })}\n                rules={[\n                  {\n                    required: true,\n                    message: (\n                      <FormattedMessage\n                        id=\"pages.login.phoneNumber.required\"\n                        defaultMessage=\"请输入手机号！\"\n                      />\n                    ),\n                  },\n                  {\n                    pattern: /^1\\d{10}$/,\n                    message: (\n                      <FormattedMessage\n                        id=\"pages.login.phoneNumber.invalid\"\n                        defaultMessage=\"手机号格式错误！\"\n                      />\n                    ),\n                  },\n                ]}\n              />\n              <ProFormCaptcha\n                fieldProps={{\n                  size: 'large',\n                  prefix: <LockOutlined />,\n                }}\n                captchaProps={{\n                  size: 'large',\n                }}\n                placeholder={intl.formatMessage({\n                  id: 'pages.login.captcha.placeholder',\n                  defaultMessage: '请输入验证码',\n                })}\n                captchaTextRender={(timing, count) => {\n                  if (timing) {\n                    return `${count} ${intl.formatMessage({\n                      id: 'pages.getCaptchaSecondText',\n                      defaultMessage: '获取验证码',\n                    })}`;\n                  }\n                  return intl.formatMessage({\n                    id: 'pages.login.phoneLogin.getVerificationCode',\n                    defaultMessage: '获取验证码',\n                  });\n                }}\n                name=\"captcha\"\n                rules={[\n                  {\n                    required: true,\n                    message: (\n                      <FormattedMessage\n                        id=\"pages.login.captcha.required\"\n                        defaultMessage=\"请输入验证码！\"\n                      />\n                    ),\n                  },\n                ]}\n                onGetCaptcha={async (phone) => {\n                  const result = await getFakeCaptcha({\n                    phone,\n                  });\n                  if (!result) {\n                    return;\n                  }\n                  message.success('获取验证码成功！验证码为：1234');\n                }}\n              />\n            </>\n          )}\n          <div\n            style={{\n              marginBottom: 24,\n            }}\n          >\n            <ProFormCheckbox noStyle name=\"autoLogin\">\n              <FormattedMessage id=\"pages.login.rememberMe\" defaultMessage=\"自动登录\" />\n            </ProFormCheckbox>\n            <a\n              style={{\n                float: 'right',\n              }}\n            >\n            </a>\n          </div>\n        </LoginForm>\n      </div>\n      <Footer />\n    </div>\n  );\n};\n\nexport default Login;\n",
+      "__content": "import { Footer } from '@/components';\nimport { login } from '@/services/ant-design-pro/api';\nimport { getFakeCaptcha } from '@/services/ant-design-pro/login';\nimport {\n  AlipayCircleOutlined,\n  LockOutlined,\n  MobileOutlined,\n  TaobaoCircleOutlined,\n  UserOutlined,\n  WeiboCircleOutlined,\n} from '@ant-design/icons';\nimport {\n  LoginForm,\n  ProFormCaptcha,\n  ProFormCheckbox,\n  ProFormText,\n} from '@ant-design/pro-components';\nimport { FormattedMessage, history, SelectLang, useIntl, useModel, Helmet } from '@umijs/max';\nimport { Alert, message, Tabs } from 'antd';\nimport Settings from '../../../../config/defaultSettings';\nimport React, { useState } from 'react';\nimport { flushSync } from 'react-dom';\nimport { createStyles } from 'antd-style';\n\nconst useStyles = createStyles(({ token }) => {\n  return {\n    action: {\n      marginLeft: '8px',\n      color: 'rgba(0, 0, 0, 0.2)',\n      fontSize: '24px',\n      verticalAlign: 'middle',\n      cursor: 'pointer',\n      transition: 'color 0.3s',\n      '&:hover': {\n        color: token.colorPrimaryActive,\n      },\n    },\n    lang: {\n      width: 42,\n      height: 42,\n      lineHeight: '42px',\n      position: 'fixed',\n      right: 16,\n      borderRadius: token.borderRadius,\n      ':hover': {\n        backgroundColor: token.colorBgTextHover,\n      },\n    },\n    container: {\n      display: 'flex',\n      flexDirection: 'column',\n      height: '100vh',\n      overflow: 'auto',\n      backgroundImage:\n        \"url('https://mdn.alipayobjects.com/yuyan_qk0oxh/afts/img/V-_oS6r-i7wAAAAAAAAAAAAAFl94AQBr')\",\n      backgroundSize: '100% 100%',\n    },\n  };\n});\n\nconst ActionIcons = () => {\n  const { styles } = useStyles();\n\n  return (\n    <>\n      <AlipayCircleOutlined key=\"AlipayCircleOutlined\" className={styles.action} />\n      <TaobaoCircleOutlined key=\"TaobaoCircleOutlined\" className={styles.action} />\n      <WeiboCircleOutlined key=\"WeiboCircleOutlined\" className={styles.action} />\n    </>\n  );\n};\n\nconst Lang = () => {\n  const { styles } = useStyles();\n\n  return (\n    <div className={styles.lang} data-lang>\n      <SelectLang />\n    </div>\n  );\n};\n\nconst LoginMessage: React.FC<{\n  content: string;\n}> = ({ content }) => {\n  return (\n    <Alert\n      style={{\n        marginBottom: 24,\n      }}\n      message={content}\n      type=\"error\"\n      showIcon\n    />\n  );\n};\n\nconst Login: React.FC = () => {\n  const [userLoginState, setUserLoginState] = useState<API.LoginResult>({});\n  const [type, setType] = useState<string>('account');\n  const { initialState, setInitialState } = useModel('@@initialState');\n  const { styles } = useStyles();\n  const intl = useIntl();\n\n  const fetchUserInfo = async (mid: string) => {\n    const userInfo = await initialState?.fetchUserInfo?.(mid);\n    //console.log('userInfo:：>>', userInfo);\n    if (userInfo) {\n      flushSync(() => {\n        setInitialState((s) => ({\n          ...s,\n          currentUser: userInfo,\n        }));\n      });\n    }\n  };\n\n  const handleSubmit = async (values: API.LoginParams) => {\n    try {\n      // 登录\n      const msg = await login({ ...values, type });\n      if (msg.status === 'ok') {\n        console.log('token::>> ', msg.token);\n        // 存储 token 到 cookie，过期时间为 1 天\n        const expires = new Date(Date.now() + 24 * 60 * 60 * 1000).toUTCString();\n        document.cookie = `authorization=${msg.token}; expires=${expires}; path=/`;\n        const defaultLoginSuccessMessage = intl.formatMessage({\n          id: 'pages.login.success',\n          defaultMessage: '登录成功！',\n        });\n        //set username in LoginParams to initialState\n        message.success(defaultLoginSuccessMessage);\n\n        const mid = values.username;\n        await fetchUserInfo(mid);\n        \n        const urlParams = new URL(window.location.href).searchParams;\n        history.push(urlParams.get('redirect') || '/');\n        return;\n      }\n      //console.log(msg);\n      // 如果失败去设置用户错误信息\n      setUserLoginState(msg);\n    } catch (error) {\n      const defaultLoginFailureMessage = intl.formatMessage({\n        id: 'pages.login.failure',\n        defaultMessage: '登录失败，请重试！',\n      });\n      console.log(error);\n      message.error(defaultLoginFailureMessage);\n    }\n  };\n  const { status, type: loginType } = userLoginState;\n\n  return (\n    <div className={styles.container}>\n      <Helmet>\n        <title>\n          {intl.formatMessage({\n            id: 'menu.login',\n            defaultMessage: '登录页',\n          })}\n          - {Settings.title}\n        </title>\n      </Helmet>\n      <Lang />\n      <div\n        style={{\n          flex: '1',\n          padding: '32px 0',\n        }}\n      >\n        <LoginForm\n          contentStyle={{\n            minWidth: 280,\n            maxWidth: '75vw',\n          }}\n          title={\n            <span style={{ \n              height: '48px', \n              fontSize: '30px', \n              fontWeight: 'bold',\n            }}>\n              {intl.formatMessage({\n                id: 'pages.login.loginTitle',\n                defaultMessage: 'Merchant Login',\n              })}\n            </span>\n          }\n          initialValues={{\n            autoLogin: true,\n          }}\n          actions={[]}\n          onFinish={async (values) => {\n            await handleSubmit(values as API.LoginParams);\n          }}\n        >\n          <Tabs\n            activeKey={type}\n            onChange={setType}\n            centered\n            items={[\n            ]}\n          />\n\n          {status === 'error' && loginType === 'account' && (\n            <LoginMessage\n              content={intl.formatMessage({\n                id: 'pages.login.accountLogin.errorMessage',\n                defaultMessage: 'Invalid Merchant ID or Password',\n              })}\n            />\n          )}\n          {type === 'account' && (\n            <>\n              <ProFormText\n                name=\"username\"\n                fieldProps={{\n                  size: 'large',\n                  prefix: <UserOutlined />,\n                }}\n                placeholder={intl.formatMessage({\n                  id: 'pages.login.username.placeholder',\n                  defaultMessage: 'Merchant ID',\n                })}\n                rules={[\n                  {\n                    required: true,\n                    message: (\n                      <FormattedMessage\n                        id=\"pages.login.username.required\"\n                        defaultMessage=\"Merchant ID is required\"\n                      />\n                    ),\n                  },\n                ]}\n              />\n              <ProFormText.Password\n                name=\"password\"\n                fieldProps={{\n                  size: 'large',\n                  prefix: <LockOutlined />,\n                }}\n                placeholder={intl.formatMessage({\n                  id: 'pages.login.password.placeholder',\n                  defaultMessage: 'Password',\n                })}\n                rules={[\n                  {\n                    required: true,\n                    message: (\n                      <FormattedMessage\n                        id=\"pages.login.password.required\"\n                        defaultMessage=\"Password is required\"\n                      />\n                    ),\n                  },\n                ]}\n              />\n            </>\n          )}\n\n          {status === 'error' && loginType === 'mobile' && <LoginMessage content=\"验证码错误\" />}\n          {type === 'mobile' && (\n            <>\n              <ProFormText\n                fieldProps={{\n                  size: 'large',\n                  prefix: <MobileOutlined />,\n                }}\n                name=\"mobile\"\n                placeholder={intl.formatMessage({\n                  id: 'pages.login.phoneNumber.placeholder',\n                  defaultMessage: '手机号',\n                })}\n                rules={[\n                  {\n                    required: true,\n                    message: (\n                      <FormattedMessage\n                        id=\"pages.login.phoneNumber.required\"\n                        defaultMessage=\"请输入手机号！\"\n                      />\n                    ),\n                  },\n                  {\n                    pattern: /^1\\d{10}$/,\n                    message: (\n                      <FormattedMessage\n                        id=\"pages.login.phoneNumber.invalid\"\n                        defaultMessage=\"手机号格式错误！\"\n                      />\n                    ),\n                  },\n                ]}\n              />\n              <ProFormCaptcha\n                fieldProps={{\n                  size: 'large',\n                  prefix: <LockOutlined />,\n                }}\n                captchaProps={{\n                  size: 'large',\n                }}\n                placeholder={intl.formatMessage({\n                  id: 'pages.login.captcha.placeholder',\n                  defaultMessage: '请输入验证码',\n                })}\n                captchaTextRender={(timing, count) => {\n                  if (timing) {\n                    return `${count} ${intl.formatMessage({\n                      id: 'pages.getCaptchaSecondText',\n                      defaultMessage: '获取验证码',\n                    })}`;\n                  }\n                  return intl.formatMessage({\n                    id: 'pages.login.phoneLogin.getVerificationCode',\n                    defaultMessage: '获取验证码',\n                  });\n                }}\n                name=\"captcha\"\n                rules={[\n                  {\n                    required: true,\n                    message: (\n                      <FormattedMessage\n                        id=\"pages.login.captcha.required\"\n                        defaultMessage=\"请输入验证码！\"\n                      />\n                    ),\n                  },\n                ]}\n                onGetCaptcha={async (phone) => {\n                  const result = await getFakeCaptcha({\n                    phone,\n                  });\n                  if (!result) {\n                    return;\n                  }\n                  message.success('获取验证码成功！验证码为：1234');\n                }}\n              />\n            </>\n          )}\n          <div\n            style={{\n              marginBottom: 24,\n            }}\n          >\n            <ProFormCheckbox noStyle name=\"autoLogin\">\n              <FormattedMessage id=\"pages.login.rememberMe\" defaultMessage=\"自动登录\" />\n            </ProFormCheckbox>\n            <a\n              style={{\n                float: 'right',\n              }}\n            >\n            </a>\n          </div>\n        </LoginForm>\n      </div>\n      <Footer />\n    </div>\n  );\n};\n\nexport default Login;\n",
       "__isJSFile": true,
       "__absFile": "/Users/danny.she/react/stripe_payment_merchant_portal/src/pages/User/Login/index.tsx"
     },
@@ -3633,56 +3683,113 @@
       "__absFile": "/Users/danny.she/react/stripe_payment_merchant_portal/src/pages/Welcome.tsx"
     },
     "4": {
-      "path": "/admin",
-      "name": "admin",
-      "icon": "setting",
-      "access": "canAdmin",
-      "parentId": "ant-design-pro-layout",
-      "id": "4",
-      "absPath": "/admin"
-    },
-    "5": {
-      "path": "/admin",
-      "redirect": "/admin/webhook",
-      "parentId": "4",
-      "id": "5",
-      "absPath": "/admin"
-    },
-    "6": {
-      "path": "/admin/webhook",
-      "name": "webhook",
-      "file": "@/pages/Webhook.tsx",
-      "parentId": "4",
-      "id": "6",
-      "absPath": "/admin/webhook",
-      "__content": "import { EditOutlined, SaveOutlined, CloseOutlined } from '@ant-design/icons';\nimport { PageContainer } from '@ant-design/pro-components';\nimport { useIntl } from '@umijs/max';\nimport { Alert, Card, Typography, Input, Button, message } from 'antd';\nimport React, { useState, useEffect } from 'react';\nimport { useModel } from '@umijs/max';\n\nconst API_BASE_URL = process.env.REACT_APP_API_BASE_URL || 'https://pay.tech-mart.xyz';\n\nconst Webhook: React.FC = () => {\n  const intl = useIntl();\n  const { initialState } = useModel('@@initialState');\n  const [webhookUrl, setWebhookUrl] = useState('');\n  const [editingUrl, setEditingUrl] = useState('');\n  const [isEditing, setIsEditing] = useState(false);\n  const [isLoading, setIsLoading] = useState(false);\n  const [showSuccessAlert, setShowSuccessAlert] = useState(false);\n  const [showErrorAlert, setShowErrorAlert] = useState(false);\n  const [errorMessage, setErrorMessage] = useState('');\n\n  const merchantId = initialState?.currentUser?.mid;\n\n  // 获取当前 webhook URL\n  const fetchWebhook = async () => {\n    try {\n      setIsLoading(true);\n      const response = await fetch(`${API_BASE_URL}/merchant/webhook?merchantId=${merchantId}`, {\n        method: 'GET',\n        headers: {\n          'Authorization': `Bearer ${getCookie('authorization')}`,\n          'Content-Type': 'application/json',\n        },\n      });\n\n      if (response.ok) {\n        const data = await response.json();\n        setWebhookUrl(data.webhookUrl || '');\n        setEditingUrl(data.webhookUrl || '');\n      } else {\n        const errorText = await response.text();\n        setErrorMessage(errorText);\n        setShowErrorAlert(true);\n      }\n    } catch (error) {\n      setErrorMessage('Failed to fetch webhook URL');\n      setShowErrorAlert(true);\n    } finally {\n      setIsLoading(false);\n    }\n  };\n\n  // 从 cookie 获取 authorization\n  const getCookie = (name: string) => {\n    const value = `; ${document.cookie}`;\n    const parts = value.split(`; ${name}=`);\n    if (parts.length === 2) return parts.pop()?.split(';').shift();\n    return '';\n  };\n\n  // 保存 webhook URL\n  const saveWebhook = async () => {\n    try {\n      setIsLoading(true);\n      const response = await fetch('${API_BASE_URL}/merchant/updateWebhook', {\n        method: 'POST',\n        headers: {\n          'Authorization': `Bearer ${getCookie('authorization')}`,\n          'Content-Type': 'application/json',\n        },\n        body: JSON.stringify({\n          merchantId: merchantId,\n          webhookUrl: editingUrl,\n        }),\n      });\n\n      if (response.ok) {\n        setWebhookUrl(editingUrl);\n        setIsEditing(false);\n        setShowSuccessAlert(true);\n        setShowErrorAlert(false);\n        // 3秒后隐藏成功提示\n        setTimeout(() => setShowSuccessAlert(false), 3000);\n      } else {\n        const errorText = await response.text();\n        setErrorMessage(errorText);\n        setShowErrorAlert(true);\n        setShowSuccessAlert(false);\n      }\n    } catch (error) {\n      setErrorMessage('Failed to save webhook URL');\n      setShowErrorAlert(true);\n      setShowSuccessAlert(false);\n    } finally {\n      setIsLoading(false);\n    }\n  };\n\n  // 取消编辑\n  const cancelEdit = () => {\n    setEditingUrl(webhookUrl);\n    setIsEditing(false);\n    setShowErrorAlert(false);\n  };\n\n  // 开始编辑\n  const startEdit = () => {\n    setIsEditing(true);\n    setShowErrorAlert(false);\n  };\n\n  // 检查是否有修改\n  const hasChanges = editingUrl !== webhookUrl;\n\n  // 页面加载时获取 webhook URL\n  useEffect(() => {\n    if (merchantId) {\n      fetchWebhook();\n    }\n  }, [merchantId]);\n\n  return (\n    <PageContainer>\n      <Card>\n        {showSuccessAlert && (\n          <Alert\n            message=\"Webhook URL has been updated successfully!\"\n            type=\"success\"\n            showIcon\n            banner\n            style={{\n              margin: -12,\n              marginBottom: 24,\n            }}\n          />\n        )}\n        \n        {showErrorAlert && (\n          <Alert\n            message={errorMessage}\n            type=\"error\"\n            showIcon\n            banner\n            style={{\n              margin: -12,\n              marginBottom: 24,\n            }}\n          />\n        )}\n\n        <div style={{ display: 'flex', flexDirection: 'column', gap: 16 }}>\n          <div style={{ display: 'flex', alignItems: 'flex-end', gap: 16 }}>\n            <div style={{ flex: 1 }}>\n              <Input\n                value={editingUrl}\n                onChange={(e) => setEditingUrl(e.target.value)}\n                disabled={!isEditing}\n                placeholder=\"Enter webhook URL\"\n                style={{ marginTop: 8 }}\n              />\n            </div>\n            \n            {!isEditing && (\n              <Button\n                type=\"primary\"\n                icon={<EditOutlined />}\n                onClick={startEdit}\n                disabled={isLoading}\n                style={{ height: 32, marginBottom: 0 }}\n              >\n                Edit\n              </Button>\n            )}\n          </div>\n          \n          {isEditing && (\n            <div style={{ display: 'flex', gap: 8, justifyContent: 'flex-end' }}>\n              <Button\n                type=\"primary\"\n                icon={<SaveOutlined />}\n                onClick={saveWebhook}\n                disabled={!hasChanges || isLoading}\n                loading={isLoading}\n              >\n                Save\n              </Button>\n              <Button\n                icon={<CloseOutlined />}\n                onClick={cancelEdit}\n                disabled={isLoading}\n              >\n                Cancel\n              </Button>\n            </div>\n          )}\n        </div>\n      </Card>\n    </PageContainer>\n  );\n};\n\nexport default Webhook;\n",
-      "__isJSFile": true,
-      "__absFile": "/Users/danny.she/react/stripe_payment_merchant_portal/src/pages/Webhook.tsx"
-    },
-    "7": {
-      "name": "list.orders",
-      "icon": "table",
-      "path": "/list",
+      "path": "/payments",
+      "name": "payments",
+      "icon": "dollar",
       "file": "@/pages/TableList/index.tsx",
       "parentId": "ant-design-pro-layout",
-      "id": "7",
-      "absPath": "/list",
-      "__content": "import { queryPaymentOrder } from '@/services/ant-design-pro/api';\nimport type { ActionType, ProColumns } from '@ant-design/pro-components';\nimport { PageContainer, ProTable } from '@ant-design/pro-components';\nimport { useModel } from '@umijs/max';\nimport React, { useRef } from 'react';\n\nconst TableList: React.FC = () => {\n  const actionRef = useRef<ActionType>();\n  const { initialState } = useModel('@@initialState');\n  const mid = initialState?.currentUser?.mid;\n\n  // 搜索区域的列（hideInTable: true）\n  const searchColumns: ProColumns<API.PaymentOrderItem>[] = [\n    {\n      title: 'Status',\n      dataIndex: 'status',\n      hideInTable: true,\n      valueType: 'select',\n      valueEnum: {\n        all: { text: 'All Status' },\n        succeeded: { text: 'Succeeded' },\n        failed: { text: 'Failed' },\n        pending: { text: 'Pending' },\n      },\n      initialValue: 'all',\n    },\n    {\n      title: 'Transaction Date',\n      dataIndex: 'date',\n      hideInTable: true,\n      valueType: 'date',\n    },\n    {\n      title: 'Order ID',\n      dataIndex: 'paymentOrderId',\n      hideInTable: true,\n      valueType: 'text',\n    },\n  ];\n\n  // 结果区域的所有字段（不带 hideInTable）\n  const resultColumns: ProColumns<API.PaymentOrderItem>[] = [\n    { title: 'Order ID', dataIndex: 'paymentOrderId', hideInSearch: true },\n    { title: 'Status', dataIndex: 'status', hideInSearch: true },\n    { title: 'Payment Amount', dataIndex: 'paymentAmount', hideInSearch: true },\n    { title: 'Transaction Time', dataIndex: 'transactionTime', hideInSearch: true },\n    { title: 'Customer Email', dataIndex: 'customerEmail', hideInSearch: true },\n    { title: 'Fee', dataIndex: 'fee', hideInSearch: true },\n    { title: 'Merchant Reference', dataIndex: 'merchantReference', hideInSearch: true },\n    // ...如有更多字段请补充\n  ];\n\n  return (\n    <PageContainer>\n      <ProTable<API.PaymentOrderItem, API.PageParams>\n        actionRef={actionRef}\n        rowKey=\"paymentOrderId\"\n        search={{\n          labelWidth: 120,\n          optionRender: (searchConfig, formProps, dom) => [\n            ...dom,\n          ],\n        }}\n        form={{\n          syncToUrl: true,\n        }}\n        request={async (params) => {\n          console.log('params::>> ', params);\n          console.log('mid::>> ', mid);\n          return queryPaymentOrder({\n            ...params,\n            merchantId: mid,\n            currentPage: (params.current || 1) - 1,\n          });\n        }}\n        columns={[...searchColumns, ...resultColumns]}\n        options={false}\n      />\n    </PageContainer>\n  );\n};\n\nexport default TableList;\n",
+      "id": "4",
+      "absPath": "/payments",
+      "__content": "import { queryPaymentOrder } from '@/services/ant-design-pro/api';\nimport type { ActionType, ProColumns } from '@ant-design/pro-components';\nimport { PageContainer, ProTable } from '@ant-design/pro-components';\nimport { useModel } from '@umijs/max';\nimport React, { useRef } from 'react';\n\nconst TableList: React.FC = () => {\n  const actionRef = useRef<ActionType>();\n  const { initialState } = useModel('@@initialState');\n  const mid = initialState?.currentUser?.mid;\n\n  // 搜索区域的列（hideInTable: true）\n  const searchColumns: ProColumns<API.PaymentOrderItem>[] = [\n    {\n      title: 'Status',\n      dataIndex: 'status',\n      hideInTable: true,\n      valueType: 'select',\n      valueEnum: {\n        all: { text: 'All Status' },\n        succeeded: { text: 'Succeeded' },\n        failed: { text: 'Failed' },\n        pending: { text: 'Pending' },\n        refunded: { text: 'Refunded' }\n      },\n      initialValue: 'all',\n    },\n    {\n      title: 'Transaction Date',\n      dataIndex: 'date',\n      hideInTable: true,\n      valueType: 'date',\n    },\n    {\n      title: 'Order ID',\n      dataIndex: 'paymentOrderId',\n      hideInTable: true,\n      valueType: 'text',\n    },\n  ];\n\n  // 结果区域的所有字段（不带 hideInTable）\n  const resultColumns: ProColumns<API.PaymentOrderItem>[] = [\n    { title: 'Order ID', dataIndex: 'paymentOrderId', hideInSearch: true },\n    { title: 'Status', dataIndex: 'status', hideInSearch: true },\n    { title: 'Payment Amount', dataIndex: 'paymentAmount', hideInSearch: true },\n    { title: 'Transaction Time', dataIndex: 'transactionTime', hideInSearch: true },\n    { title: 'Customer Email', dataIndex: 'customerEmail', hideInSearch: true },\n    { title: 'Fee', dataIndex: 'fee', hideInSearch: true },\n    { title: 'Refuned Amount', dataIndex: 'refunedAmount', hideInSearch: true },\n    { title: 'Merchant Reference', dataIndex: 'merchantReference', hideInSearch: true },\n  ];\n\n  return (\n    <PageContainer>\n      <ProTable<API.PaymentOrderItem, API.PageParams>\n        actionRef={actionRef}\n        rowKey=\"paymentOrderId\"\n        search={{\n          labelWidth: 120,\n          optionRender: (searchConfig, formProps, dom) => [\n            ...dom,\n          ],\n        }}\n        form={{\n          syncToUrl: true,\n        }}\n        request={async (params) => {\n          console.log('params::>> ', params);\n          console.log('mid::>> ', mid);\n          return queryPaymentOrder({\n            ...params,\n            merchantId: mid,\n            currentPage: (params.current || 1) - 1,\n          });\n        }}\n        columns={[...searchColumns, ...resultColumns]}\n        options={false}\n      />\n    </PageContainer>\n  );\n};\n\nexport default TableList;\n",
       "__isJSFile": true,
       "__absFile": "/Users/danny.she/react/stripe_payment_merchant_portal/src/pages/TableList/index.tsx"
     },
+    "5": {
+      "path": "/settlements",
+      "name": "settlements",
+      "icon": "transaction",
+      "file": "@/pages/Settlements.tsx",
+      "parentId": "ant-design-pro-layout",
+      "id": "5",
+      "absPath": "/settlements",
+      "__content": "import { PageContainer, ProTable } from '@ant-design/pro-components';\nimport type { ProColumns, ProFormInstance } from '@ant-design/pro-components';\nimport { useIntl } from '@umijs/max';\nimport React, { useRef } from 'react';\n\ntype SettlementRecord = {\n  id: string;\n  period: string;\n  settleDate: string;\n  succeededCount: number;\n  succeededAmount: number;\n  fee: number;\n  refundedAmount: number;\n  disputeAmount: number;\n  adjustmentAmount: number;\n  reserveBalance: number;\n  netAmount: number;\n};\n\nconst SettlementsPage: React.FC = () => {\n  const intl = useIntl();\n  const formRef = useRef<ProFormInstance>();\n\n  const columns: ProColumns<SettlementRecord>[] = [\n    // Search-only fields\n    {\n      title: intl.formatMessage({ id: 'pages.common.from' }),\n      dataIndex: 'from',\n      valueType: 'date',\n      hideInTable: true,\n    },\n    {\n      title: intl.formatMessage({ id: 'pages.common.to' }),\n      dataIndex: 'to',\n      valueType: 'date',\n      hideInTable: true,\n    },\n    // Table fields\n    { title: intl.formatMessage({ id: 'pages.settlements.period' }), dataIndex: 'period', hideInSearch: true },\n    { title: intl.formatMessage({ id: 'pages.settlements.settleDate' }), dataIndex: 'settleDate', hideInSearch: true },\n    { title: intl.formatMessage({ id: 'pages.settlements.succeededCount' }), dataIndex: 'succeededCount', hideInSearch: true },\n    { title: intl.formatMessage({ id: 'pages.settlements.succeededAmount' }), dataIndex: 'succeededAmount', hideInSearch: true },\n    { title: intl.formatMessage({ id: 'pages.settlements.fee' }), dataIndex: 'fee', hideInSearch: true },\n    { title: intl.formatMessage({ id: 'pages.settlements.refundedAmount' }), dataIndex: 'refundedAmount', hideInSearch: true },\n    { title: intl.formatMessage({ id: 'pages.settlements.disputeAmount' }), dataIndex: 'disputeAmount', hideInSearch: true },\n    { title: intl.formatMessage({ id: 'pages.settlements.adjustmentAmount' }), dataIndex: 'adjustmentAmount', hideInSearch: true },\n    { title: intl.formatMessage({ id: 'pages.settlements.reserveBalance' }), dataIndex: 'reserveBalance', hideInSearch: true },\n    { title: intl.formatMessage({ id: 'pages.settlements.netAmount' }), dataIndex: 'netAmount', hideInSearch: true },\n    {\n      title: intl.formatMessage({ id: 'pages.common.actions' }),\n      valueType: 'option',\n      render: () => [<a key=\"view\">View</a>],\n    },\n  ];\n\n  return (\n    <PageContainer>\n      <ProTable<SettlementRecord>\n        rowKey=\"id\"\n        formRef={formRef}\n        search={{ \n          labelWidth: 'auto', \n          defaultCollapsed: false,\n          span: 8,\n          layout: 'horizontal'\n        }}\n        columns={columns}\n        request={async () => {\n          return {\n            data: [],\n            success: true,\n            total: 0,\n          };\n        }}\n        pagination={{ pageSize: 10 }}\n      />\n    </PageContainer>\n  );\n};\n\nexport default SettlementsPage;\n\n",
+      "__isJSFile": true,
+      "__absFile": "/Users/danny.she/react/stripe_payment_merchant_portal/src/pages/Settlements.tsx"
+    },
+    "6": {
+      "path": "/balances",
+      "name": "balances",
+      "icon": "wallet",
+      "file": "@/pages/Balances.tsx",
+      "parentId": "ant-design-pro-layout",
+      "id": "6",
+      "absPath": "/balances",
+      "__content": "import { PageContainer, ProTable } from '@ant-design/pro-components';\nimport type { ProColumns } from '@ant-design/pro-components';\nimport { Tabs } from 'antd';\nimport React from 'react';\nimport { useIntl } from '@umijs/max';\n\ntype BalanceRow = {\n  currency: string;\n  available: number;\n  pending: number;\n  reserve: number;\n};\n\ntype WithdrawalRow = {\n  id: string;\n  createdAt: string;\n  status: string;\n  withdrawalAmount: number;\n  fee: number;\n  receiver: string;\n  receivedAmount: number;\n  txid: string;\n  network: string;\n  address: string;\n  remark?: string;\n};\n\nconst BalancesPage: React.FC = () => {\n  const intl = useIntl();\n\n  const balanceColumns: ProColumns<BalanceRow>[] = [\n    { title: intl.formatMessage({ id: 'pages.balances.currency' }), dataIndex: 'currency' },\n    { title: intl.formatMessage({ id: 'pages.balances.available' }), dataIndex: 'available' },\n    { title: intl.formatMessage({ id: 'pages.balances.pending' }), dataIndex: 'pending' },\n    { title: intl.formatMessage({ id: 'pages.balances.reserve' }), dataIndex: 'reserve' },\n    { title: intl.formatMessage({ id: 'pages.common.actions' }), valueType: 'option', render: () => [<a key=\"withdraw\">Withdraw</a>] },\n  ];\n\n  const balanceData: BalanceRow[] = [\n    { currency: 'HKD', available: 0, pending: 0, reserve: 0 },\n    { currency: 'EUR', available: 0, pending: 0, reserve: 0 },\n    { currency: 'KRW', available: 0, pending: 0, reserve: 0 },\n    { currency: 'CNY', available: 0, pending: 0, reserve: 0 },\n    { currency: 'USD', available: 0, pending: 0, reserve: 0 },\n  ];\n\n  const withdrawalColumns: ProColumns<WithdrawalRow>[] = [\n    { title: intl.formatMessage({ id: 'pages.withdrawals.createdAt' }), dataIndex: 'createdAt' },\n    { title: intl.formatMessage({ id: 'pages.withdrawals.status' }), dataIndex: 'status' },\n    { title: intl.formatMessage({ id: 'pages.withdrawals.withdrawalAmount' }), dataIndex: 'withdrawalAmount' },\n    { title: intl.formatMessage({ id: 'pages.withdrawals.fee' }), dataIndex: 'fee' },\n    { title: intl.formatMessage({ id: 'pages.withdrawals.receiver' }), dataIndex: 'receiver' },\n    { title: intl.formatMessage({ id: 'pages.withdrawals.receivedAmount' }), dataIndex: 'receivedAmount' },\n    { title: intl.formatMessage({ id: 'pages.withdrawals.txid' }), dataIndex: 'txid' },\n    { title: intl.formatMessage({ id: 'pages.withdrawals.network' }), dataIndex: 'network' },\n    { title: intl.formatMessage({ id: 'pages.withdrawals.address' }), dataIndex: 'address' },\n    { title: intl.formatMessage({ id: 'pages.withdrawals.remark' }), dataIndex: 'remark' },\n  ];\n\n  return (\n    <PageContainer>\n      <Tabs\n        defaultActiveKey=\"balances\"\n        items={[\n          {\n            key: 'balances',\n            label: intl.formatMessage({ id: 'pages.balances.tab.balances' }),\n            children: (\n              <ProTable<BalanceRow>\n                rowKey={(r) => r.currency}\n                search={false}\n                options={false}\n                columns={balanceColumns}\n                dataSource={balanceData}\n                pagination={{ pageSize: 10 }}\n              />\n            ),\n          },\n          {\n            key: 'withdrawals',\n            label: intl.formatMessage({ id: 'pages.balances.tab.withdrawals' }),\n            children: (\n              <ProTable<WithdrawalRow>\n                rowKey={(r) => r.id}\n                search={false}\n                options={false}\n                columns={withdrawalColumns}\n                request={async () => ({ data: [], success: true, total: 0 })}\n                pagination={{ pageSize: 10 }}\n              />\n            ),\n          },\n        ]}\n      />\n    </PageContainer>\n  );\n};\n\nexport default BalancesPage;\n\n",
+      "__isJSFile": true,
+      "__absFile": "/Users/danny.she/react/stripe_payment_merchant_portal/src/pages/Balances.tsx"
+    },
+    "7": {
+      "path": "/disputes",
+      "name": "disputes",
+      "icon": "warning",
+      "file": "@/pages/Disputes.tsx",
+      "parentId": "ant-design-pro-layout",
+      "id": "7",
+      "absPath": "/disputes",
+      "__content": "import { PageContainer, ProTable } from '@ant-design/pro-components';\nimport type { ProColumns, ProFormInstance } from '@ant-design/pro-components';\nimport { useIntl } from '@umijs/max';\nimport React, { useRef } from 'react';\n\ntype DisputeRecord = {\n  id: string;\n  paymentOrderId: string;\n  disputeId: string;\n  type: string;\n  initiationTime: string;\n  resolutionDeadline: string;\n  currency: string;\n  amount: number;\n  status: string;\n  reason: string;\n};\n\nconst DisputesPage: React.FC = () => {\n  const intl = useIntl();\n  const formRef = useRef<ProFormInstance>();\n\n  const columns: ProColumns<DisputeRecord>[] = [\n    // Search-only fields\n    { title: intl.formatMessage({ id: 'pages.common.from' }), dataIndex: 'from', valueType: 'date', hideInTable: true },\n    { title: intl.formatMessage({ id: 'pages.common.to' }), dataIndex: 'to', valueType: 'date', hideInTable: true },\n    { title: intl.formatMessage({ id: 'pages.disputes.disputeId' }), dataIndex: 'disputeId', hideInTable: true },\n    { title: intl.formatMessage({ id: 'pages.disputes.type' }), dataIndex: 'type', valueType: 'select', hideInTable: true, valueEnum: {} },\n    // Table fields\n    { title: intl.formatMessage({ id: 'pages.disputes.paymentOrderId' }), dataIndex: 'paymentOrderId' },\n    { title: intl.formatMessage({ id: 'pages.disputes.disputeId' }), dataIndex: 'disputeId', hideInSearch: true },\n    { title: intl.formatMessage({ id: 'pages.disputes.type' }), dataIndex: 'type', hideInSearch: true },\n    { title: intl.formatMessage({ id: 'pages.disputes.initiationTime' }), dataIndex: 'initiationTime', hideInSearch: true },\n    { title: intl.formatMessage({ id: 'pages.disputes.resolutionDeadline' }), dataIndex: 'resolutionDeadline', hideInSearch: true },\n    { title: intl.formatMessage({ id: 'pages.disputes.currency' }), dataIndex: 'currency', hideInSearch: true },\n    { title: intl.formatMessage({ id: 'pages.disputes.amount' }), dataIndex: 'amount', hideInSearch: true },\n    { title: intl.formatMessage({ id: 'pages.disputes.status' }), dataIndex: 'status', hideInSearch: true },\n    { title: intl.formatMessage({ id: 'pages.disputes.reason' }), dataIndex: 'reason', hideInSearch: true },\n    {\n      title: intl.formatMessage({ id: 'pages.common.actions' }),\n      valueType: 'option',\n      render: () => [<a key=\"view\">View</a>],\n    },\n  ];\n\n  return (\n    <PageContainer>\n      <ProTable<DisputeRecord>\n        rowKey=\"id\"\n        formRef={formRef}\n        search={{ labelWidth: 'auto', defaultCollapsed: false }}\n        columns={columns}\n        request={async () => {\n          return {\n            data: [],\n            success: true,\n            total: 0,\n          };\n        }}\n        pagination={{ pageSize: 10 }}\n      />\n    </PageContainer>\n  );\n};\n\nexport default DisputesPage;\n\n",
+      "__isJSFile": true,
+      "__absFile": "/Users/danny.she/react/stripe_payment_merchant_portal/src/pages/Disputes.tsx"
+    },
     "8": {
+      "path": "/message",
+      "name": "message",
+      "icon": "bell",
+      "file": "@/pages/Message.tsx",
+      "parentId": "ant-design-pro-layout",
+      "id": "8",
+      "absPath": "/message",
+      "__content": "import { PageContainer, ProCard } from '@ant-design/pro-components';\nimport { useIntl } from '@umijs/max';\nimport { Empty, Tabs } from 'antd';\nimport React from 'react';\n\nconst MessagePage: React.FC = () => {\n  const intl = useIntl();\n\n  const items = [\n    {\n      key: 'new',\n      label: intl.formatMessage({ id: 'pages.message.new' }),\n      children: (\n        <ProCard bordered>\n          <Empty\n            image={Empty.PRESENTED_IMAGE_SIMPLE}\n            description={intl.formatMessage({ id: 'pages.message.empty' })}\n          />\n        </ProCard>\n      ),\n    },\n    {\n      key: 'history',\n      label: intl.formatMessage({ id: 'pages.message.history' }),\n      children: (\n        <ProCard bordered>\n          <Empty\n            image={Empty.PRESENTED_IMAGE_SIMPLE}\n            description={intl.formatMessage({ id: 'pages.message.empty' })}\n          />\n        </ProCard>\n      ),\n    },\n  ];\n\n  return (\n    <PageContainer header={{ title: intl.formatMessage({ id: 'menu.message' }) }}>\n      <Tabs defaultActiveKey=\"new\" items={items} />\n    </PageContainer>\n  );\n};\n\nexport default MessagePage;\n\n",
+      "__isJSFile": true,
+      "__absFile": "/Users/danny.she/react/stripe_payment_merchant_portal/src/pages/Message.tsx"
+    },
+    "9": {
+      "path": "/developer",
+      "name": "developer",
+      "hideInMenu": true,
+      "file": "@/pages/Developer/index.tsx",
+      "parentId": "ant-design-pro-layout",
+      "id": "9",
+      "absPath": "/developer",
+      "__content": "import React, { useState } from 'react';\nimport { Tabs, Card, Input, Button, Table, Tag, Space, Typography, Tooltip, message } from 'antd';\nimport { EyeOutlined, EyeInvisibleOutlined, CopyOutlined, CheckOutlined, EditOutlined, DeleteOutlined } from '@ant-design/icons';\nimport { PageContainer } from '@ant-design/pro-components';\nimport { useIntl } from '@umijs/max';\n\nconst { TabPane } = Tabs;\nconst { Text } = Typography;\n\nconst Developer: React.FC = () => {\n  const intl = useIntl();\n  const [showKey, setShowKey] = useState(false);\n  const [copied, setCopied] = useState(false);\n  \n  // Mock API Key\n  const apiKey = 'sk_test_51NXwGbCRgJgDVbVnwXWLGzPciPDCnkgGBhY7dkjfhsdkjfh';\n  \n  // Mock webhooks data\n  const webhooksData = [\n    {\n      key: '1',\n      url: 'https://example.com/webhook1',\n      secret: 'whsec_1234567890abcdef',\n      description: 'Payment webhook',\n      status: 'active',\n    },\n    {\n      key: '2',\n      url: 'https://example.com/webhook2',\n      secret: 'whsec_abcdef1234567890',\n      description: 'Refund webhook',\n      status: 'inactive',\n    },\n  ];\n  \n  const webhooksColumns = [\n    {\n      title: intl.formatMessage({ id: 'pages.developer.url', defaultMessage: 'URL' }),\n      dataIndex: 'url',\n      key: 'url',\n    },\n    {\n      title: intl.formatMessage({ id: 'pages.developer.secret', defaultMessage: 'Secret' }),\n      dataIndex: 'secret',\n      key: 'secret',\n      render: (text: string) => (\n        <Text style={{ fontFamily: 'monospace' }}>\n          {text.substring(0, 6)}...{text.substring(text.length - 4)}\n        </Text>\n      ),\n    },\n    {\n      title: intl.formatMessage({ id: 'pages.developer.description', defaultMessage: 'Description' }),\n      dataIndex: 'description',\n      key: 'description',\n    },\n    {\n      title: intl.formatMessage({ id: 'pages.developer.status', defaultMessage: 'Status' }),\n      dataIndex: 'status',\n      key: 'status',\n      render: (status: string) => (\n        <Tag color={status === 'active' ? 'green' : 'red'}>\n          {status.toUpperCase()}\n        </Tag>\n      ),\n    },\n    {\n      title: intl.formatMessage({ id: 'pages.developer.actions', defaultMessage: 'Actions' }),\n      key: 'actions',\n      render: (_: any, record: any) => (\n        <Space size=\"middle\">\n          <Button type=\"text\" icon={<EditOutlined />} />\n          <Button type=\"text\" icon={<DeleteOutlined />} />\n        </Space>\n      ),\n    },\n  ];\n  \n  // Handle copy API key\n  const handleCopyApiKey = () => {\n    navigator.clipboard.writeText(apiKey);\n    setCopied(true);\n    message.success(intl.formatMessage({ id: 'pages.developer.copied', defaultMessage: 'API Key copied to clipboard' }));\n    setTimeout(() => setCopied(false), 3000);\n  };\n  \n  // Toggle API key visibility\n  const toggleKeyVisibility = () => {\n    setShowKey(!showKey);\n  };\n  \n  return (\n    <PageContainer title={intl.formatMessage({ id: 'pages.developer.title', defaultMessage: '开发者' })}>\n      <Card>\n        <Tabs defaultActiveKey=\"1\">\n          <TabPane tab={intl.formatMessage({ id: 'pages.developer.apiKeys', defaultMessage: 'API Keys' })} key=\"1\">\n            <Card>\n              <Space direction=\"vertical\" size=\"large\" style={{ width: '100%' }}>\n                <div>\n                  <Text strong>{intl.formatMessage({ id: 'pages.developer.secretKey', defaultMessage: 'Secret key' })}</Text>\n                  <div style={{ display: 'flex', alignItems: 'center', marginTop: 8 }}>\n                    <Input.Password \n                      value={showKey ? apiKey : '•'.repeat(20)} \n                      readOnly \n                      visibilityToggle={false}\n                      style={{ fontFamily: 'monospace' }}\n                    />\n                    <Tooltip title={showKey ? intl.formatMessage({ id: 'pages.developer.hide', defaultMessage: 'Hide' }) : intl.formatMessage({ id: 'pages.developer.show', defaultMessage: 'Show' })}>\n                      <Button \n                        icon={showKey ? <EyeInvisibleOutlined /> : <EyeOutlined />} \n                        onClick={toggleKeyVisibility}\n                        style={{ marginLeft: 8 }}\n                      />\n                    </Tooltip>\n                    <Tooltip title={copied ? intl.formatMessage({ id: 'pages.developer.copied', defaultMessage: 'Copied!' }) : intl.formatMessage({ id: 'pages.developer.copy', defaultMessage: 'Copy' })}>\n                      <Button \n                        icon={copied ? <CheckOutlined /> : <CopyOutlined />} \n                        onClick={handleCopyApiKey}\n                        style={{ marginLeft: 8 }}\n                      />\n                    </Tooltip>\n                  </div>\n                </div>\n              </Space>\n            </Card>\n          </TabPane>\n          <TabPane tab={intl.formatMessage({ id: 'pages.developer.webhooks', defaultMessage: 'Webhooks' })} key=\"2\">\n            <Card>\n              <Table \n                columns={webhooksColumns} \n                dataSource={webhooksData} \n                pagination={false}\n              />\n            </Card>\n          </TabPane>\n        </Tabs>\n      </Card>\n    </PageContainer>\n  );\n};\n\nexport default Developer;",
+      "__isJSFile": true,
+      "__absFile": "/Users/danny.she/react/stripe_payment_merchant_portal/src/pages/Developer/index.tsx"
+    },
+    "10": {
+      "path": "/security",
+      "name": "security",
+      "hideInMenu": true,
+      "file": "@/pages/Security.tsx",
+      "parentId": "ant-design-pro-layout",
+      "id": "10",
+      "absPath": "/security",
+      "__content": "import React, { useState } from 'react';\nimport { Card, Form, Input, Button, Space, Typography, Modal, message } from 'antd';\nimport { EditOutlined, EyeOutlined, EyeInvisibleOutlined } from '@ant-design/icons';\nimport { useIntl } from '@umijs/max';\n\nconst { Title, Text } = Typography;\n\nconst Security: React.FC = () => {\n  const intl = useIntl();\n  const [showLoginPassword, setShowLoginPassword] = useState(false);\n  const [showTradePassword, setShowTradePassword] = useState(false);\n  const [emailModalVisible, setEmailModalVisible] = useState(false);\n  const [loginPasswordModalVisible, setLoginPasswordModalVisible] = useState(false);\n  const [tradePasswordModalVisible, setTradePasswordModalVisible] = useState(false);\n  const [form] = Form.useForm();\n  const [emailForm] = Form.useForm();\n  const [loginPasswordForm] = Form.useForm();\n  const [tradePasswordForm] = Form.useForm();\n\n  // Mock user data\n  const [userInfo, setUserInfo] = useState({\n    username: 'merchant_user_001',\n    email: 'merchant@example.com',\n    loginPassword: '••••••••',\n    tradePassword: '••••••••'\n  });\n\n  const handleEmailUpdate = () => {\n    emailForm.validateFields().then(values => {\n      setUserInfo({ ...userInfo, email: values.email });\n      setEmailModalVisible(false);\n      message.success(intl.formatMessage({ id: 'pages.security.emailUpdateSuccess', defaultMessage: '邮箱更新成功' }));\n      emailForm.resetFields();\n    });\n  };\n\n  const handleLoginPasswordUpdate = () => {\n    loginPasswordForm.validateFields().then(values => {\n      if (values.newPassword !== values.confirmPassword) {\n        message.error(intl.formatMessage({ id: 'pages.security.passwordMismatch', defaultMessage: '两次输入的密码不一致' }));\n        return;\n      }\n      setLoginPasswordModalVisible(false);\n      message.success(intl.formatMessage({ id: 'pages.security.passwordUpdateSuccess', defaultMessage: '登录密码更新成功' }));\n      loginPasswordForm.resetFields();\n    });\n  };\n\n  const handleTradePasswordUpdate = () => {\n    tradePasswordForm.validateFields().then(values => {\n      if (values.newPassword !== values.confirmPassword) {\n        message.error(intl.formatMessage({ id: 'pages.security.passwordMismatch', defaultMessage: '两次输入的密码不一致' }));\n        return;\n      }\n      setTradePasswordModalVisible(false);\n      message.success(intl.formatMessage({ id: 'pages.security.tradePasswordUpdateSuccess', defaultMessage: '交易密码更新成功' }));\n      tradePasswordForm.resetFields();\n    });\n  };\n\n  return (\n    <div style={{ padding: '24px' }}>\n      <Card>\n        <Title level={2}>{intl.formatMessage({ id: 'pages.security.title', defaultMessage: '安全设置' })}</Title>\n        \n        <Form form={form} layout=\"vertical\" style={{ maxWidth: 600 }}>\n          {/* 账户名 */}\n          <Form.Item label={intl.formatMessage({ id: 'pages.security.accountName', defaultMessage: '账户名' })}>\n            <Space style={{ width: '100%', justifyContent: 'space-between' }}>\n              <Input value={userInfo.username} readOnly style={{ flex: 1 }} />\n              <Text type=\"secondary\">{intl.formatMessage({ id: 'pages.security.readonly', defaultMessage: '只读' })}</Text>\n            </Space>\n          </Form.Item>\n\n          {/* 邮箱 */}\n          <Form.Item label={intl.formatMessage({ id: 'pages.security.email', defaultMessage: '邮箱' })}>\n            <Space style={{ width: '100%', justifyContent: 'space-between' }}>\n              <Input value={userInfo.email} readOnly style={{ flex: 1 }} />\n              <Button \n                type=\"primary\" \n                icon={<EditOutlined />}\n                onClick={() => {\n                  emailForm.setFieldsValue({ email: userInfo.email });\n                  setEmailModalVisible(true);\n                }}\n              >\n                {intl.formatMessage({ id: 'pages.security.modify', defaultMessage: '修改' })}\n              </Button>\n            </Space>\n          </Form.Item>\n\n          {/* 登录密码 */}\n          <Form.Item label={intl.formatMessage({ id: 'pages.security.loginPassword', defaultMessage: '登录密码' })}>\n            <Space style={{ width: '100%', justifyContent: 'space-between' }}>\n              <Input.Password \n                value={userInfo.loginPassword} \n                readOnly \n                style={{ flex: 1 }}\n                visibilityToggle={{\n                  visible: showLoginPassword,\n                  onVisibleChange: setShowLoginPassword,\n                }}\n              />\n              <Button \n                type=\"primary\" \n                icon={<EditOutlined />}\n                onClick={() => setLoginPasswordModalVisible(true)}\n              >\n                {intl.formatMessage({ id: 'pages.security.modify', defaultMessage: '修改' })}\n              </Button>\n            </Space>\n          </Form.Item>\n\n          {/* 交易密码 */}\n          <Form.Item label={intl.formatMessage({ id: 'pages.security.transactionPassword', defaultMessage: '交易密码' })}>\n            <Space style={{ width: '100%', justifyContent: 'space-between' }}>\n              <Input.Password \n                value={userInfo.tradePassword} \n                readOnly \n                style={{ flex: 1 }}\n                visibilityToggle={{\n                  visible: showTradePassword,\n                  onVisibleChange: setShowTradePassword,\n                }}\n              />\n              <Button \n                type=\"primary\" \n                icon={<EditOutlined />}\n                onClick={() => setTradePasswordModalVisible(true)}\n              >\n                {intl.formatMessage({ id: 'pages.security.modify', defaultMessage: '修改' })}\n              </Button>\n            </Space>\n          </Form.Item>\n        </Form>\n      </Card>\n\n      {/* 修改邮箱弹窗 */}\n      <Modal\n        title={intl.formatMessage({ id: 'pages.security.modifyEmail', defaultMessage: '修改邮箱' })}\n        open={emailModalVisible}\n        onOk={handleEmailUpdate}\n        onCancel={() => {\n          setEmailModalVisible(false);\n          emailForm.resetFields();\n        }}\n      >\n        <Form form={emailForm} layout=\"vertical\">\n          <Form.Item\n            label={intl.formatMessage({ id: 'pages.security.newEmail', defaultMessage: '新邮箱' })}\n            name=\"email\"\n            rules={[\n              { required: true, message: intl.formatMessage({ id: 'pages.security.pleaseEnterEmail', defaultMessage: '请输入邮箱' }) },\n              { type: 'email', message: intl.formatMessage({ id: 'pages.security.pleaseEnterValidEmail', defaultMessage: '请输入有效的邮箱地址' }) }\n            ]}\n          >\n            <Input placeholder={intl.formatMessage({ id: 'pages.security.pleaseEnterNewEmail', defaultMessage: '请输入新邮箱' })} />\n          </Form.Item>\n        </Form>\n      </Modal>\n\n      {/* 修改登录密码弹窗 */}\n      <Modal\n        title={intl.formatMessage({ id: 'pages.security.modifyLoginPassword', defaultMessage: '修改登录密码' })}\n        open={loginPasswordModalVisible}\n        onOk={handleLoginPasswordUpdate}\n        onCancel={() => {\n          setLoginPasswordModalVisible(false);\n          loginPasswordForm.resetFields();\n        }}\n      >\n        <Form form={loginPasswordForm} layout=\"vertical\">\n          <Form.Item\n            label={intl.formatMessage({ id: 'pages.security.currentPassword', defaultMessage: '当前密码' })}\n            name=\"currentPassword\"\n            rules={[{ required: true, message: intl.formatMessage({ id: 'pages.security.pleaseEnterCurrentPassword', defaultMessage: '请输入当前密码' }) }]}\n          >\n            <Input.Password placeholder={intl.formatMessage({ id: 'pages.security.pleaseEnterCurrentPassword', defaultMessage: '请输入当前密码' })} />\n          </Form.Item>\n          <Form.Item\n            label={intl.formatMessage({ id: 'pages.security.newPassword', defaultMessage: '新密码' })}\n            name=\"newPassword\"\n            rules={[\n              { required: true, message: intl.formatMessage({ id: 'pages.security.pleaseEnterNewPassword', defaultMessage: '请输入新密码' }) },\n              { min: 6, message: intl.formatMessage({ id: 'pages.security.passwordMinLength', defaultMessage: '密码至少6位' }) }\n            ]}\n          >\n            <Input.Password placeholder={intl.formatMessage({ id: 'pages.security.pleaseEnterNewPassword', defaultMessage: '请输入新密码' })} />\n          </Form.Item>\n          <Form.Item\n            label={intl.formatMessage({ id: 'pages.security.confirmNewPassword', defaultMessage: '确认新密码' })}\n            name=\"confirmPassword\"\n            rules={[{ required: true, message: intl.formatMessage({ id: 'pages.security.pleaseConfirmNewPassword', defaultMessage: '请确认新密码' }) }]}\n          >\n            <Input.Password placeholder={intl.formatMessage({ id: 'pages.security.pleaseEnterNewPasswordAgain', defaultMessage: '请再次输入新密码' })} />\n          </Form.Item>\n        </Form>\n      </Modal>\n\n      {/* 修改交易密码弹窗 */}\n      <Modal\n        title={intl.formatMessage({ id: 'pages.security.modifyTransactionPassword', defaultMessage: '修改交易密码' })}\n        open={tradePasswordModalVisible}\n        onOk={handleTradePasswordUpdate}\n        onCancel={() => {\n          setTradePasswordModalVisible(false);\n          tradePasswordForm.resetFields();\n        }}\n      >\n        <Form form={tradePasswordForm} layout=\"vertical\">\n          <Form.Item\n            label={intl.formatMessage({ id: 'pages.security.currentTransactionPassword', defaultMessage: '当前交易密码' })}\n            name=\"currentPassword\"\n            rules={[{ required: true, message: intl.formatMessage({ id: 'pages.security.pleaseEnterCurrentTransactionPassword', defaultMessage: '请输入当前交易密码' }) }]}\n          >\n            <Input.Password placeholder={intl.formatMessage({ id: 'pages.security.pleaseEnterCurrentTransactionPassword', defaultMessage: '请输入当前交易密码' })} />\n          </Form.Item>\n          <Form.Item\n            label={intl.formatMessage({ id: 'pages.security.newTransactionPassword', defaultMessage: '新交易密码' })}\n            name=\"newPassword\"\n            rules={[\n              { required: true, message: intl.formatMessage({ id: 'pages.security.pleaseEnterNewTransactionPassword', defaultMessage: '请输入新交易密码' }) },\n              { min: 6, message: intl.formatMessage({ id: 'pages.security.passwordMinLength', defaultMessage: '密码至少6位' }) }\n            ]}\n          >\n            <Input.Password placeholder={intl.formatMessage({ id: 'pages.security.pleaseEnterNewTransactionPassword', defaultMessage: '请输入新交易密码' })} />\n          </Form.Item>\n          <Form.Item\n            label={intl.formatMessage({ id: 'pages.security.confirmNewTransactionPassword', defaultMessage: '确认新交易密码' })}\n            name=\"confirmPassword\"\n            rules={[{ required: true, message: intl.formatMessage({ id: 'pages.security.pleaseConfirmNewTransactionPassword', defaultMessage: '请确认新交易密码' }) }]}\n          >\n            <Input.Password placeholder={intl.formatMessage({ id: 'pages.security.pleaseEnterNewTransactionPasswordAgain', defaultMessage: '请再次输入新交易密码' })} />\n          </Form.Item>\n        </Form>\n      </Modal>\n    </div>\n  );\n};\n\nexport default Security;",
+      "__isJSFile": true,
+      "__absFile": "/Users/danny.she/react/stripe_payment_merchant_portal/src/pages/Security.tsx"
+    },
+    "11": {
+      "path": "/setting",
+      "name": "setting",
+      "hideInMenu": true,
+      "file": "@/pages/Setting.tsx",
+      "parentId": "ant-design-pro-layout",
+      "id": "11",
+      "absPath": "/setting",
+      "__content": "import React, { useState } from 'react';\nimport { Card, Form, Input, Button, Upload, Avatar, Space, Typography, message } from 'antd';\nimport { UploadOutlined, UserOutlined, EditOutlined, SaveOutlined } from '@ant-design/icons';\nimport { useIntl } from '@umijs/max';\nimport type { UploadProps } from 'antd';\n\nconst { Title, Text } = Typography;\n\nconst Setting: React.FC = () => {\n  const intl = useIntl();\n  const [form] = Form.useForm();\n  const [editingMerchantName, setEditingMerchantName] = useState(false);\n  const [avatarUrl, setAvatarUrl] = useState<string>('https://gw.alipayobjects.com/zos/rmsportal/eeHMaZBwmTvLdIwMfBpg.png');\n  const [merchantName, setMerchantName] = useState('示例商户');\n  const [tempMerchantName, setTempMerchantName] = useState(merchantName);\n\n  // 头像上传配置\n  const uploadProps: UploadProps = {\n    name: 'avatar',\n    listType: 'picture',\n    showUploadList: false,\n    beforeUpload: (file) => {\n      const isJpgOrPng = file.type === 'image/jpeg' || file.type === 'image/png';\n      if (!isJpgOrPng) {\n        message.error(intl.formatMessage({ id: 'pages.setting.uploadFormatError', defaultMessage: '只能上传 JPG/PNG 格式的图片!' }));\n        return false;\n      }\n      const isLt2M = file.size / 1024 / 1024 < 2;\n      if (!isLt2M) {\n        message.error(intl.formatMessage({ id: 'pages.setting.uploadSizeError', defaultMessage: '图片大小不能超过 2MB!' }));\n        return false;\n      }\n      \n      // 创建预览URL\n      const reader = new FileReader();\n      reader.onload = (e) => {\n        if (e.target?.result) {\n          setAvatarUrl(e.target.result as string);\n          message.success(intl.formatMessage({ id: 'pages.setting.uploadSuccess', defaultMessage: '头像上传成功!' }));\n        }\n      };\n      reader.readAsDataURL(file);\n      \n      return false; // 阻止自动上传\n    },\n  };\n\n  // 保存商户名\n  const handleSaveMerchantName = () => {\n    if (tempMerchantName.trim() === '') {\n      message.error(intl.formatMessage({ id: 'pages.setting.merchantNameRequired', defaultMessage: '商户名不能为空' }));\n      return;\n    }\n    setMerchantName(tempMerchantName);\n    setEditingMerchantName(false);\n    message.success(intl.formatMessage({ id: 'pages.setting.merchantNameUpdateSuccess', defaultMessage: '商户名更新成功' }));\n  };\n\n  // 取消编辑商户名\n  const handleCancelEdit = () => {\n    setTempMerchantName(merchantName);\n    setEditingMerchantName(false);\n  };\n\n  return (\n    <div style={{ padding: '24px' }}>\n      <Card>\n        <Title level={2}>{intl.formatMessage({ id: 'pages.setting.title', defaultMessage: '设置' })}</Title>\n        \n        <Form form={form} layout=\"vertical\" style={{ maxWidth: 600 }}>\n          {/* 头像设置 */}\n          <Form.Item label={intl.formatMessage({ id: 'pages.setting.avatar', defaultMessage: '头像' })}>\n            <Space direction=\"vertical\" align=\"center\">\n              <Avatar \n                size={120} \n                src={avatarUrl} \n                icon={<UserOutlined />}\n                style={{ marginBottom: 16 }}\n              />\n              <Upload {...uploadProps}>\n                <Button icon={<UploadOutlined />}>{intl.formatMessage({ id: 'pages.setting.uploadAvatar', defaultMessage: '上传头像' })}</Button>\n              </Upload>\n              <Text type=\"secondary\" style={{ fontSize: '12px' }}>\n                {intl.formatMessage({ id: 'pages.setting.uploadTip', defaultMessage: '支持 JPG、PNG 格式，文件大小不超过 2MB' })}\n              </Text>\n            </Space>\n          </Form.Item>\n\n          {/* 商户名设置 */}\n          <Form.Item label={intl.formatMessage({ id: 'pages.setting.merchantName', defaultMessage: '商户名' })}>\n            {editingMerchantName ? (\n              <Space style={{ width: '100%' }}>\n                <Input \n                  value={tempMerchantName}\n                  onChange={(e) => setTempMerchantName(e.target.value)}\n                  placeholder={intl.formatMessage({ id: 'pages.setting.merchantNamePlaceholder', defaultMessage: '请输入商户名' })}\n                  style={{ flex: 1 }}\n                  onPressEnter={handleSaveMerchantName}\n                />\n                <Button \n                  type=\"primary\" \n                  icon={<SaveOutlined />}\n                  onClick={handleSaveMerchantName}\n                >\n                  {intl.formatMessage({ id: 'pages.setting.save', defaultMessage: '保存' })}\n                </Button>\n                <Button onClick={handleCancelEdit}>\n                  {intl.formatMessage({ id: 'pages.setting.cancel', defaultMessage: '取消' })}\n                </Button>\n              </Space>\n            ) : (\n              <Space style={{ width: '100%', justifyContent: 'space-between' }}>\n                <Input value={merchantName} readOnly style={{ flex: 1 }} />\n                <Button \n                  type=\"primary\" \n                  icon={<EditOutlined />}\n                  onClick={() => {\n                    setTempMerchantName(merchantName);\n                    setEditingMerchantName(true);\n                  }}\n                >\n                  {intl.formatMessage({ id: 'pages.setting.edit', defaultMessage: '修改' })}\n                </Button>\n              </Space>\n            )}\n          </Form.Item>\n\n          {/* 其他设置项可以在这里添加 */}\n          <Form.Item>\n            <Space>\n              <Button type=\"primary\" size=\"large\">\n                {intl.formatMessage({ id: 'pages.setting.saveAll', defaultMessage: '保存所有设置' })}\n              </Button>\n              <Button size=\"large\">\n                {intl.formatMessage({ id: 'pages.setting.reset', defaultMessage: '重置' })}\n              </Button>\n            </Space>\n          </Form.Item>\n        </Form>\n      </Card>\n    </div>\n  );\n};\n\nexport default Setting;",
+      "__isJSFile": true,
+      "__absFile": "/Users/danny.she/react/stripe_payment_merchant_portal/src/pages/Setting.tsx"
+    },
+    "12": {
       "path": "/",
       "redirect": "/welcome",
       "parentId": "ant-design-pro-layout",
-      "id": "8",
+      "id": "12",
       "absPath": "/"
     },
-    "9": {
+    "13": {
       "path": "*",
       "layout": false,
       "file": "@/pages/404.tsx",
-      "id": "9",
+      "id": "13",
       "absPath": "/*",
       "__content": "import { history, useIntl } from '@umijs/max';\nimport { Button, Result } from 'antd';\nimport React from 'react';\n\nconst NoFoundPage: React.FC = () => (\n  <Result\n    status=\"404\"\n    title=\"404\"\n    subTitle={useIntl().formatMessage({ id: 'pages.404.subTitle' })}\n    extra={\n      <Button type=\"primary\" onClick={() => history.push('/')}>\n        {useIntl().formatMessage({ id: 'pages.404.buttonText' })}\n      </Button>\n    }\n  />\n);\n\nexport default NoFoundPage;\n",
       "__isJSFile": true,
