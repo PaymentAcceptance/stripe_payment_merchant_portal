@@ -7,9 +7,41 @@ import { history, Link } from '@umijs/max';
 import defaultSettings from '../config/defaultSettings';
 import { errorConfig } from './requestErrorConfig';
 import { currentUser as queryCurrentUser } from '@/services/ant-design-pro/api';
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 const isDev = process.env.NODE_ENV === 'development';
 const loginPath = '/user/login';
+
+// 自定义的 SettingDrawer 包装组件
+const HoverSettingDrawer = ({ children, ...props }: any) => {
+  const [isVisible, setIsVisible] = useState(false);
+
+  useEffect(() => {
+    const handleMouseMove = (event: MouseEvent) => {
+      const windowWidth = window.innerWidth;
+      const mouseX = event.clientX;
+      const distanceFromRight = windowWidth - mouseX;
+      
+      // 当鼠标距离右边小于等于 50px 时显示，否则隐藏
+      setIsVisible(distanceFromRight <= 50);
+    };
+
+    document.addEventListener('mousemove', handleMouseMove);
+    
+    return () => {
+      document.removeEventListener('mousemove', handleMouseMove);
+    };
+  }, []);
+
+  return (
+     <div style={{ 
+       opacity: isVisible ? 1 : 0, 
+       transition: 'opacity 0.3s ease-in-out',
+       pointerEvents: isVisible ? 'auto' : 'none'
+     }}>
+       {children}
+     </div>
+   );
+ };
 
 /**
  * @see  https://umijs.org/zh-CN/plugins/plugin-initial-state
@@ -109,17 +141,19 @@ export const layout: RunTimeLayoutConfig = ({ initialState, setInitialState }) =
         <>
           {children}
           {isDev && (
-            <SettingDrawer
-              disableUrlParams
-              enableDarkTheme
-              settings={initialState?.settings}
-              onSettingChange={(settings) => {
-                setInitialState((preInitialState) => ({
-                  ...preInitialState,
-                  settings,
-                }));
-              }}
-            />
+            <HoverSettingDrawer>
+              <SettingDrawer
+                disableUrlParams
+                enableDarkTheme
+                settings={initialState?.settings}
+                onSettingChange={(settings) => {
+                  setInitialState((preInitialState) => ({
+                    ...preInitialState,
+                    settings,
+                  }));
+                }}
+              />
+            </HoverSettingDrawer>
           )}
         </>
       );

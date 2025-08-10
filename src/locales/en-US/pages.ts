@@ -167,7 +167,7 @@ export default {
   'pages.security.passwordUpdateError': 'Failed to update password',
   'pages.security.tradePasswordUpdateSuccess': 'Transaction password updated successfully',
   // Setting
-  'pages.setting.title': 'Settings',
+  'pages.setting.title': 'Settings Center',
   'pages.setting.avatar': 'Avatar',
   'pages.setting.merchantName': 'Merchant Name',
   'pages.setting.uploadAvatar': 'Upload Avatar',

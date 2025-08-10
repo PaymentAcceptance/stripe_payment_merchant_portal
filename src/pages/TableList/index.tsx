@@ -21,6 +21,7 @@ const TableList: React.FC = () => {
         succeeded: { text: 'Succeeded' },
         failed: { text: 'Failed' },
         pending: { text: 'Pending' },
+        refunded: { text: 'Refunded' }
       },
       initialValue: 'all',
     },
@@ -46,8 +47,8 @@ const TableList: React.FC = () => {
     { title: 'Transaction Time', dataIndex: 'transactionTime', hideInSearch: true },
     { title: 'Customer Email', dataIndex: 'customerEmail', hideInSearch: true },
     { title: 'Fee', dataIndex: 'fee', hideInSearch: true },
+    { title: 'Refuned Amount', dataIndex: 'refunedAmount', hideInSearch: true },
     { title: 'Merchant Reference', dataIndex: 'merchantReference', hideInSearch: true },
-    // ...如有更多字段请补充
   ];
 
   return (
