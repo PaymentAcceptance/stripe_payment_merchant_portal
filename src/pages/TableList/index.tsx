@@ -2,6 +2,7 @@ import { queryPaymentOrder } from '@/services/ant-design-pro/api';
 import type { ActionType, ProColumns } from '@ant-design/pro-components';
 import { PageContainer, ProTable } from '@ant-design/pro-components';
 import { useModel } from '@umijs/max';
+import { Button, Space } from 'antd';
 import React, { useRef } from 'react';
 
 const TableList: React.FC = () => {
@@ -49,6 +50,26 @@ const TableList: React.FC = () => {
     { title: 'Fee', dataIndex: 'fee', hideInSearch: true },
     { title: 'Refuned Amount', dataIndex: 'refunedAmount', hideInSearch: true },
     { title: 'Merchant Reference', dataIndex: 'merchantReference', hideInSearch: true },
+    { 
+      title: 'Actions', 
+      dataIndex: 'actions', 
+      hideInSearch: true,
+      render: (_, record) => {
+        const isSucceeded = record.status?.toLowerCase() === 'succeeded';
+        return (
+          <Space>
+            <Button type="link" size="small">
+              View
+            </Button>
+            {isSucceeded && (
+              <Button type="link" size="small">
+                Refund
+              </Button>
+            )}
+          </Space>
+        );
+      }
+    },
   ];
 
   return (
