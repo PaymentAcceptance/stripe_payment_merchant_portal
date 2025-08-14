@@ -119,7 +119,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 5
+        "register": 4
       },
       "enableBy": "register",
       "type": "preset",
@@ -197,6 +197,11 @@
       "time": {
         "hooks": {
           "modifyRoutes": [
+            0,
+            0,
+            0,
+            0,
+            0,
             0
           ]
         },
@@ -214,13 +219,18 @@
       "time": {
         "hooks": {
           "modifyAppData": [
-            11
+            13
           ],
           "onGenerateFiles": [
-            2
+            2,
+            22,
+            9,
+            19,
+            11,
+            24
           ]
         },
-        "register": 13
+        "register": 17
       },
       "enableBy": "register",
       "type": "plugin",
@@ -234,10 +244,15 @@
       "time": {
         "hooks": {
           "addEntryCode": [
+            0,
+            0,
+            0,
+            0,
+            0,
             0
           ]
         },
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -251,13 +266,15 @@
       "time": {
         "hooks": {
           "onCheckConfig": [
-            0,
             0
           ],
           "onCheck": [
             0
           ],
           "onPrepareBuildSuccess": [
+            0,
+            0,
+            0,
             0,
             0,
             0,
@@ -306,10 +323,16 @@
             0,
             0,
             0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
             0
           ]
         },
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -353,7 +376,6 @@
       "time": {
         "hooks": {
           "modifyConfig": [
-            0,
             0
           ]
         },
@@ -1209,7 +1231,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1226,7 +1248,7 @@
             0
           ]
         },
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1243,7 +1265,7 @@
             10
           ]
         },
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1256,7 +1278,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 52
+        "register": 50
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1269,7 +1291,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 61
+        "register": 60
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1304,10 +1326,19 @@
           "modifyHTMLFavicon": [
             0,
             0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
             0
           ]
         },
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1321,13 +1352,23 @@
       "time": {
         "hooks": {
           "onGenerateFiles": [
+            0,
+            0,
+            0,
+            1,
+            0,
             1
           ],
           "addRuntimePlugin": [
+            0,
+            0,
+            0,
+            0,
+            0,
             0
           ]
         },
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1353,7 +1394,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 20
+        "register": 22
       },
       "type": "plugin",
       "path": "/Users/danny.she/react/stripe_payment_merchant_portal/node_modules/@umijs/preset-umi/dist/features/mock/mock.js",
@@ -1391,9 +1432,24 @@
       "time": {
         "hooks": {
           "onGenerateFiles": [
+            0,
+            0,
+            0,
+            0,
+            0,
             0
           ],
           "addEntryImports": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
             0,
             0
           ]
@@ -1425,13 +1481,27 @@
       "time": {
         "hooks": {
           "modifyConfig": [
-            1,
             0
           ],
           "onGenerateFiles": [
-            88
+            55,
+            25,
+            11,
+            18,
+            20,
+            20
           ],
           "addPolyfillImports": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
             0,
             0
           ]
@@ -1450,6 +1520,16 @@
         "hooks": {
           "addPolyfillImports": [
             0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
             0
           ]
         },
@@ -1467,7 +1547,12 @@
       "time": {
         "hooks": {
           "onGenerateFiles": [
-            80
+            79,
+            0,
+            0,
+            0,
+            0,
+            0
           ]
         },
         "register": 0
@@ -1483,7 +1568,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1497,6 +1582,11 @@
       "time": {
         "hooks": {
           "onGenerateFiles": [
+            0,
+            1,
+            0,
+            0,
+            0,
             0
           ],
           "addBeforeMiddlewares": [
@@ -1518,7 +1608,17 @@
         "hooks": {
           "onGenerateFiles": [
             10,
-            3
+            6,
+            7,
+            3,
+            7,
+            3,
+            9,
+            3,
+            6,
+            4,
+            8,
+            4
           ]
         },
         "register": 2
@@ -1559,7 +1659,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 2
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1573,10 +1673,15 @@
       "time": {
         "hooks": {
           "onGenerateFiles": [
-            267
+            263,
+            15,
+            9,
+            11,
+            9,
+            8
           ]
         },
-        "register": 2
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1632,7 +1737,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 2
+        "register": 3
       },
       "type": "plugin",
       "path": "/Users/danny.she/react/stripe_payment_merchant_portal/node_modules/@umijs/preset-umi/dist/features/apiRoute/apiRoute.js",
@@ -1644,7 +1749,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 14
+        "register": 12
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1658,10 +1763,15 @@
       "time": {
         "hooks": {
           "onGenerateFiles": [
-            3
+            2,
+            1,
+            0,
+            1,
+            1,
+            1
           ]
         },
-        "register": 0
+        "register": 1
       },
       "type": "plugin",
       "path": "/Users/danny.she/react/stripe_payment_merchant_portal/node_modules/@umijs/preset-umi/dist/features/test/test.js",
@@ -1781,6 +1891,15 @@
           "addHTMLHeadScripts": [
             0,
             0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
             0
           ]
         },
@@ -1810,10 +1929,10 @@
       "time": {
         "hooks": {
           "modifyUniBundler": [
-            341
+            322
           ]
         },
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1859,7 +1978,7 @@
             0
           ]
         },
-        "register": 24
+        "register": 23
       },
       "type": "plugin",
       "path": "/Users/danny.she/react/stripe_payment_merchant_portal/node_modules/@umijs/preset-umi/dist/commands/dev/dev.js",
@@ -1884,7 +2003,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1897,7 +2016,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1910,7 +2029,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1949,7 +2068,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -2027,7 +2146,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -2040,7 +2159,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -2105,7 +2224,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 12
+        "register": 13
       },
       "enableBy": "register",
       "type": "plugin",
@@ -2118,7 +2237,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 3
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -2131,7 +2250,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 2
       },
       "enableBy": "register",
       "type": "plugin",
@@ -2145,9 +2264,19 @@
       "time": {
         "hooks": {
           "addRuntimePlugin": [
+            0,
+            0,
+            0,
+            0,
+            0,
             0
           ],
           "onGenerateFiles": [
+            1,
+            0,
+            0,
+            1,
+            0,
             0
           ],
           "addTmpGenerateWatcherPaths": [
@@ -2169,7 +2298,7 @@
       },
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "type": "plugin",
       "path": "/Users/danny.she/react/stripe_payment_merchant_portal/node_modules/@umijs/plugins/dist/analytics.js",
@@ -2182,24 +2311,48 @@
       "time": {
         "hooks": {
           "modifyConfig": [
-            5,
-            0
+            3
           ],
           "modifyAppData": [
             0
           ],
           "addEntryImportsAhead": [
             0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
             0
           ],
           "addRuntimePlugin": [
+            0,
+            0,
+            0,
+            0,
+            0,
             0
           ],
           "addRuntimePluginKey": [
+            0,
+            0,
+            0,
+            0,
+            0,
             0
           ],
           "onGenerateFiles": [
-            2
+            2,
+            1,
+            0,
+            1,
+            1,
+            1
           ],
           "addExtraBabelPlugins": [
             0
@@ -2208,7 +2361,7 @@
             0
           ]
         },
-        "register": 2
+        "register": 3
       },
       "type": "plugin",
       "path": "/Users/danny.she/react/stripe_payment_merchant_portal/node_modules/@umijs/plugins/dist/antd.js",
@@ -2220,7 +2373,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 3
+        "register": 4
       },
       "enableBy": "config",
       "type": "plugin",
@@ -2234,19 +2387,39 @@
       "time": {
         "hooks": {
           "addRuntimePlugin": [
+            0,
+            0,
+            0,
+            0,
+            0,
             0
           ],
           "addRuntimePluginKey": [
+            0,
+            0,
+            0,
+            0,
+            0,
             0
           ],
           "onGenerateFiles": [
+            1,
+            1,
+            1,
+            0,
+            0,
             1
           ],
           "addExtraModels": [
+            0,
+            0,
+            0,
+            0,
+            0,
             0
           ]
         },
-        "register": 1
+        "register": 0
       },
       "enableBy": "config",
       "type": "plugin",
@@ -2262,26 +2435,45 @@
       "time": {
         "hooks": {
           "modifyConfig": [
-            0,
             0
           ],
           "addLayouts": [
+            0,
+            0,
+            0,
+            0,
+            0,
             0
           ],
           "modifyAppData": [
-            1
+            0
           ],
           "addRuntimePlugin": [
+            0,
+            0,
+            0,
+            0,
+            0,
             0
           ],
           "addRuntimePluginKey": [
+            0,
+            0,
+            0,
+            0,
+            0,
             0
           ],
           "onGenerateFiles": [
-            2
+            2,
+            2,
+            2,
+            2,
+            2,
+            1
           ]
         },
-        "register": 1
+        "register": 2
       },
       "enableBy": "config",
       "type": "plugin",
@@ -2296,22 +2488,47 @@
         "hooks": {
           "addEntryImportsAhead": [
             0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
             0
           ],
           "addRuntimePlugin": [
+            0,
+            0,
+            0,
+            0,
+            0,
             0
           ],
           "addRuntimePluginKey": [
+            0,
+            0,
+            0,
+            0,
+            0,
             0
           ],
           "onGenerateFiles": [
-            8
+            9,
+            4,
+            3,
+            4,
+            4,
+            4
           ],
           "addTmpGenerateWatcherPaths": [
-            2
+            1
           ]
         },
-        "register": 3
+        "register": 1
       },
       "enableBy": "config",
       "type": "plugin",
@@ -2324,7 +2541,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "config",
       "type": "plugin",
@@ -2338,10 +2555,20 @@
       "time": {
         "hooks": {
           "addRuntimePlugin": [
+            0,
+            0,
+            0,
+            0,
+            0,
             0
           ],
           "onGenerateFiles": [
-            10
+            10,
+            7,
+            6,
+            7,
+            6,
+            7
           ],
           "addTmpGenerateWatcherPaths": [
             0
@@ -2361,14 +2588,23 @@
       "time": {
         "hooks": {
           "modifyConfig": [
+            1
+          ],
+          "addEntryCodeAhead": [
+            0,
+            0,
+            0,
+            0,
             0,
             0
           ],
-          "addEntryCodeAhead": [
-            0
-          ],
           "onGenerateFiles": [
-            1
+            2,
+            0,
+            0,
+            0,
+            0,
+            0
           ]
         },
         "register": 0
@@ -2385,6 +2621,11 @@
       "time": {
         "hooks": {
           "addRuntimePluginKey": [
+            0,
+            0,
+            0,
+            0,
+            0,
             0
           ]
         },
@@ -2413,7 +2654,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "type": "plugin",
       "path": "/Users/danny.she/react/stripe_payment_merchant_portal/node_modules/@umijs/plugins/dist/qiankun/slave.js",
@@ -2425,7 +2666,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "config",
       "type": "plugin",
@@ -2439,13 +2680,23 @@
       "time": {
         "hooks": {
           "addRuntimePluginKey": [
+            0,
+            0,
+            0,
+            0,
+            0,
             0
           ],
           "onGenerateFiles": [
-            3
+            4,
+            1,
+            1,
+            1,
+            0,
+            1
           ]
         },
-        "register": 1
+        "register": 0
       },
       "enableBy": "config",
       "type": "plugin",
@@ -2484,7 +2735,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "config",
       "type": "plugin",
@@ -2498,7 +2749,6 @@
       "time": {
         "hooks": {
           "modifyConfig": [
-            0,
             0
           ]
         },
@@ -2519,7 +2769,7 @@
             0
           ]
         },
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -2536,7 +2786,7 @@
             0
           ]
         },
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -2550,11 +2800,10 @@
       "time": {
         "hooks": {
           "modifyConfig": [
-            0,
             0
           ]
         },
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -2567,7 +2816,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -2581,25 +2830,41 @@
       "time": {
         "hooks": {
           "modifyRoutes": [
+            0,
+            0,
+            0,
+            0,
+            0,
             0
           ],
           "onStart": [
             0
           ],
           "onGenerateFiles": [
-            1
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
           ],
           "addBeforeMiddlewares": [
             0
           ],
           "onDevCompileDone": [
-            18,
+            17,
+            5,
+            8,
+            6,
+            11,
+            5,
+            7,
             5,
             9,
             7
           ]
         },
-        "register": 123
+        "register": 121
       },
       "enableBy": "config",
       "type": "plugin",
@@ -2649,7 +2914,7 @@
       },
       "time": {
         "hooks": {},
-        "register": 32
+        "register": 41
       },
       "type": "plugin",
       "path": "/Users/danny.she/react/stripe_payment_merchant_portal/node_modules/@umijs/request-record/dist/cjs/index.js",
@@ -2772,7 +3037,7 @@
       "fixedHeader": false,
       "fixSiderbar": true,
       "colorWeak": false,
-      "title": "Merchant Center",
+      "title": "GoGoPay Merchant Center",
       "pwa": true,
       "logo": "./logo.png",
       "iconfontUrl": "",
@@ -3863,7 +4128,7 @@
       "fixedHeader": false,
       "fixSiderbar": true,
       "colorWeak": false,
-      "title": "Merchant Center",
+      "title": "GoGoPay Merchant Center",
       "pwa": true,
       "logo": "./logo.png",
       "iconfontUrl": "",
@@ -3927,7 +4192,7 @@
       "parentId": "1",
       "id": "2",
       "absPath": "/user/login",
-      "__content": "import { Footer } from '@/components';\nimport { login } from '@/services/ant-design-pro/api';\nimport { getFakeCaptcha } from '@/services/ant-design-pro/login';\nimport {\n  AlipayCircleOutlined,\n  LockOutlined,\n  MobileOutlined,\n  TaobaoCircleOutlined,\n  UserOutlined,\n  WeiboCircleOutlined,\n} from '@ant-design/icons';\nimport {\n  LoginForm,\n  ProFormCaptcha,\n  ProFormCheckbox,\n  ProFormText,\n} from '@ant-design/pro-components';\nimport { FormattedMessage, history, SelectLang, useIntl, useModel, Helmet } from '@umijs/max';\nimport { Alert, message, Tabs } from 'antd';\nimport Settings from '../../../../config/defaultSettings';\nimport React, { useState } from 'react';\nimport { flushSync } from 'react-dom';\nimport { createStyles } from 'antd-style';\n\nconst useStyles = createStyles(({ token }) => {\n  return {\n    action: {\n      marginLeft: '8px',\n      color: 'rgba(0, 0, 0, 0.2)',\n      fontSize: '24px',\n      verticalAlign: 'middle',\n      cursor: 'pointer',\n      transition: 'color 0.3s',\n      '&:hover': {\n        color: token.colorPrimaryActive,\n      },\n    },\n    lang: {\n      width: 42,\n      height: 42,\n      lineHeight: '42px',\n      position: 'fixed',\n      right: 16,\n      borderRadius: token.borderRadius,\n      ':hover': {\n        backgroundColor: token.colorBgTextHover,\n      },\n    },\n    container: {\n      display: 'flex',\n      flexDirection: 'column',\n      height: '100vh',\n      overflow: 'auto',\n      backgroundImage:\n        \"url('https://mdn.alipayobjects.com/yuyan_qk0oxh/afts/img/V-_oS6r-i7wAAAAAAAAAAAAAFl94AQBr')\",\n      backgroundSize: '100% 100%',\n    },\n  };\n});\n\nconst ActionIcons = () => {\n  const { styles } = useStyles();\n\n  return (\n    <>\n      <AlipayCircleOutlined key=\"AlipayCircleOutlined\" className={styles.action} />\n      <TaobaoCircleOutlined key=\"TaobaoCircleOutlined\" className={styles.action} />\n      <WeiboCircleOutlined key=\"WeiboCircleOutlined\" className={styles.action} />\n    </>\n  );\n};\n\nconst Lang = () => {\n  const { styles } = useStyles();\n\n  return (\n    <div className={styles.lang} data-lang>\n      <SelectLang />\n    </div>\n  );\n};\n\nconst LoginMessage: React.FC<{\n  content: string;\n}> = ({ content }) => {\n  return (\n    <Alert\n      style={{\n        marginBottom: 24,\n      }}\n      message={content}\n      type=\"error\"\n      showIcon\n    />\n  );\n};\n\nconst Login: React.FC = () => {\n  const [userLoginState, setUserLoginState] = useState<API.LoginResult>({});\n  const [type, setType] = useState<string>('account');\n  const { initialState, setInitialState } = useModel('@@initialState');\n  const { styles } = useStyles();\n  const intl = useIntl();\n\n  const fetchUserInfo = async (mid: string) => {\n    const userInfo = await initialState?.fetchUserInfo?.(mid);\n    //console.log('userInfo:：>>', userInfo);\n    if (userInfo) {\n      flushSync(() => {\n        setInitialState((s) => ({\n          ...s,\n          currentUser: userInfo,\n        }));\n      });\n    }\n  };\n\n  const handleSubmit = async (values: API.LoginParams) => {\n    try {\n      // 登录\n      const msg = await login({ ...values, type });\n      if (msg.status === 'ok') {\n        console.log('token::>> ', msg.token);\n        // 存储 token 到 cookie，过期时间为 1 天\n        const expires = new Date(Date.now() + 24 * 60 * 60 * 1000).toUTCString();\n        document.cookie = `authorization=${msg.token}; expires=${expires}; path=/`;\n        const defaultLoginSuccessMessage = intl.formatMessage({\n          id: 'pages.login.success',\n          defaultMessage: '登录成功！',\n        });\n        //set username in LoginParams to initialState\n        message.success(defaultLoginSuccessMessage);\n\n        const mid = values.username;\n        await fetchUserInfo(mid);\n        \n        const urlParams = new URL(window.location.href).searchParams;\n        history.push(urlParams.get('redirect') || '/');\n        return;\n      }\n      //console.log(msg);\n      // 如果失败去设置用户错误信息\n      setUserLoginState(msg);\n    } catch (error) {\n      const defaultLoginFailureMessage = intl.formatMessage({\n        id: 'pages.login.failure',\n        defaultMessage: '登录失败，请重试！',\n      });\n      console.log(error);\n      message.error(defaultLoginFailureMessage);\n    }\n  };\n  const { status, type: loginType } = userLoginState;\n\n  return (\n    <div className={styles.container}>\n      <Helmet>\n        <title>\n          {intl.formatMessage({\n            id: 'menu.login',\n            defaultMessage: '登录页',\n          })}\n          - {Settings.title}\n        </title>\n      </Helmet>\n      <Lang />\n      <div\n        style={{\n          flex: '1',\n          padding: '32px 0',\n        }}\n      >\n        <LoginForm\n          contentStyle={{\n            minWidth: 280,\n            maxWidth: '75vw',\n          }}\n          title={\n            <span style={{ \n              height: '48px', \n              fontSize: '30px', \n              fontWeight: 'bold',\n            }}>\n              {intl.formatMessage({\n                id: 'pages.login.loginTitle',\n                defaultMessage: 'Merchant Login',\n              })}\n            </span>\n          }\n          initialValues={{\n            autoLogin: true,\n          }}\n          actions={[]}\n          onFinish={async (values) => {\n            await handleSubmit(values as API.LoginParams);\n          }}\n        >\n          <Tabs\n            activeKey={type}\n            onChange={setType}\n            centered\n            items={[\n            ]}\n          />\n\n          {status === 'error' && loginType === 'account' && (\n            <LoginMessage\n              content={intl.formatMessage({\n                id: 'pages.login.accountLogin.errorMessage',\n                defaultMessage: 'Invalid Merchant ID or Password',\n              })}\n            />\n          )}\n          {type === 'account' && (\n            <>\n              <ProFormText\n                name=\"username\"\n                fieldProps={{\n                  size: 'large',\n                  prefix: <UserOutlined />,\n                }}\n                placeholder={intl.formatMessage({\n                  id: 'pages.login.username.placeholder',\n                  defaultMessage: 'Merchant ID',\n                })}\n                rules={[\n                  {\n                    required: true,\n                    message: (\n                      <FormattedMessage\n                        id=\"pages.login.username.required\"\n                        defaultMessage=\"Merchant ID is required\"\n                      />\n                    ),\n                  },\n                ]}\n              />\n              <ProFormText.Password\n                name=\"password\"\n                fieldProps={{\n                  size: 'large',\n                  prefix: <LockOutlined />,\n                }}\n                placeholder={intl.formatMessage({\n                  id: 'pages.login.password.placeholder',\n                  defaultMessage: 'Password',\n                })}\n                rules={[\n                  {\n                    required: true,\n                    message: (\n                      <FormattedMessage\n                        id=\"pages.login.password.required\"\n                        defaultMessage=\"Password is required\"\n                      />\n                    ),\n                  },\n                ]}\n              />\n            </>\n          )}\n\n          {status === 'error' && loginType === 'mobile' && <LoginMessage content=\"验证码错误\" />}\n          {type === 'mobile' && (\n            <>\n              <ProFormText\n                fieldProps={{\n                  size: 'large',\n                  prefix: <MobileOutlined />,\n                }}\n                name=\"mobile\"\n                placeholder={intl.formatMessage({\n                  id: 'pages.login.phoneNumber.placeholder',\n                  defaultMessage: '手机号',\n                })}\n                rules={[\n                  {\n                    required: true,\n                    message: (\n                      <FormattedMessage\n                        id=\"pages.login.phoneNumber.required\"\n                        defaultMessage=\"请输入手机号！\"\n                      />\n                    ),\n                  },\n                  {\n                    pattern: /^1\\d{10}$/,\n                    message: (\n                      <FormattedMessage\n                        id=\"pages.login.phoneNumber.invalid\"\n                        defaultMessage=\"手机号格式错误！\"\n                      />\n                    ),\n                  },\n                ]}\n              />\n              <ProFormCaptcha\n                fieldProps={{\n                  size: 'large',\n                  prefix: <LockOutlined />,\n                }}\n                captchaProps={{\n                  size: 'large',\n                }}\n                placeholder={intl.formatMessage({\n                  id: 'pages.login.captcha.placeholder',\n                  defaultMessage: '请输入验证码',\n                })}\n                captchaTextRender={(timing, count) => {\n                  if (timing) {\n                    return `${count} ${intl.formatMessage({\n                      id: 'pages.getCaptchaSecondText',\n                      defaultMessage: '获取验证码',\n                    })}`;\n                  }\n                  return intl.formatMessage({\n                    id: 'pages.login.phoneLogin.getVerificationCode',\n                    defaultMessage: '获取验证码',\n                  });\n                }}\n                name=\"captcha\"\n                rules={[\n                  {\n                    required: true,\n                    message: (\n                      <FormattedMessage\n                        id=\"pages.login.captcha.required\"\n                        defaultMessage=\"请输入验证码！\"\n                      />\n                    ),\n                  },\n                ]}\n                onGetCaptcha={async (phone) => {\n                  const result = await getFakeCaptcha({\n                    phone,\n                  });\n                  if (!result) {\n                    return;\n                  }\n                  message.success('获取验证码成功！验证码为：1234');\n                }}\n              />\n            </>\n          )}\n          <div\n            style={{\n              marginBottom: 24,\n            }}\n          >\n            <ProFormCheckbox noStyle name=\"autoLogin\">\n              <FormattedMessage id=\"pages.login.rememberMe\" defaultMessage=\"自动登录\" />\n            </ProFormCheckbox>\n            <a\n              style={{\n                float: 'right',\n              }}\n            >\n            </a>\n          </div>\n        </LoginForm>\n      </div>\n      <Footer />\n    </div>\n  );\n};\n\nexport default Login;\n",
+      "__content": "import { Footer } from '@/components';\nimport { login } from '@/services/ant-design-pro/api';\nimport { getFakeCaptcha } from '@/services/ant-design-pro/login';\nimport {\n  AlipayCircleOutlined,\n  LockOutlined,\n  MobileOutlined,\n  TaobaoCircleOutlined,\n  UserOutlined,\n  WeiboCircleOutlined,\n  ThunderboltOutlined,\n  SafetyOutlined,\n  GlobalOutlined,\n} from '@ant-design/icons';\nimport {\n  LoginForm,\n  ProFormCaptcha,\n  ProFormCheckbox,\n  ProFormText,\n} from '@ant-design/pro-components';\nimport { FormattedMessage, history, SelectLang, useIntl, useModel, Helmet } from '@umijs/max';\nimport { Alert, message, Tabs, Button } from 'antd';\nimport Settings from '../../../../config/defaultSettings';\nimport React, { useState } from 'react';\nimport { flushSync } from 'react-dom';\nimport { createStyles } from 'antd-style';\n\nconst useStyles = createStyles(({ token }) => ({\n  action: {\n    marginLeft: '8px',\n    color: 'rgba(0, 0, 0, 0.2)',\n    fontSize: '24px',\n    verticalAlign: 'middle',\n    cursor: 'pointer',\n    transition: 'color 0.3s',\n    '&:hover': {\n      color: token.colorPrimaryActive,\n    },\n  },\n  lang: {\n    width: 42,\n    height: 42,\n    lineHeight: '42px',\n    position: 'fixed',\n    right: 16,\n    top: 16,\n    borderRadius: token.borderRadius,\n    zIndex: 1000,\n    ':hover': {\n      backgroundColor: token.colorBgTextHover,\n    },\n  },\n  container: {\n    display: 'flex',\n    height: '100vh',\n    overflow: 'hidden',\n    background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',\n  },\n  leftPanel: {\n    flex: 1,\n    display: 'flex',\n    alignItems: 'center',\n    justifyContent: 'center',\n    padding: '40px',\n    color: 'white',\n    position: 'relative',\n    '&::before': {\n      content: '\"\"',\n      position: 'absolute',\n      top: 0,\n      left: 0,\n      right: 0,\n      bottom: 0,\n      background: 'rgba(0, 0, 0, 0.1)',\n      backdropFilter: 'blur(10px)',\n    },\n    '@media (max-width: 768px)': {\n      display: 'none',\n    },\n  },\n  brandContainer: {\n    textAlign: 'center',\n    maxWidth: '500px',\n    width: '100%',\n    position: 'relative',\n    zIndex: 1,\n  },\n  rightPanel: {\n    flex: 1,\n    display: 'flex',\n    alignItems: 'center',\n    justifyContent: 'center',\n    background: 'rgba(255, 255, 255, 0.95)',\n    backdropFilter: 'blur(10px)',\n    padding: '40px',\n    '@media (max-width: 768px)': {\n      flex: 'none',\n      width: '100%',\n    },\n  },\n  loginContainer: {\n    width: '100%',\n    maxWidth: '600px',\n    padding: '40px',\n    background: 'white',\n    borderRadius: '20px',\n    boxShadow: '0 20px 40px rgba(0, 0, 0, 0.1)',\n  },\n}));\n\nconst ActionIcons = () => {\n  const { styles } = useStyles();\n\n  return (\n    <>\n      <AlipayCircleOutlined key=\"AlipayCircleOutlined\" className={styles.action} />\n      <TaobaoCircleOutlined key=\"TaobaoCircleOutlined\" className={styles.action} />\n      <WeiboCircleOutlined key=\"WeiboCircleOutlined\" className={styles.action} />\n    </>\n  );\n};\n\nconst Lang = () => {\n  const { styles } = useStyles();\n\n  return (\n    <div className={styles.lang} data-lang>\n      <SelectLang />\n    </div>\n  );\n};\n\nconst LoginMessage: React.FC<{\n  content: string;\n}> = ({ content }) => {\n  return (\n    <Alert\n      style={{\n        marginBottom: 24,\n      }}\n      message={content}\n      type=\"error\"\n      showIcon\n    />\n  );\n};\n\nconst Login: React.FC = () => {\n  const [userLoginState, setUserLoginState] = useState<API.LoginResult>({});\n  const [type, setType] = useState<string>('account');\n  const { initialState, setInitialState } = useModel('@@initialState');\n  const { styles } = useStyles();\n  const intl = useIntl();\n\n  const fetchUserInfo = async (mid: string) => {\n    const userInfo = await initialState?.fetchUserInfo?.(mid);\n    //console.log('userInfo:：>>', userInfo);\n    if (userInfo) {\n      flushSync(() => {\n        setInitialState((s) => ({\n          ...s,\n          currentUser: userInfo?.data,\n        }));\n      });\n    }\n  };\n\n  const handleSubmit = async (values: API.LoginParams) => {\n    try {\n      // 登录\n      const msg = await login({ ...values, type });\n      if (msg.status === 'ok') {\n        console.log('token::>> ', msg.token);\n        // 存储 token 到 cookie，过期时间为 1 天\n        const expires = new Date(Date.now() + 24 * 60 * 60 * 1000).toUTCString();\n        document.cookie = `authorization=${msg.token}; expires=${expires}; path=/`;\n        const defaultLoginSuccessMessage = intl.formatMessage({\n          id: 'pages.login.success',\n          defaultMessage: '登录成功！',\n        });\n        //set username in LoginParams to initialState\n        message.success(defaultLoginSuccessMessage);\n\n        const mid = values.username;\n        if (mid) {\n          await fetchUserInfo(mid);\n        }\n        \n        const urlParams = new URL(window.location.href).searchParams;\n        history.push(urlParams.get('redirect') || '/');\n        return;\n      }\n      //console.log(msg);\n      // 如果失败去设置用户错误信息\n      setUserLoginState(msg);\n    } catch (error) {\n      const defaultLoginFailureMessage = intl.formatMessage({\n        id: 'pages.login.failure',\n        defaultMessage: '登录失败，请重试！',\n      });\n      console.log(error);\n      message.error(defaultLoginFailureMessage);\n    }\n  };\n  const { status, type: loginType } = userLoginState;\n\n  return (\n    <div className={styles.container}>\n      <Helmet>\n        <title>\n          {intl.formatMessage({\n            id: 'menu.login',\n            defaultMessage: '登录页',\n          })}\n          - {Settings.title}\n        </title>\n      </Helmet>\n      <Lang />\n      \n      {/* 左侧品牌展示区域 */}\n      <div className={styles.leftPanel}>\n        <div className={styles.brandContainer}>\n          <div style={{ \n            width: '120px', \n            height: '120px', \n            margin: '0 auto 30px',\n            background: 'rgba(255, 255, 255, 0.2)',\n            borderRadius: '12px',\n            display: 'flex',\n            alignItems: 'center',\n            justifyContent: 'center',\n            overflow: 'hidden'\n          }}>\n            <img \n              src=\"/logo.png\"\n              alt=\"GoGoPay Logo\"\n              style={{\n                width: '100%',\n                height: '100%',\n                objectFit: 'contain'\n              }}\n            />\n          </div>\n          \n          <h1 style={{\n            fontSize: '2.5rem',\n            fontWeight: 700,\n            marginBottom: '15px',\n            color: 'white'\n          }}>\n            GoGoPay\n          </h1>\n          \n          <p style={{\n            fontSize: '1.2rem',\n            color: 'rgba(255, 255, 255, 0.8)',\n            marginBottom: '40px',\n            lineHeight: 1.6\n          }}>\n            Secure, Fast & Reliable Payment Gateway\n          </p>\n          \n          <div style={{\n            display: 'grid',\n            gridTemplateColumns: 'repeat(3, 1fr)',\n            gap: '20px',\n            marginBottom: '40px'\n          }}>\n            <div style={{\n              padding: '20px 15px',\n              background: 'rgba(255, 255, 255, 0.1)',\n              borderRadius: '12px',\n              textAlign: 'center',\n              backdropFilter: 'blur(10px)'\n            }}>\n              <SafetyOutlined style={{ fontSize: '2rem', marginBottom: '10px', display: 'block' }} />\n              <div style={{ fontSize: '0.9rem', fontWeight: 500 }}>Secure</div>\n            </div>\n            \n            <div style={{\n              padding: '20px 15px',\n              background: 'rgba(255, 255, 255, 0.1)',\n              borderRadius: '12px',\n              textAlign: 'center',\n              backdropFilter: 'blur(10px)'\n            }}>\n              <ThunderboltOutlined style={{ fontSize: '2rem', marginBottom: '10px', display: 'block' }} />\n              <div style={{ fontSize: '0.9rem', fontWeight: 500 }}>Fast</div>\n            </div>\n            \n            <div style={{\n              padding: '20px 15px',\n              background: 'rgba(255, 255, 255, 0.1)',\n              borderRadius: '12px',\n              textAlign: 'center',\n              backdropFilter: 'blur(10px)'\n            }}>\n              <GlobalOutlined style={{ fontSize: '2rem', marginBottom: '10px', display: 'block' }} />\n              <div style={{ fontSize: '0.9rem', fontWeight: 500 }}>Global</div>\n            </div>\n          </div>\n          \n          <div style={{\n            display: 'flex',\n            gap: '15px',\n            justifyContent: 'center',\n            flexWrap: 'wrap'\n          }}>\n          </div>\n        </div>\n      </div>\n      \n      {/* 右侧登录表单区域 */}\n      <div className={styles.rightPanel}>\n        <div className={styles.loginContainer}>\n          <LoginForm\n            contentStyle={{\n              padding: 0,\n            }}\n            title={\n              <span style={{ \n                fontSize: '28px', \n                fontWeight: 'bold',\n                color: '#333',\n                display: 'block',\n                textAlign: 'center',\n                marginBottom: '30px'\n              }}>\n                {intl.formatMessage({\n                  id: 'pages.login.loginTitle',\n                  defaultMessage: 'Merchant Login',\n                })}\n              </span>\n            }\n            initialValues={{\n              autoLogin: true,\n            }}\n            actions={[]}\n            onFinish={async (values) => {\n              await handleSubmit(values as API.LoginParams);\n            }}\n          >\n            {status === 'error' && loginType === 'account' && (\n              <LoginMessage\n                content={intl.formatMessage({\n                  id: 'pages.login.accountLogin.errorMessage',\n                  defaultMessage: 'Invalid Merchant ID or Password',\n                })}\n              />\n            )}\n            \n            <ProFormText\n              name=\"username\"\n              fieldProps={{\n                size: 'large',\n                prefix: <UserOutlined />,\n              }}\n              placeholder={intl.formatMessage({\n                id: 'pages.login.username.placeholder',\n                defaultMessage: 'Merchant ID',\n              })}\n              rules={[\n                {\n                  required: true,\n                  message: (\n                    <FormattedMessage\n                      id=\"pages.login.username.required\"\n                      defaultMessage=\"Merchant ID is required\"\n                    />\n                  ),\n                },\n              ]}\n            />\n            \n            <ProFormText.Password\n              name=\"password\"\n              fieldProps={{\n                size: 'large',\n                prefix: <LockOutlined />,\n              }}\n              placeholder={intl.formatMessage({\n                id: 'pages.login.password.placeholder',\n                defaultMessage: 'Password',\n              })}\n              rules={[\n                {\n                  required: true,\n                  message: (\n                    <FormattedMessage\n                      id=\"pages.login.password.required\"\n                      defaultMessage=\"Password is required\"\n                    />\n                  ),\n                },\n              ]}\n            />\n            \n            <div style={{ marginBottom: 24 }}>\n              <ProFormCheckbox noStyle name=\"autoLogin\">\n                <FormattedMessage id=\"pages.login.rememberMe\" defaultMessage=\"自动登录\" />\n              </ProFormCheckbox>\n            </div>\n          </LoginForm>\n        </div>\n      </div>\n    </div>\n  );\n};\n\nexport default Login;\n",
       "__isJSFile": true,
       "__absFile": "/Users/danny.she/react/stripe_payment_merchant_portal/src/pages/User/Login/index.tsx"
     },
@@ -4129,7 +4394,7 @@
   "faviconFiles": [],
   "port": 8000,
   "host": "0.0.0.0",
-  "ip": "10.0.0.18",
+  "ip": "192.168.1.103",
   "antd": {
     "pkgPath": "/Users/danny.she/react/stripe_payment_merchant_portal/node_modules/antd",
     "version": "5.26.3"
@@ -6118,24 +6383,13 @@
             ],
             "format": "esm"
           },
-          "src/services/ant-design-pro/login.ts": {
-            "bytes": 417,
-            "imports": [
-              {
-                "path": "src/.umi/exports.ts",
-                "kind": "import-statement",
-                "original": "@umijs/max"
-              }
-            ],
-            "format": "esm"
-          },
           "src/pages/User/Login/index.tsx": {
-            "bytes": 10822,
+            "bytes": 13016,
             "imports": [
               {
-                "path": "src/components/index.ts",
+                "path": "@/components",
                 "kind": "import-statement",
-                "original": "@/components"
+                "external": true
               },
               {
                 "path": "src/services/ant-design-pro/api.ts",
@@ -6143,9 +6397,9 @@
                 "original": "@/services/ant-design-pro/api"
               },
               {
-                "path": "src/services/ant-design-pro/login.ts",
+                "path": "@/services/ant-design-pro/login",
                 "kind": "import-statement",
-                "original": "@/services/ant-design-pro/login"
+                "external": true
               },
               {
                 "path": "@ant-design/icons",
@@ -6514,7 +6768,7 @@
             "format": "esm"
           },
           "src/.umi/plugin-layout/Layout.tsx": {
-            "bytes": 6024,
+            "bytes": 6032,
             "imports": [
               {
                 "path": "src/.umi/exports.ts",
@@ -8837,17 +9091,14 @@
               "src/.umi/core/EmptyRoute.tsx": {
                 "bytesInOutput": 378
               },
-              "src/services/ant-design-pro/login.ts": {
-                "bytesInOutput": 291
-              },
               "src/pages/User/Login/index.tsx": {
-                "bytesInOutput": 12011
+                "bytesInOutput": 13550
               },
               "src/pages/Welcome.tsx": {
                 "bytesInOutput": 18389
               },
               "src/pages/TableList/index.tsx": {
-                "bytesInOutput": 3405
+                "bytesInOutput": 3418
               },
               "src/pages/Settlements.tsx": {
                 "bytesInOutput": 3039
@@ -8883,7 +9134,7 @@
                 "bytesInOutput": 2939
               },
               "src/.umi/plugin-layout/Layout.tsx": {
-                "bytesInOutput": 6196
+                "bytesInOutput": 6204
               },
               "src/.umi/plugin-openapi/openapi.tsx": {
                 "bytesInOutput": 1325
@@ -8910,7 +9161,7 @@
                 "bytesInOutput": 1873
               }
             },
-            "bytes": 246834
+            "bytes": 248062
           }
         }
       }
@@ -15249,7 +15500,7 @@
           "type": "ImportDeclaration"
         },
         {
-          "end": 318,
+          "end": 377,
           "importKind": "value",
           "source": "@ant-design/icons",
           "specifiers": [
@@ -15282,13 +15533,28 @@
               "imported": "WeiboCircleOutlined",
               "local": "WeiboCircleOutlined",
               "type": "ImportSpecifier"
+            },
+            {
+              "imported": "ThunderboltOutlined",
+              "local": "ThunderboltOutlined",
+              "type": "ImportSpecifier"
+            },
+            {
+              "imported": "SafetyOutlined",
+              "local": "SafetyOutlined",
+              "type": "ImportSpecifier"
+            },
+            {
+              "imported": "GlobalOutlined",
+              "local": "GlobalOutlined",
+              "type": "ImportSpecifier"
             }
           ],
           "start": 161,
           "type": "ImportDeclaration"
         },
         {
-          "end": 429,
+          "end": 488,
           "importKind": "value",
           "source": "@ant-design/pro-components",
           "specifiers": [
@@ -15313,11 +15579,11 @@
               "type": "ImportSpecifier"
             }
           ],
-          "start": 319,
+          "start": 378,
           "type": "ImportDeclaration"
         },
         {
-          "end": 524,
+          "end": 583,
           "importKind": "value",
           "source": "@umijs/max",
           "specifiers": [
@@ -15352,11 +15618,11 @@
               "type": "ImportSpecifier"
             }
           ],
-          "start": 430,
+          "start": 489,
           "type": "ImportDeclaration"
         },
         {
-          "end": 569,
+          "end": 636,
           "importKind": "value",
           "source": "antd",
           "specifiers": [
@@ -15374,13 +15640,18 @@
               "imported": "Tabs",
               "local": "Tabs",
               "type": "ImportSpecifier"
+            },
+            {
+              "imported": "Button",
+              "local": "Button",
+              "type": "ImportSpecifier"
             }
           ],
-          "start": 525,
+          "start": 584,
           "type": "ImportDeclaration"
         },
         {
-          "end": 628,
+          "end": 695,
           "importKind": "value",
           "source": "../../../../config/defaultSettings",
           "specifiers": [
@@ -15389,11 +15660,11 @@
               "type": "ImportDefaultSpecifier"
             }
           ],
-          "start": 570,
+          "start": 637,
           "type": "ImportDeclaration"
         },
         {
-          "end": 669,
+          "end": 736,
           "importKind": "value",
           "source": "react",
           "specifiers": [
@@ -15407,11 +15678,11 @@
               "type": "ImportSpecifier"
             }
           ],
-          "start": 629,
+          "start": 696,
           "type": "ImportDeclaration"
         },
         {
-          "end": 708,
+          "end": 775,
           "importKind": "value",
           "source": "react-dom",
           "specifiers": [
@@ -15421,11 +15692,11 @@
               "type": "ImportSpecifier"
             }
           ],
-          "start": 670,
+          "start": 737,
           "type": "ImportDeclaration"
         },
         {
-          "end": 751,
+          "end": 818,
           "importKind": "value",
           "source": "antd-style",
           "specifiers": [
@@ -15435,7 +15706,7 @@
               "type": "ImportSpecifier"
             }
           ],
-          "start": 709,
+          "start": 776,
           "type": "ImportDeclaration"
         }
       ],
@@ -15639,22 +15910,6 @@
         }
       ],
       "/Users/danny.she/react/stripe_payment_merchant_portal/src/services/ant-design-pro/api.ts": [
-        {
-          "end": 73,
-          "importKind": "value",
-          "source": "@umijs/max",
-          "specifiers": [
-            {
-              "imported": "request",
-              "local": "request",
-              "type": "ImportSpecifier"
-            }
-          ],
-          "start": 36,
-          "type": "ImportDeclaration"
-        }
-      ],
-      "/Users/danny.she/react/stripe_payment_merchant_portal/src/services/ant-design-pro/login.ts": [
         {
           "end": 73,
           "importKind": "value",
