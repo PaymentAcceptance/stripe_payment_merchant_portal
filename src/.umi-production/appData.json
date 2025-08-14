@@ -106,7 +106,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "preset",
@@ -119,7 +119,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 4
+        "register": 3
       },
       "enableBy": "register",
       "type": "preset",
@@ -132,7 +132,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 2
+        "register": 1
       },
       "enableBy": "register",
       "type": "preset",
@@ -166,7 +166,7 @@
             0
           ]
         },
-        "register": 2
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -180,10 +180,10 @@
       "time": {
         "hooks": {
           "onStart": [
-            0
+            1
           ]
         },
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -200,7 +200,7 @@
             0
           ]
         },
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -214,10 +214,10 @@
       "time": {
         "hooks": {
           "modifyAppData": [
-            12
+            14
           ]
         },
-        "register": 13
+        "register": 14
       },
       "enableBy": "register",
       "type": "plugin",
@@ -230,7 +230,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -247,10 +247,10 @@
             0
           ],
           "onCheck": [
-            0
+            1
           ]
         },
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -280,7 +280,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "config",
       "type": "plugin",
@@ -297,7 +297,7 @@
             0
           ]
         },
-        "register": 6
+        "register": 4
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1163,7 +1163,7 @@
       "time": {
         "hooks": {
           "onStart": [
-            1
+            0
           ]
         },
         "register": 1
@@ -1192,7 +1192,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 49
+        "register": 50
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1205,7 +1205,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 61
+        "register": 52
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1353,7 +1353,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1366,7 +1366,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1405,7 +1405,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 2
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1469,7 +1469,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 3
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1482,7 +1482,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 2
+        "register": 1
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1495,7 +1495,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1520,7 +1520,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 13
+        "register": 12
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1637,7 +1637,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 2
+        "register": 1
       },
       "type": "plugin",
       "path": "/Users/danny.she/react/stripe_payment_merchant_portal/node_modules/@umijs/preset-umi/dist/features/hmrGuardian/hmrGuardian.js",
@@ -1649,7 +1649,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "type": "plugin",
       "path": "/Users/danny.she/react/stripe_payment_merchant_portal/node_modules/@umijs/preset-umi/dist/features/routePreloadOnLoad/routePreloadOnLoad.js",
@@ -1674,7 +1674,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1687,7 +1687,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 2
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1700,7 +1700,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 20
+        "register": 19
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1713,7 +1713,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 24
+        "register": 19
       },
       "type": "plugin",
       "path": "/Users/danny.she/react/stripe_payment_merchant_portal/node_modules/@umijs/preset-umi/dist/commands/dev/dev.js",
@@ -1738,7 +1738,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1764,7 +1764,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1777,7 +1777,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1881,7 +1881,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1894,7 +1894,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1959,7 +1959,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 12
+        "register": 14
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1998,7 +1998,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 2
+        "register": 1
       },
       "enableBy": "config",
       "type": "plugin",
@@ -2013,7 +2013,7 @@
       },
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "type": "plugin",
       "path": "/Users/danny.she/react/stripe_payment_merchant_portal/node_modules/@umijs/plugins/dist/analytics.js",
@@ -2082,7 +2082,7 @@
             0
           ]
         },
-        "register": 2
+        "register": 1
       },
       "enableBy": "config",
       "type": "plugin",
@@ -2135,7 +2135,7 @@
       "time": {
         "hooks": {
           "modifyConfig": [
-            0
+            1
           ]
         },
         "register": 0
@@ -2227,7 +2227,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "config",
       "type": "plugin",
@@ -2240,7 +2240,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "config",
       "type": "plugin",
@@ -2288,7 +2288,7 @@
       "time": {
         "hooks": {
           "onCheckPkgJSON": [
-            0
+            1
           ]
         },
         "register": 1
@@ -2338,7 +2338,7 @@
             0
           ]
         },
-        "register": 116
+        "register": 112
       },
       "enableBy": "config",
       "type": "plugin",
@@ -2351,7 +2351,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 12
+        "register": 9
       },
       "enableBy": "config",
       "type": "plugin",
@@ -2388,7 +2388,7 @@
       },
       "time": {
         "hooks": {},
-        "register": 34
+        "register": 32
       },
       "type": "plugin",
       "path": "/Users/danny.she/react/stripe_payment_merchant_portal/node_modules/@umijs/request-record/dist/cjs/index.js",
@@ -3666,7 +3666,7 @@
       "parentId": "1",
       "id": "2",
       "absPath": "/user/login",
-      "__content": "import { Footer } from '@/components';\nimport { login } from '@/services/ant-design-pro/api';\nimport { getFakeCaptcha } from '@/services/ant-design-pro/login';\nimport {\n  AlipayCircleOutlined,\n  LockOutlined,\n  MobileOutlined,\n  TaobaoCircleOutlined,\n  UserOutlined,\n  WeiboCircleOutlined,\n} from '@ant-design/icons';\nimport {\n  LoginForm,\n  ProFormCaptcha,\n  ProFormCheckbox,\n  ProFormText,\n} from '@ant-design/pro-components';\nimport { FormattedMessage, history, SelectLang, useIntl, useModel, Helmet } from '@umijs/max';\nimport { Alert, message, Tabs } from 'antd';\nimport Settings from '../../../../config/defaultSettings';\nimport React, { useState } from 'react';\nimport { flushSync } from 'react-dom';\nimport { createStyles } from 'antd-style';\n\nconst useStyles = createStyles(({ token }) => {\n  return {\n    action: {\n      marginLeft: '8px',\n      color: 'rgba(0, 0, 0, 0.2)',\n      fontSize: '24px',\n      verticalAlign: 'middle',\n      cursor: 'pointer',\n      transition: 'color 0.3s',\n      '&:hover': {\n        color: token.colorPrimaryActive,\n      },\n    },\n    lang: {\n      width: 42,\n      height: 42,\n      lineHeight: '42px',\n      position: 'fixed',\n      right: 16,\n      borderRadius: token.borderRadius,\n      ':hover': {\n        backgroundColor: token.colorBgTextHover,\n      },\n    },\n    container: {\n      display: 'flex',\n      flexDirection: 'column',\n      height: '100vh',\n      overflow: 'auto',\n      backgroundImage:\n        \"url('https://mdn.alipayobjects.com/yuyan_qk0oxh/afts/img/V-_oS6r-i7wAAAAAAAAAAAAAFl94AQBr')\",\n      backgroundSize: '100% 100%',\n    },\n  };\n});\n\nconst ActionIcons = () => {\n  const { styles } = useStyles();\n\n  return (\n    <>\n      <AlipayCircleOutlined key=\"AlipayCircleOutlined\" className={styles.action} />\n      <TaobaoCircleOutlined key=\"TaobaoCircleOutlined\" className={styles.action} />\n      <WeiboCircleOutlined key=\"WeiboCircleOutlined\" className={styles.action} />\n    </>\n  );\n};\n\nconst Lang = () => {\n  const { styles } = useStyles();\n\n  return (\n    <div className={styles.lang} data-lang>\n      <SelectLang />\n    </div>\n  );\n};\n\nconst LoginMessage: React.FC<{\n  content: string;\n}> = ({ content }) => {\n  return (\n    <Alert\n      style={{\n        marginBottom: 24,\n      }}\n      message={content}\n      type=\"error\"\n      showIcon\n    />\n  );\n};\n\nconst Login: React.FC = () => {\n  const [userLoginState, setUserLoginState] = useState<API.LoginResult>({});\n  const [type, setType] = useState<string>('account');\n  const { initialState, setInitialState } = useModel('@@initialState');\n  const { styles } = useStyles();\n  const intl = useIntl();\n\n  const fetchUserInfo = async (mid: string) => {\n    const userInfo = await initialState?.fetchUserInfo?.(mid);\n    //console.log('userInfo:：>>', userInfo);\n    if (userInfo) {\n      flushSync(() => {\n        setInitialState((s) => ({\n          ...s,\n          currentUser: userInfo,\n        }));\n      });\n    }\n  };\n\n  const handleSubmit = async (values: API.LoginParams) => {\n    try {\n      // 登录\n      const msg = await login({ ...values, type });\n      if (msg.status === 'ok') {\n        console.log('token::>> ', msg.token);\n        // 存储 token 到 cookie，过期时间为 1 天\n        const expires = new Date(Date.now() + 24 * 60 * 60 * 1000).toUTCString();\n        document.cookie = `authorization=${msg.token}; expires=${expires}; path=/`;\n        const defaultLoginSuccessMessage = intl.formatMessage({\n          id: 'pages.login.success',\n          defaultMessage: '登录成功！',\n        });\n        //set username in LoginParams to initialState\n        message.success(defaultLoginSuccessMessage);\n\n        const mid = values.username;\n        await fetchUserInfo(mid);\n        \n        const urlParams = new URL(window.location.href).searchParams;\n        history.push(urlParams.get('redirect') || '/');\n        return;\n      }\n      //console.log(msg);\n      // 如果失败去设置用户错误信息\n      setUserLoginState(msg);\n    } catch (error) {\n      const defaultLoginFailureMessage = intl.formatMessage({\n        id: 'pages.login.failure',\n        defaultMessage: '登录失败，请重试！',\n      });\n      console.log(error);\n      message.error(defaultLoginFailureMessage);\n    }\n  };\n  const { status, type: loginType } = userLoginState;\n\n  return (\n    <div className={styles.container}>\n      <Helmet>\n        <title>\n          {intl.formatMessage({\n            id: 'menu.login',\n            defaultMessage: '登录页',\n          })}\n          - {Settings.title}\n        </title>\n      </Helmet>\n      <Lang />\n      <div\n        style={{\n          flex: '1',\n          padding: '32px 0',\n        }}\n      >\n        <LoginForm\n          contentStyle={{\n            minWidth: 280,\n            maxWidth: '75vw',\n          }}\n          title={\n            <span style={{ \n              height: '48px', \n              fontSize: '30px', \n              fontWeight: 'bold',\n            }}>\n              {intl.formatMessage({\n                id: 'pages.login.loginTitle',\n                defaultMessage: 'Merchant Login',\n              })}\n            </span>\n          }\n          initialValues={{\n            autoLogin: true,\n          }}\n          actions={[]}\n          onFinish={async (values) => {\n            await handleSubmit(values as API.LoginParams);\n          }}\n        >\n          <Tabs\n            activeKey={type}\n            onChange={setType}\n            centered\n            items={[\n            ]}\n          />\n\n          {status === 'error' && loginType === 'account' && (\n            <LoginMessage\n              content={intl.formatMessage({\n                id: 'pages.login.accountLogin.errorMessage',\n                defaultMessage: 'Invalid Merchant ID or Password',\n              })}\n            />\n          )}\n          {type === 'account' && (\n            <>\n              <ProFormText\n                name=\"username\"\n                fieldProps={{\n                  size: 'large',\n                  prefix: <UserOutlined />,\n                }}\n                placeholder={intl.formatMessage({\n                  id: 'pages.login.username.placeholder',\n                  defaultMessage: 'Merchant ID',\n                })}\n                rules={[\n                  {\n                    required: true,\n                    message: (\n                      <FormattedMessage\n                        id=\"pages.login.username.required\"\n                        defaultMessage=\"Merchant ID is required\"\n                      />\n                    ),\n                  },\n                ]}\n              />\n              <ProFormText.Password\n                name=\"password\"\n                fieldProps={{\n                  size: 'large',\n                  prefix: <LockOutlined />,\n                }}\n                placeholder={intl.formatMessage({\n                  id: 'pages.login.password.placeholder',\n                  defaultMessage: 'Password',\n                })}\n                rules={[\n                  {\n                    required: true,\n                    message: (\n                      <FormattedMessage\n                        id=\"pages.login.password.required\"\n                        defaultMessage=\"Password is required\"\n                      />\n                    ),\n                  },\n                ]}\n              />\n            </>\n          )}\n\n          {status === 'error' && loginType === 'mobile' && <LoginMessage content=\"验证码错误\" />}\n          {type === 'mobile' && (\n            <>\n              <ProFormText\n                fieldProps={{\n                  size: 'large',\n                  prefix: <MobileOutlined />,\n                }}\n                name=\"mobile\"\n                placeholder={intl.formatMessage({\n                  id: 'pages.login.phoneNumber.placeholder',\n                  defaultMessage: '手机号',\n                })}\n                rules={[\n                  {\n                    required: true,\n                    message: (\n                      <FormattedMessage\n                        id=\"pages.login.phoneNumber.required\"\n                        defaultMessage=\"请输入手机号！\"\n                      />\n                    ),\n                  },\n                  {\n                    pattern: /^1\\d{10}$/,\n                    message: (\n                      <FormattedMessage\n                        id=\"pages.login.phoneNumber.invalid\"\n                        defaultMessage=\"手机号格式错误！\"\n                      />\n                    ),\n                  },\n                ]}\n              />\n              <ProFormCaptcha\n                fieldProps={{\n                  size: 'large',\n                  prefix: <LockOutlined />,\n                }}\n                captchaProps={{\n                  size: 'large',\n                }}\n                placeholder={intl.formatMessage({\n                  id: 'pages.login.captcha.placeholder',\n                  defaultMessage: '请输入验证码',\n                })}\n                captchaTextRender={(timing, count) => {\n                  if (timing) {\n                    return `${count} ${intl.formatMessage({\n                      id: 'pages.getCaptchaSecondText',\n                      defaultMessage: '获取验证码',\n                    })}`;\n                  }\n                  return intl.formatMessage({\n                    id: 'pages.login.phoneLogin.getVerificationCode',\n                    defaultMessage: '获取验证码',\n                  });\n                }}\n                name=\"captcha\"\n                rules={[\n                  {\n                    required: true,\n                    message: (\n                      <FormattedMessage\n                        id=\"pages.login.captcha.required\"\n                        defaultMessage=\"请输入验证码！\"\n                      />\n                    ),\n                  },\n                ]}\n                onGetCaptcha={async (phone) => {\n                  const result = await getFakeCaptcha({\n                    phone,\n                  });\n                  if (!result) {\n                    return;\n                  }\n                  message.success('获取验证码成功！验证码为：1234');\n                }}\n              />\n            </>\n          )}\n          <div\n            style={{\n              marginBottom: 24,\n            }}\n          >\n            <ProFormCheckbox noStyle name=\"autoLogin\">\n              <FormattedMessage id=\"pages.login.rememberMe\" defaultMessage=\"自动登录\" />\n            </ProFormCheckbox>\n            <a\n              style={{\n                float: 'right',\n              }}\n            >\n            </a>\n          </div>\n        </LoginForm>\n      </div>\n      <Footer />\n    </div>\n  );\n};\n\nexport default Login;\n",
+      "__content": "import { Footer } from '@/components';\nimport { login } from '@/services/ant-design-pro/api';\nimport { getFakeCaptcha } from '@/services/ant-design-pro/login';\nimport {\n  AlipayCircleOutlined,\n  LockOutlined,\n  MobileOutlined,\n  TaobaoCircleOutlined,\n  UserOutlined,\n  WeiboCircleOutlined,\n  ThunderboltOutlined,\n  SafetyOutlined,\n  GlobalOutlined,\n} from '@ant-design/icons';\nimport {\n  LoginForm,\n  ProFormCaptcha,\n  ProFormCheckbox,\n  ProFormText,\n} from '@ant-design/pro-components';\nimport { FormattedMessage, history, SelectLang, useIntl, useModel, Helmet } from '@umijs/max';\nimport { Alert, message, Tabs, Button } from 'antd';\nimport Settings from '../../../../config/defaultSettings';\nimport React, { useState } from 'react';\nimport { flushSync } from 'react-dom';\nimport { createStyles } from 'antd-style';\n\nconst useStyles = createStyles(({ token }) => ({\n  action: {\n    marginLeft: '8px',\n    color: 'rgba(0, 0, 0, 0.2)',\n    fontSize: '24px',\n    verticalAlign: 'middle',\n    cursor: 'pointer',\n    transition: 'color 0.3s',\n    '&:hover': {\n      color: token.colorPrimaryActive,\n    },\n  },\n  lang: {\n    width: 42,\n    height: 42,\n    lineHeight: '42px',\n    position: 'fixed',\n    right: 16,\n    top: 16,\n    borderRadius: token.borderRadius,\n    zIndex: 1000,\n    ':hover': {\n      backgroundColor: token.colorBgTextHover,\n    },\n  },\n  container: {\n    display: 'flex',\n    height: '100vh',\n    overflow: 'hidden',\n    background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',\n  },\n  leftPanel: {\n    flex: 1,\n    display: 'flex',\n    alignItems: 'center',\n    justifyContent: 'center',\n    padding: '40px',\n    color: 'white',\n    position: 'relative',\n    '&::before': {\n      content: '\"\"',\n      position: 'absolute',\n      top: 0,\n      left: 0,\n      right: 0,\n      bottom: 0,\n      background: 'rgba(0, 0, 0, 0.1)',\n      backdropFilter: 'blur(10px)',\n    },\n    '@media (max-width: 768px)': {\n      display: 'none',\n    },\n  },\n  brandContainer: {\n    textAlign: 'center',\n    maxWidth: '500px',\n    width: '100%',\n    position: 'relative',\n    zIndex: 1,\n  },\n  rightPanel: {\n    flex: 1,\n    display: 'flex',\n    alignItems: 'center',\n    justifyContent: 'center',\n    background: 'rgba(255, 255, 255, 0.95)',\n    backdropFilter: 'blur(10px)',\n    padding: '40px',\n    '@media (max-width: 768px)': {\n      flex: 'none',\n      width: '100%',\n    },\n  },\n  loginContainer: {\n    width: '100%',\n    maxWidth: '600px',\n    padding: '40px',\n    background: 'white',\n    borderRadius: '20px',\n    boxShadow: '0 20px 40px rgba(0, 0, 0, 0.1)',\n  },\n}));\n\nconst ActionIcons = () => {\n  const { styles } = useStyles();\n\n  return (\n    <>\n      <AlipayCircleOutlined key=\"AlipayCircleOutlined\" className={styles.action} />\n      <TaobaoCircleOutlined key=\"TaobaoCircleOutlined\" className={styles.action} />\n      <WeiboCircleOutlined key=\"WeiboCircleOutlined\" className={styles.action} />\n    </>\n  );\n};\n\nconst Lang = () => {\n  const { styles } = useStyles();\n\n  return (\n    <div className={styles.lang} data-lang>\n      <SelectLang />\n    </div>\n  );\n};\n\nconst LoginMessage: React.FC<{\n  content: string;\n}> = ({ content }) => {\n  return (\n    <Alert\n      style={{\n        marginBottom: 24,\n      }}\n      message={content}\n      type=\"error\"\n      showIcon\n    />\n  );\n};\n\nconst Login: React.FC = () => {\n  const [userLoginState, setUserLoginState] = useState<API.LoginResult>({});\n  const [type, setType] = useState<string>('account');\n  const { initialState, setInitialState } = useModel('@@initialState');\n  const { styles } = useStyles();\n  const intl = useIntl();\n\n  const fetchUserInfo = async (mid: string) => {\n    const userInfo = await initialState?.fetchUserInfo?.(mid);\n    //console.log('userInfo:：>>', userInfo);\n    if (userInfo) {\n      flushSync(() => {\n        setInitialState((s) => ({\n          ...s,\n          currentUser: userInfo?.data,\n        }));\n      });\n    }\n  };\n\n  const handleSubmit = async (values: API.LoginParams) => {\n    try {\n      // 登录\n      const msg = await login({ ...values, type });\n      if (msg.status === 'ok') {\n        // 由于mock数据中没有token字段，我们使用用户名作为临时token\n        const token = msg.token || `temp_token_${values.username}_${Date.now()}`;\n        console.log('token::>> ', token);\n        // 存储 token 到 cookie，过期时间为 1 天\n        const expires = new Date(Date.now() + 24 * 60 * 60 * 1000).toUTCString();\n        document.cookie = `authorization=${token}; expires=${expires}; path=/`;\n        const defaultLoginSuccessMessage = intl.formatMessage({\n          id: 'pages.login.success',\n          defaultMessage: '登录成功！',\n        });\n        //set username in LoginParams to initialState\n        message.success(defaultLoginSuccessMessage);\n\n        // 直接设置用户信息，使用登录的用户名作为商户ID\n        const mockUserInfo = {\n          mid: values.username,\n          name: `Merchant ${values.username}`,\n          avatar: 'https://gw.alipayobjects.com/zos/rmsportal/BiazfanxmamNRoxxVxka.png',\n          currencies: ['USD', 'EUR'],\n          webhook: '',\n          feePercentage: 2.9,\n          access: 'admin'\n        };\n        \n        flushSync(() => {\n          setInitialState((s) => ({\n            ...s,\n            currentUser: mockUserInfo,\n          }));\n        });\n        \n        // 确保用户信息设置完成后再跳转\n        setTimeout(() => {\n          const urlParams = new URL(window.location.href).searchParams;\n          history.push(urlParams.get('redirect') || '/');\n        }, 100);\n        return;\n      }\n      //console.log(msg);\n      // 如果失败去设置用户错误信息\n      setUserLoginState(msg);\n    } catch (error) {\n      const defaultLoginFailureMessage = intl.formatMessage({\n        id: 'pages.login.failure',\n        defaultMessage: '登录失败，请重试！',\n      });\n      console.log(error);\n      message.error(defaultLoginFailureMessage);\n    }\n  };\n  const { status, type: loginType } = userLoginState;\n\n  return (\n    <div className={styles.container}>\n      <Helmet>\n        <title>\n          {intl.formatMessage({\n            id: 'menu.login',\n            defaultMessage: '登录页',\n          })}\n          - {Settings.title}\n        </title>\n      </Helmet>\n      <Lang />\n      \n      {/* 左侧品牌展示区域 */}\n      <div className={styles.leftPanel}>\n        <div className={styles.brandContainer}>\n          <div style={{ \n            width: '120px', \n            height: '120px', \n            margin: '0 auto 30px',\n            background: 'rgba(255, 255, 255, 0.2)',\n            borderRadius: '12px',\n            display: 'flex',\n            alignItems: 'center',\n            justifyContent: 'center',\n            overflow: 'hidden'\n          }}>\n            <img \n              src=\"/logo.png\"\n              alt=\"GoGoPay Logo\"\n              style={{\n                width: '100%',\n                height: '100%',\n                objectFit: 'contain'\n              }}\n            />\n          </div>\n          \n          <h1 style={{\n            fontSize: '2.5rem',\n            fontWeight: 700,\n            marginBottom: '15px',\n            color: 'white'\n          }}>\n            GoGoPay\n          </h1>\n          \n          <p style={{\n            fontSize: '1.2rem',\n            color: 'rgba(255, 255, 255, 0.8)',\n            marginBottom: '40px',\n            lineHeight: 1.6\n          }}>\n            Secure, Fast & Reliable Payment Gateway\n          </p>\n          \n          <div style={{\n            display: 'grid',\n            gridTemplateColumns: 'repeat(3, 1fr)',\n            gap: '20px',\n            marginBottom: '40px'\n          }}>\n            <div style={{\n              padding: '20px 15px',\n              background: 'rgba(255, 255, 255, 0.1)',\n              borderRadius: '12px',\n              textAlign: 'center',\n              backdropFilter: 'blur(10px)',\n              transition: 'all 0.3s ease',\n              cursor: 'pointer'\n            }}\n            onMouseEnter={(e) => {\n              e.currentTarget.style.background = 'rgba(255, 255, 255, 0.2)';\n              e.currentTarget.style.transform = 'translateY(-5px)';\n            }}\n            onMouseLeave={(e) => {\n              e.currentTarget.style.background = 'rgba(255, 255, 255, 0.1)';\n              e.currentTarget.style.transform = 'translateY(0)';\n            }}>\n              <SafetyOutlined style={{ fontSize: '2rem', marginBottom: '10px', display: 'block' }} />\n              <div style={{ fontSize: '0.9rem', fontWeight: 500 }}>Secure</div>\n            </div>\n            \n            <div style={{\n              padding: '20px 15px',\n              background: 'rgba(255, 255, 255, 0.1)',\n              borderRadius: '12px',\n              textAlign: 'center',\n              backdropFilter: 'blur(10px)',\n              transition: 'all 0.3s ease',\n              cursor: 'pointer'\n            }}\n            onMouseEnter={(e) => {\n              e.currentTarget.style.background = 'rgba(255, 255, 255, 0.2)';\n              e.currentTarget.style.transform = 'translateY(-5px)';\n            }}\n            onMouseLeave={(e) => {\n              e.currentTarget.style.background = 'rgba(255, 255, 255, 0.1)';\n              e.currentTarget.style.transform = 'translateY(0)';\n            }}>\n              <ThunderboltOutlined style={{ fontSize: '2rem', marginBottom: '10px', display: 'block' }} />\n              <div style={{ fontSize: '0.9rem', fontWeight: 500 }}>Fast</div>\n            </div>\n            \n            <div style={{\n              padding: '20px 15px',\n              background: 'rgba(255, 255, 255, 0.1)',\n              borderRadius: '12px',\n              textAlign: 'center',\n              backdropFilter: 'blur(10px)',\n              transition: 'all 0.3s ease',\n              cursor: 'pointer'\n            }}\n            onMouseEnter={(e) => {\n              e.currentTarget.style.background = 'rgba(255, 255, 255, 0.2)';\n              e.currentTarget.style.transform = 'translateY(-5px)';\n            }}\n            onMouseLeave={(e) => {\n              e.currentTarget.style.background = 'rgba(255, 255, 255, 0.1)';\n              e.currentTarget.style.transform = 'translateY(0)';\n            }}>\n              <GlobalOutlined style={{ fontSize: '2rem', marginBottom: '10px', display: 'block' }} />\n              <div style={{ fontSize: '0.9rem', fontWeight: 500 }}>Global</div>\n            </div>\n          </div>\n          \n          <div style={{\n            display: 'flex',\n            gap: '15px',\n            justifyContent: 'center',\n            flexWrap: 'wrap'\n          }}>\n          </div>\n        </div>\n      </div>\n      \n      {/* 右侧登录表单区域 */}\n      <div className={styles.rightPanel}>\n        <div className={styles.loginContainer}>\n          <LoginForm\n            contentStyle={{\n              padding: 0,\n            }}\n            title={\n              <span style={{ \n                fontSize: '28px', \n                fontWeight: 'bold',\n                color: '#333',\n                display: 'block',\n                textAlign: 'center',\n                marginBottom: '30px'\n              }}>\n                {intl.formatMessage({\n                  id: 'pages.login.loginTitle',\n                  defaultMessage: 'Merchant Login',\n                })}\n              </span>\n            }\n            initialValues={{\n              autoLogin: true,\n            }}\n            actions={[]}\n            onFinish={async (values) => {\n              await handleSubmit(values as API.LoginParams);\n            }}\n          >\n            {status === 'error' && loginType === 'account' && (\n              <LoginMessage\n                content={intl.formatMessage({\n                  id: 'pages.login.accountLogin.errorMessage',\n                  defaultMessage: 'Invalid Merchant ID or Password',\n                })}\n              />\n            )}\n            \n            <ProFormText\n              name=\"username\"\n              fieldProps={{\n                size: 'large',\n                prefix: <UserOutlined />,\n              }}\n              placeholder={intl.formatMessage({\n                id: 'pages.login.username.placeholder',\n                defaultMessage: 'Merchant ID',\n              })}\n              rules={[\n                {\n                  required: true,\n                  message: (\n                    <FormattedMessage\n                      id=\"pages.login.username.required\"\n                      defaultMessage=\"Merchant ID is required\"\n                    />\n                  ),\n                },\n              ]}\n            />\n            \n            <ProFormText.Password\n              name=\"password\"\n              fieldProps={{\n                size: 'large',\n                prefix: <LockOutlined />,\n              }}\n              placeholder={intl.formatMessage({\n                id: 'pages.login.password.placeholder',\n                defaultMessage: 'Password',\n              })}\n              rules={[\n                {\n                  required: true,\n                  message: (\n                    <FormattedMessage\n                      id=\"pages.login.password.required\"\n                      defaultMessage=\"Password is required\"\n                    />\n                  ),\n                },\n              ]}\n            />\n            \n            <div style={{ marginBottom: 24 }}>\n              <ProFormCheckbox noStyle name=\"autoLogin\">\n                <FormattedMessage id=\"pages.login.rememberMe\" defaultMessage=\"自动登录\" />\n              </ProFormCheckbox>\n            </div>\n          </LoginForm>\n        </div>\n      </div>\n    </div>\n  );\n};\n\nexport default Login;\n",
       "__isJSFile": true,
       "__absFile": "/Users/danny.she/react/stripe_payment_merchant_portal/src/pages/User/Login/index.tsx"
     },
@@ -3678,7 +3678,7 @@
       "parentId": "ant-design-pro-layout",
       "id": "3",
       "absPath": "/welcome",
-      "__content": "import { HeartTwoTone, SmileTwoTone } from '@ant-design/icons';\nimport { PageContainer } from '@ant-design/pro-components';\nimport { useIntl, useModel } from '@umijs/max';\nimport { Alert, Card, Typography, theme, Row, Col, Statistic, Tag, Progress } from 'antd';\nimport React, { useState, useEffect } from 'react';\nimport { Line, Gauge } from '@ant-design/plots';\n\nconst API_BASE_URL = process.env.REACT_APP_API_BASE_URL || 'https://api.gogopay.site/';\n\n/**\n * 每个单独的卡片，为了复用样式抽成了组件\n * @param param0\n * @returns\n */\nconst InfoCard: React.FC<{\n  title: string;\n  index: number;\n  desc: string;\n  href: string;\n}> = ({ title, href, index, desc }) => {\n  const { useToken } = theme;\n\n  const { token } = useToken();\n\n  return (\n    <div\n      style={{\n        backgroundColor: token.colorBgContainer,\n        boxShadow: token.boxShadow,\n        borderRadius: '8px',\n        fontSize: '14px',\n        color: token.colorTextSecondary,\n        lineHeight: '22px',\n        padding: '16px 19px',\n        minWidth: '220px',\n        flex: 1,\n      }}\n    >\n      <div\n        style={{\n          display: 'flex',\n          gap: '4px',\n          alignItems: 'center',\n        }}\n      >\n        <div\n          style={{\n            width: 48,\n            height: 48,\n            lineHeight: '22px',\n            backgroundSize: '100%',\n            textAlign: 'center',\n            padding: '8px 16px 16px 12px',\n            color: '#FFF',\n            fontWeight: 'bold',\n            backgroundImage:\n              \"url('https://gw.alipayobjects.com/zos/bmw-prod/daaf8d50-8e6d-4251-905d-676a24ddfa12.svg')\",\n          }}\n        >\n          {index}\n        </div>\n        <div\n          style={{\n            fontSize: '16px',\n            color: token.colorText,\n            paddingBottom: 8,\n          }}\n        >\n          {title}\n        </div>\n      </div>\n      <div\n        style={{\n          fontSize: '14px',\n          color: token.colorTextSecondary,\n          textAlign: 'justify',\n          lineHeight: '22px',\n          marginBottom: 8,\n        }}\n      >\n        {desc}\n      </div>\n      <a href={href} target=\"_blank\" rel=\"noreferrer\">\n        了解更多 {'>'}\n      </a>\n    </div>\n  );\n};\n\n// 余额展示组件\nconst BalanceDisplay: React.FC<{\n  balanceInfo: string;\n  loading?: boolean;\n}> = ({ balanceInfo, loading = false }) => {\n  const { token } = theme.useToken();\n  const intl = useIntl();\n\n  // 解析余额信息\n  const parseBalanceInfo = (info: string) => {\n    if (!info || info === '-') return [];\n    \n    return info.split('|').map(item => {\n      const trimmed = item.trim();\n      // 匹配币种符号和金额 - 支持格式: \"HK $259,152.94\", \"KR ₩59,511.97\" 等\n      const match = trimmed.match(/^([A-Z]{2})\\s+([¥$€₩£])\\s*([\\d,]+\\.?\\d*)$/);\n      if (match) {\n        return {\n          currency: match[1],\n          symbol: match[2],\n          amount: match[3]\n        };\n      }\n      return null;\n    }).filter(Boolean);\n  };\n\n  const balanceItems = parseBalanceInfo(balanceInfo);\n\n  if (loading) {\n    return (\n      <Card\n        style={{\n          backgroundColor: token.colorBgContainer,\n          boxShadow: token.boxShadow,\n          borderRadius: '8px',\n          textAlign: 'center',\n        }}\n        loading={true}\n      />\n    );\n  }\n\n  return (\n    <Card\n      style={{\n        backgroundColor: token.colorBgContainer,\n        boxShadow: token.boxShadow,\n        borderRadius: '8px',\n        textAlign: 'center',\n        height: '100%',\n        display: 'flex',\n        flexDirection: 'column',\n      }}\n      bodyStyle={{\n        flex: 1,\n        display: 'flex',\n        flexDirection: 'column',\n        justifyContent: 'flex-start',\n        padding: '24px 16px',\n      }}\n    >\n      <div style={{ \n        fontSize: '14px', \n        color: token.colorTextSecondary, \n        marginBottom: '16px',\n        textAlign: 'center'\n      }}>\n        {intl.formatMessage({ id: 'pages.welcome.balanceAfterFees' })}\n      </div>\n      \n      {balanceItems.length > 0 ? (\n        <div style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>\n          {balanceItems.map((item, index) => (\n            <div\n              key={index}\n              style={{\n                display: 'flex',\n                alignItems: 'center',\n                justifyContent: 'space-between',\n                padding: '6px 10px',\n                backgroundColor: token.colorBgLayout,\n                borderRadius: '6px',\n                border: `1px solid ${token.colorBorderSecondary}`,\n              }}\n            >\n              <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>\n                {/* 币种图标 */}\n                <div\n                  style={{\n                    width: '20px',\n                    height: '20px',\n                    borderRadius: '50%',\n                    display: 'flex',\n                    alignItems: 'center',\n                    justifyContent: 'center',\n                    fontSize: '10px',\n                    fontWeight: 'bold',\n                    color: '#fff',\n                    backgroundColor: getCurrencyColor(item?.currency || ''),\n                  }}\n                >\n                  {getCurrencyIcon(item?.currency || '')}\n                </div>\n                \n                {/* 币种名称 */}\n                <span style={{ \n                  fontSize: '13px', \n                  fontWeight: '500',\n                  color: token.colorText \n                }}>\n                  {item?.currency}\n                </span>\n              </div>\n              \n              {/* 余额金额 */}\n              <span style={{ \n                fontSize: '14px', \n                fontWeight: 'bold',\n                color: token.colorPrimary \n              }}>\n                {item?.symbol} {item?.amount}\n              </span>\n            </div>\n          ))}\n        </div>\n      ) : (\n        <div style={{ \n          textAlign: 'center', \n          color: token.colorTextSecondary,\n          fontSize: '14px'\n        }}>\n          No balance information available\n        </div>\n      )}\n    </Card>\n  );\n};\n\n// 获取币种颜色\nconst getCurrencyColor = (currency: string): string => {\n  const colors: { [key: string]: string } = {\n    'HK': '#1890ff', // 蓝色\n    'KR': '#52c41a', // 绿色\n    'EU': '#722ed1', // 紫色\n    'US': '#fa8c16', // 橙色\n    'CN': '#f5222d', // 红色\n  };\n  return colors[currency] || '#8c8c8c';\n};\n\n// 获取币种图标\nconst getCurrencyIcon = (currency: string): string => {\n  const icons: { [key: string]: string } = {\n    'HK': 'HK',\n    'KR': 'KR',\n    'EU': '€',\n    'US': '$',\n    'CN': '¥',\n  };\n  return icons[currency] || currency;\n};\n\n// 统计卡片组件\nconst SummaryCard: React.FC<{\n  title: string;\n  value?: string | number;\n  loading?: boolean;\n  children?: React.ReactNode;\n}> = ({ title, value, loading = false, children }) => {\n  const { token } = theme.useToken();\n  \n  return (\n    <Card\n      style={{\n        backgroundColor: token.colorBgContainer,\n        boxShadow: token.boxShadow,\n        borderRadius: '8px',\n        textAlign: 'center',\n        height: '100%',\n      }}\n      loading={loading}\n    >\n      {children ? (\n        children\n      ) : (\n        <Statistic\n          title={title}\n          value={value}\n          valueStyle={{ color: token.colorPrimary, fontSize: '24px', fontWeight: 'bold' }}\n        />\n      )}\n    </Card>\n  );\n};\n\n// 商户信息项组件\nconst InfoItem: React.FC<{\n  label: string;\n  value: string;\n}> = ({ label, value }) => {\n  const { token } = theme.useToken();\n  \n  return (\n    <div style={{ marginBottom: '16px' }}>\n      <div style={{ \n        fontSize: '14px', \n        color: token.colorTextSecondary, \n        marginBottom: '4px' \n      }}>\n        {label}\n      </div>\n      <div style={{ \n        fontSize: '16px', \n        color: token.colorText, \n        fontWeight: '500' \n      }}>\n        {value}\n      </div>\n    </div>\n  );\n};\n\n// 订单走势图组件\nconst OrderTrendChart: React.FC = () => {\n  const { token } = theme.useToken();\n  const intl = useIntl();\n  \n  // 硬编码的过去7天数据\n  const data = [\n    { date: '2024-01-01', orders: 100 },\n    { date: '2024-01-02', orders: 135 },\n    { date: '2024-01-03', orders: 150 },\n    { date: '2024-01-04', orders: 200 },\n    { date: '2024-01-05', orders: 180 },\n    { date: '2024-01-06', orders: 160 },\n    { date: '2024-01-07', orders: 230 },\n  ];\n\n  const config = {\n    data,\n    xField: 'date',\n    yField: 'orders',\n    smooth: true,\n    animation: {\n      appear: {\n        animation: 'path-in',\n        duration: 1000,\n      },\n    },\n    point: {\n      size: 3,\n      shape: 'circle',\n      style: {\n        fill: 'white',\n        stroke: token.colorPrimary,\n        lineWidth: 1,\n      },\n    },\n    line: {\n      style: {\n        stroke: token.colorPrimary,\n        lineWidth: 2,\n      },\n    },\n    area: {\n      style: {\n        fill: `l(270) 0:#ffffff 0.5:${token.colorPrimary}15 1:${token.colorPrimary}30`,\n      },\n    },\n    xAxis: {\n      label: {\n        formatter: (v: string) => {\n          const date = new Date(v);\n          return `${date.getMonth() + 1}/${date.getDate()}`;\n        },\n        style: {\n          fontSize: 10,\n        },\n      },\n    },\n    yAxis: {\n      label: {\n        formatter: (v: string) => `${v}`,\n        style: {\n          fontSize: 10,\n        },\n      },\n    },\n    tooltip: {\n      showCrosshairs: true,\n      shared: true,\n      formatter: (datum: any) => {\n        return {\n          name: 'Orders',\n          value: datum.orders,\n        };\n      },\n    },\n    grid: {\n      line: {\n        style: {\n          stroke: token.colorBorderSecondary,\n          lineWidth: 1,\n        },\n      },\n    },\n  };\n\n  return (\n    <Card\n      style={{\n        backgroundColor: token.colorBgContainer,\n        boxShadow: token.boxShadow,\n        borderRadius: '8px',\n        marginTop: '16px',\n      }}\n      bodyStyle={{ padding: '12px' }}\n    >\n      <div style={{ \n        fontSize: '12px', \n        color: token.colorTextSecondary, \n        marginBottom: '8px',\n        textAlign: 'center'\n      }}>\n        {intl.formatMessage({ id: 'pages.welcome.ordersTrend' })}\n      </div>\n      <div style={{ height: '150px' }}>\n        <Line {...config} />\n      </div>\n    </Card>\n  );\n};\n\n// 支付成功率图表组件\nconst SuccessRateChart: React.FC<{\n  totalOrderNumber: number;\n  succeededOrderNumber: number;\n}> = ({ totalOrderNumber, succeededOrderNumber }) => {\n  const { token } = theme.useToken();\n  const intl = useIntl();\n  \n  // 计算成功率\n  const successRate = totalOrderNumber > 0 ? (succeededOrderNumber / totalOrderNumber * 100) : 0;\n  const formattedSuccessRate = Number(successRate.toFixed(2));\n  \n  // 调试信息\n  console.log('SuccessRateChart props:', { totalOrderNumber, succeededOrderNumber, formattedSuccessRate });\n\n  const config = {\n    percent: formattedSuccessRate / 100,\n    range: {\n      color: ['#ff4d4f', '#faad14', '#52c41a'],\n      width: 16,\n    },\n    indicator: {\n      pointer: {\n        style: {\n          stroke: token.colorPrimary,\n          strokeWidth: 3,\n        },\n      },\n      pin: {\n        style: {\n          stroke: token.colorPrimary,\n          strokeWidth: 2,\n        },\n      },\n    },\n    statistic: {\n      content: {\n        style: {\n          fontSize: '28px',\n          lineHeight: '28px',\n          color: token.colorText,\n          fontWeight: 'bold',\n        },\n        formatter: () => `${formattedSuccessRate}%`,\n      },\n      title: {\n        style: {\n          fontSize: '12px',\n          color: token.colorTextSecondary,\n        },\n        formatter: () => 'Success Rate',\n      },\n    },\n    axis: {\n      label: {\n        formatter: (v: string) => `${Number(v) * 100}%`,\n        style: {\n          fontSize: 10,\n          color: token.colorTextSecondary,\n        },\n      },\n      subTickLine: {\n        count: 4,\n        length: 4,\n        style: {\n          stroke: token.colorBorderSecondary,\n          strokeWidth: 1,\n        },\n      },\n      tickLine: {\n        length: 8,\n        style: {\n          stroke: token.colorBorderSecondary,\n          strokeWidth: 1,\n        },\n      },\n      line: {\n        style: {\n          stroke: token.colorBorderSecondary,\n          strokeWidth: 1,\n        },\n      },\n    },\n    animation: {\n      appear: {\n        animation: 'fade-in',\n        duration: 1500,\n      },\n    },\n  };\n\n  return (\n    <Card\n      style={{\n        backgroundColor: token.colorBgContainer,\n        boxShadow: token.boxShadow,\n        borderRadius: '8px',\n        marginTop: '16px',\n      }}\n      bodyStyle={{ padding: '12px' }}\n    >\n      <div style={{ \n        fontSize: '12px', \n        color: token.colorTextSecondary, \n        marginBottom: '8px',\n        textAlign: 'center'\n      }}>\n        {intl.formatMessage({ id: 'pages.welcome.currentSuccessRate' })}\n      </div>\n      <div style={{ height: '150px', display: 'flex', alignItems: 'center', justifyContent: 'center', flexDirection: 'column' }}>\n        <div style={{ marginBottom: '8px', fontSize: '12px', color: token.colorTextSecondary }}>\n        </div>\n        <div style={{ textAlign: 'center' }}>\n          <Progress\n            type=\"circle\"\n            percent={formattedSuccessRate}\n            format={(percent) => `${percent}%`}\n            strokeColor={{\n              '0%': '#ff4d4f',\n              '50%': '#faad14',\n              '100%': '#52c41a',\n            }}\n            size={120}\n            strokeWidth={8}\n          />\n        </div>\n      </div>\n    </Card>\n  );\n};\n\nconst Welcome: React.FC = () => {\n  const { token } = theme.useToken();\n  const { initialState } = useModel('@@initialState');\n  const intl = useIntl();\n  const currentUserName = initialState?.currentUser?.name || 'User';\n  const merchantId = initialState?.currentUser?.mid;\n  \n  const [summaryData, setSummaryData] = useState<any>(null);\n  const [loading, setLoading] = useState(true);\n\n  // 从 cookie 获取 authorization\n  const getCookie = (name: string) => {\n    const value = `; ${document.cookie}`;\n    const parts = value.split(`; ${name}=`);\n    if (parts.length === 2) return parts.pop()?.split(';').shift();\n    return '';\n  };\n\n  // 获取 summary 数据\n  const fetchSummary = async () => {\n    try {\n      setLoading(true);\n      const response = await fetch(`${API_BASE_URL}/merchant/summary?merchantId=${merchantId}`, {\n        method: 'GET',\n        headers: {\n          'Authorization': `Bearer ${getCookie('authorization')}`,\n          'Content-Type': 'application/json',\n        },\n      });\n\n      if (response.ok) {\n        const data = await response.json();\n        setSummaryData(data);\n      } else {\n        console.error('Failed to fetch summary data');\n      }\n    } catch (error) {\n      console.error('Error fetching summary:', error);\n    } finally {\n      setLoading(false);\n    }\n  };\n\n  // 页面加载时获取数据\n  useEffect(() => {\n    if (merchantId) {\n      fetchSummary();\n    }\n  }, [merchantId]);\n\n  return (\n    <PageContainer>\n      <Card\n        style={{\n          borderRadius: 8,\n        }}\n        bodyStyle={{\n          backgroundImage:\n            initialState?.settings?.navTheme === 'realDark'\n              ? 'background-image: linear-gradient(75deg, #1A1B1F 0%, #191C1F 100%)'\n              : 'background-image: linear-gradient(75deg, #FBFDFF 0%, #F5F7FF 100%)',\n        }}\n      >\n        <div\n          style={{\n            backgroundPosition: '100% -30%',\n            backgroundRepeat: 'no-repeat',\n            backgroundSize: '274px auto',\n            backgroundImage:\n              \"url('https://gw.alipayobjects.com/mdn/rms_a9745b/afts/img/A*BuFmQqsB2iAAAAAAAAAAAAAAARQnAQ')\",\n          }}\n        >\n          <div\n            style={{\n              fontSize: '20px',\n              color: token.colorTextHeading,\n              marginBottom: '32px',\n            }}\n          >\n            {intl.formatMessage({ id: 'pages.welcome.title' })}, <b>{currentUserName}</b>!\n          </div>\n\n          {/* Merchant Portal Header */}\n          <div style={{ marginBottom: '32px' }}>\n            \n            {/* Merchant Info Grid */}\n            <Row gutter={[24, 16]}>\n              <Col xs={24} sm={12} md={6}>\n                <InfoItem \n                  label={intl.formatMessage({ id: 'pages.welcome.merchantId' })} \n                  value={summaryData?.merchantId || '-'} \n                />\n              </Col>\n              <Col xs={24} sm={12} md={6}>\n                <InfoItem \n                  label={intl.formatMessage({ id: 'pages.welcome.feeStructure' })} \n                  value=\"Fixed Rate\" \n                />\n              </Col>\n              <Col xs={24} sm={12} md={6}>\n                <InfoItem \n                  label={intl.formatMessage({ id: 'pages.welcome.feeRate' })} \n                  value={summaryData?.feeRate || '-'} \n                />\n              </Col>\n              <Col xs={24} sm={12} md={6}>\n                <InfoItem \n                  label={intl.formatMessage({ id: 'pages.welcome.supportedCurrencies' })} \n                  value={summaryData?.supportedCurrencies || '-'} \n                />\n              </Col>\n            </Row>\n          </div>\n\n          {/* Summary Cards */}\n          <div style={{ marginTop: '32px' }}>\n            <Row gutter={[24, 16]} style={{ alignItems: 'stretch' }}>\n              <Col xs={24} sm={8}>\n                <div>\n                  <SummaryCard\n                    title={intl.formatMessage({ id: 'pages.welcome.totalOrders' })}\n                    value={summaryData?.totalOrderNumber || 0}\n                    loading={loading}\n                  />\n                  <OrderTrendChart />\n                </div>\n              </Col>\n              <Col xs={24} sm={8}>\n                <div>\n                  <SummaryCard\n                    title={intl.formatMessage({ id: 'pages.welcome.succeededOrders' })}\n                    value={summaryData?.succeededOrderNumber || 0}\n                    loading={loading}\n                  />\n                  <SuccessRateChart \n                    totalOrderNumber={summaryData?.totalOrderNumber || 0}\n                    succeededOrderNumber={summaryData?.succeededOrderNumber || 0}\n                  />\n                </div>\n              </Col>\n              <Col xs={24} sm={8}>\n                <BalanceDisplay\n                  balanceInfo={summaryData?.balanceInfo || '-'}\n                  loading={loading}\n                />\n              </Col>\n            </Row>\n          </div>\n        </div>\n      </Card>\n    </PageContainer>\n  );\n};\n\nexport default Welcome;\n",
+      "__content": "import { HeartTwoTone, SmileTwoTone } from '@ant-design/icons';\nimport { PageContainer } from '@ant-design/pro-components';\nimport { useIntl, useModel } from '@umijs/max';\nimport { Alert, Card, Typography, theme, Row, Col, Statistic, Tag, Progress } from 'antd';\nimport React, { useState, useEffect } from 'react';\nimport { Line, Gauge } from '@ant-design/plots';\n\nconst API_BASE_URL = process.env.REACT_APP_API_BASE_URL || 'https://api.gogopay.site';\n\n/**\n * 每个单独的卡片，为了复用样式抽成了组件\n * @param param0\n * @returns\n */\nconst InfoCard: React.FC<{\n  title: string;\n  index: number;\n  desc: string;\n  href: string;\n}> = ({ title, href, index, desc }) => {\n  const { useToken } = theme;\n\n  const { token } = useToken();\n\n  return (\n    <div\n      style={{\n        backgroundColor: token.colorBgContainer,\n        boxShadow: token.boxShadow,\n        borderRadius: '8px',\n        fontSize: '14px',\n        color: token.colorTextSecondary,\n        lineHeight: '22px',\n        padding: '16px 19px',\n        minWidth: '220px',\n        flex: 1,\n      }}\n    >\n      <div\n        style={{\n          display: 'flex',\n          gap: '4px',\n          alignItems: 'center',\n        }}\n      >\n        <div\n          style={{\n            width: 48,\n            height: 48,\n            lineHeight: '22px',\n            backgroundSize: '100%',\n            textAlign: 'center',\n            padding: '8px 16px 16px 12px',\n            color: '#FFF',\n            fontWeight: 'bold',\n            backgroundImage:\n              \"url('https://gw.alipayobjects.com/zos/bmw-prod/daaf8d50-8e6d-4251-905d-676a24ddfa12.svg')\",\n          }}\n        >\n          {index}\n        </div>\n        <div\n          style={{\n            fontSize: '16px',\n            color: token.colorText,\n            paddingBottom: 8,\n          }}\n        >\n          {title}\n        </div>\n      </div>\n      <div\n        style={{\n          fontSize: '14px',\n          color: token.colorTextSecondary,\n          textAlign: 'justify',\n          lineHeight: '22px',\n          marginBottom: 8,\n        }}\n      >\n        {desc}\n      </div>\n      <a href={href} target=\"_blank\" rel=\"noreferrer\">\n        了解更多 {'>'}\n      </a>\n    </div>\n  );\n};\n\n// 余额展示组件\nconst BalanceDisplay: React.FC<{\n  balanceInfo: string;\n  loading?: boolean;\n}> = ({ balanceInfo, loading = false }) => {\n  const { token } = theme.useToken();\n  const intl = useIntl();\n\n  // 解析余额信息\n  const parseBalanceInfo = (info: string) => {\n    if (!info || info === '-') return [];\n    \n    return info.split('|').map(item => {\n      const trimmed = item.trim();\n      // 匹配币种符号和金额 - 支持格式: \"HK $259,152.94\", \"KR ₩59,511.97\" 等\n      const match = trimmed.match(/^([A-Z]{2})\\s+([¥$€₩£])\\s*([\\d,]+\\.?\\d*)$/);\n      if (match) {\n        return {\n          currency: match[1],\n          symbol: match[2],\n          amount: match[3]\n        };\n      }\n      return null;\n    }).filter(Boolean);\n  };\n\n  const balanceItems = parseBalanceInfo(balanceInfo);\n\n  if (loading) {\n    return (\n      <Card\n        style={{\n          backgroundColor: token.colorBgContainer,\n          boxShadow: token.boxShadow,\n          borderRadius: '8px',\n          textAlign: 'center',\n        }}\n        loading={true}\n      />\n    );\n  }\n\n  return (\n    <Card\n      style={{\n        backgroundColor: token.colorBgContainer,\n        boxShadow: token.boxShadow,\n        borderRadius: '8px',\n        textAlign: 'center',\n        height: '100%',\n        display: 'flex',\n        flexDirection: 'column',\n      }}\n      bodyStyle={{\n        flex: 1,\n        display: 'flex',\n        flexDirection: 'column',\n        justifyContent: 'flex-start',\n        padding: '24px 16px',\n      }}\n    >\n      <div style={{ \n        fontSize: '14px', \n        color: token.colorTextSecondary, \n        marginBottom: '16px',\n        textAlign: 'center'\n      }}>\n        {intl.formatMessage({ id: 'pages.welcome.balanceAfterFees' })}\n      </div>\n      \n      {balanceItems.length > 0 ? (\n        <div style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>\n          {balanceItems.map((item, index) => (\n            <div\n              key={index}\n              style={{\n                display: 'flex',\n                alignItems: 'center',\n                justifyContent: 'space-between',\n                padding: '6px 10px',\n                backgroundColor: token.colorBgLayout,\n                borderRadius: '6px',\n                border: `1px solid ${token.colorBorderSecondary}`,\n              }}\n            >\n              <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>\n                {/* 币种图标 */}\n                <div\n                  style={{\n                    width: '20px',\n                    height: '20px',\n                    borderRadius: '50%',\n                    display: 'flex',\n                    alignItems: 'center',\n                    justifyContent: 'center',\n                    fontSize: '10px',\n                    fontWeight: 'bold',\n                    color: '#fff',\n                    backgroundColor: getCurrencyColor(item?.currency || ''),\n                  }}\n                >\n                  {getCurrencyIcon(item?.currency || '')}\n                </div>\n                \n                {/* 币种名称 */}\n                <span style={{ \n                  fontSize: '13px', \n                  fontWeight: '500',\n                  color: token.colorText \n                }}>\n                  {item?.currency}\n                </span>\n              </div>\n              \n              {/* 余额金额 */}\n              <span style={{ \n                fontSize: '14px', \n                fontWeight: 'bold',\n                color: token.colorPrimary \n              }}>\n                {item?.symbol} {item?.amount}\n              </span>\n            </div>\n          ))}\n        </div>\n      ) : (\n        <div style={{ \n          textAlign: 'center', \n          color: token.colorTextSecondary,\n          fontSize: '14px'\n        }}>\n          No balance information available\n        </div>\n      )}\n    </Card>\n  );\n};\n\n// 获取币种颜色\nconst getCurrencyColor = (currency: string): string => {\n  const colors: { [key: string]: string } = {\n    'HK': '#1890ff', // 蓝色\n    'KR': '#52c41a', // 绿色\n    'EU': '#722ed1', // 紫色\n    'US': '#fa8c16', // 橙色\n    'CN': '#f5222d', // 红色\n  };\n  return colors[currency] || '#8c8c8c';\n};\n\n// 获取币种图标\nconst getCurrencyIcon = (currency: string): string => {\n  const icons: { [key: string]: string } = {\n    'HK': 'HK',\n    'KR': 'KR',\n    'EU': '€',\n    'US': '$',\n    'CN': '¥',\n  };\n  return icons[currency] || currency;\n};\n\n// 统计卡片组件\nconst SummaryCard: React.FC<{\n  title: string;\n  value?: string | number;\n  loading?: boolean;\n  children?: React.ReactNode;\n}> = ({ title, value, loading = false, children }) => {\n  const { token } = theme.useToken();\n  \n  return (\n    <Card\n      style={{\n        backgroundColor: token.colorBgContainer,\n        boxShadow: token.boxShadow,\n        borderRadius: '8px',\n        textAlign: 'center',\n        height: '100%',\n      }}\n      loading={loading}\n    >\n      {children ? (\n        children\n      ) : (\n        <Statistic\n          title={title}\n          value={value}\n          valueStyle={{ color: token.colorPrimary, fontSize: '24px', fontWeight: 'bold' }}\n        />\n      )}\n    </Card>\n  );\n};\n\n// 商户信息项组件\nconst InfoItem: React.FC<{\n  label: string;\n  value: string;\n}> = ({ label, value }) => {\n  const { token } = theme.useToken();\n  \n  return (\n    <div style={{ marginBottom: '16px' }}>\n      <div style={{ \n        fontSize: '14px', \n        color: token.colorTextSecondary, \n        marginBottom: '4px' \n      }}>\n        {label}\n      </div>\n      <div style={{ \n        fontSize: '16px', \n        color: token.colorText, \n        fontWeight: '500' \n      }}>\n        {value}\n      </div>\n    </div>\n  );\n};\n\n// 订单走势图组件\nconst OrderTrendChart: React.FC = () => {\n  const { token } = theme.useToken();\n  const intl = useIntl();\n  \n  // 硬编码的过去7天数据\n  const data = [\n    { date: '2024-01-01', orders: 100 },\n    { date: '2024-01-02', orders: 135 },\n    { date: '2024-01-03', orders: 150 },\n    { date: '2024-01-04', orders: 200 },\n    { date: '2024-01-05', orders: 180 },\n    { date: '2024-01-06', orders: 160 },\n    { date: '2024-01-07', orders: 230 },\n  ];\n\n  const config = {\n    data,\n    xField: 'date',\n    yField: 'orders',\n    smooth: true,\n    animation: {\n      appear: {\n        animation: 'path-in',\n        duration: 1000,\n      },\n    },\n    point: {\n      size: 3,\n      shape: 'circle',\n      style: {\n        fill: 'white',\n        stroke: token.colorPrimary,\n        lineWidth: 1,\n      },\n    },\n    line: {\n      style: {\n        stroke: token.colorPrimary,\n        lineWidth: 2,\n      },\n    },\n    area: {\n      style: {\n        fill: `l(270) 0:#ffffff 0.5:${token.colorPrimary}15 1:${token.colorPrimary}30`,\n      },\n    },\n    xAxis: {\n      label: {\n        formatter: (v: string) => {\n          const date = new Date(v);\n          return `${date.getMonth() + 1}/${date.getDate()}`;\n        },\n        style: {\n          fontSize: 10,\n        },\n      },\n    },\n    yAxis: {\n      label: {\n        formatter: (v: string) => `${v}`,\n        style: {\n          fontSize: 10,\n        },\n      },\n    },\n    tooltip: {\n      showCrosshairs: true,\n      shared: true,\n      formatter: (datum: any) => {\n        return {\n          name: 'Orders',\n          value: datum.orders,\n        };\n      },\n    },\n    grid: {\n      line: {\n        style: {\n          stroke: token.colorBorderSecondary,\n          lineWidth: 1,\n        },\n      },\n    },\n  };\n\n  return (\n    <Card\n      style={{\n        backgroundColor: token.colorBgContainer,\n        boxShadow: token.boxShadow,\n        borderRadius: '8px',\n        marginTop: '16px',\n      }}\n      bodyStyle={{ padding: '12px' }}\n    >\n      <div style={{ \n        fontSize: '12px', \n        color: token.colorTextSecondary, \n        marginBottom: '8px',\n        textAlign: 'center'\n      }}>\n        {intl.formatMessage({ id: 'pages.welcome.ordersTrend' })}\n      </div>\n      <div style={{ height: '150px' }}>\n        <Line {...config} />\n      </div>\n    </Card>\n  );\n};\n\n// 支付成功率图表组件\nconst SuccessRateChart: React.FC<{\n  totalOrderNumber: number;\n  succeededOrderNumber: number;\n}> = ({ totalOrderNumber, succeededOrderNumber }) => {\n  const { token } = theme.useToken();\n  const intl = useIntl();\n  \n  // 计算成功率\n  const successRate = totalOrderNumber > 0 ? (succeededOrderNumber / totalOrderNumber * 100) : 0;\n  const formattedSuccessRate = Number(successRate.toFixed(2));\n  \n  // 调试信息\n  console.log('SuccessRateChart props:', { totalOrderNumber, succeededOrderNumber, formattedSuccessRate });\n\n  const config = {\n    percent: formattedSuccessRate / 100,\n    range: {\n      color: ['#ff4d4f', '#faad14', '#52c41a'],\n      width: 16,\n    },\n    indicator: {\n      pointer: {\n        style: {\n          stroke: token.colorPrimary,\n          strokeWidth: 3,\n        },\n      },\n      pin: {\n        style: {\n          stroke: token.colorPrimary,\n          strokeWidth: 2,\n        },\n      },\n    },\n    statistic: {\n      content: {\n        style: {\n          fontSize: '28px',\n          lineHeight: '28px',\n          color: token.colorText,\n          fontWeight: 'bold',\n        },\n        formatter: () => `${formattedSuccessRate}%`,\n      },\n      title: {\n        style: {\n          fontSize: '12px',\n          color: token.colorTextSecondary,\n        },\n        formatter: () => 'Success Rate',\n      },\n    },\n    axis: {\n      label: {\n        formatter: (v: string) => `${Number(v) * 100}%`,\n        style: {\n          fontSize: 10,\n          color: token.colorTextSecondary,\n        },\n      },\n      subTickLine: {\n        count: 4,\n        length: 4,\n        style: {\n          stroke: token.colorBorderSecondary,\n          strokeWidth: 1,\n        },\n      },\n      tickLine: {\n        length: 8,\n        style: {\n          stroke: token.colorBorderSecondary,\n          strokeWidth: 1,\n        },\n      },\n      line: {\n        style: {\n          stroke: token.colorBorderSecondary,\n          strokeWidth: 1,\n        },\n      },\n    },\n    animation: {\n      appear: {\n        animation: 'fade-in',\n        duration: 1500,\n      },\n    },\n  };\n\n  return (\n    <Card\n      style={{\n        backgroundColor: token.colorBgContainer,\n        boxShadow: token.boxShadow,\n        borderRadius: '8px',\n        marginTop: '16px',\n      }}\n      bodyStyle={{ padding: '12px' }}\n    >\n      <div style={{ \n        fontSize: '12px', \n        color: token.colorTextSecondary, \n        marginBottom: '8px',\n        textAlign: 'center'\n      }}>\n        {intl.formatMessage({ id: 'pages.welcome.currentSuccessRate' })}\n      </div>\n      <div style={{ height: '150px', display: 'flex', alignItems: 'center', justifyContent: 'center', flexDirection: 'column' }}>\n        <div style={{ marginBottom: '8px', fontSize: '12px', color: token.colorTextSecondary }}>\n        </div>\n        <div style={{ textAlign: 'center' }}>\n          <Progress\n            type=\"circle\"\n            percent={formattedSuccessRate}\n            format={(percent) => `${percent}%`}\n            strokeColor={{\n              '0%': '#ff4d4f',\n              '50%': '#faad14',\n              '100%': '#52c41a',\n            }}\n            size={120}\n            strokeWidth={8}\n          />\n        </div>\n      </div>\n    </Card>\n  );\n};\n\nconst Welcome: React.FC = () => {\n  const { token } = theme.useToken();\n  const { initialState } = useModel('@@initialState');\n  const intl = useIntl();\n  const currentUserName = initialState?.currentUser?.name || 'User';\n  const merchantId = initialState?.currentUser?.mid;\n  \n  const [summaryData, setSummaryData] = useState<any>(null);\n  const [loading, setLoading] = useState(true);\n\n  // 从 cookie 获取 authorization\n  const getCookie = (name: string) => {\n    const value = `; ${document.cookie}`;\n    const parts = value.split(`; ${name}=`);\n    if (parts.length === 2) return parts.pop()?.split(';').shift();\n    return '';\n  };\n\n  // 获取 summary 数据\n  const fetchSummary = async () => {\n    try {\n      setLoading(true);\n      const response = await fetch(`${API_BASE_URL}/merchant/summary?merchantId=${merchantId}`, {\n        method: 'GET',\n        headers: {\n          'Authorization': `Bearer ${getCookie('authorization')}`,\n          'Content-Type': 'application/json',\n        },\n      });\n\n      if (response.ok) {\n        const data = await response.json();\n        setSummaryData(data);\n      } else {\n        console.error('Failed to fetch summary data');\n      }\n    } catch (error) {\n      console.error('Error fetching summary:', error);\n    } finally {\n      setLoading(false);\n    }\n  };\n\n  // 页面加载时获取数据\n  useEffect(() => {\n    if (merchantId) {\n      fetchSummary();\n    }\n  }, [merchantId]);\n\n  return (\n    <PageContainer>\n      <Card\n        style={{\n          borderRadius: 8,\n        }}\n        bodyStyle={{\n          backgroundImage:\n            initialState?.settings?.navTheme === 'realDark'\n              ? 'background-image: linear-gradient(75deg, #1A1B1F 0%, #191C1F 100%)'\n              : 'background-image: linear-gradient(75deg, #FBFDFF 0%, #F5F7FF 100%)',\n        }}\n      >\n        <div\n          style={{\n            backgroundPosition: '100% -30%',\n            backgroundRepeat: 'no-repeat',\n            backgroundSize: '274px auto',\n            backgroundImage:\n              \"url('https://gw.alipayobjects.com/mdn/rms_a9745b/afts/img/A*BuFmQqsB2iAAAAAAAAAAAAAAARQnAQ')\",\n          }}\n        >\n          <div\n            style={{\n              fontSize: '20px',\n              color: token.colorTextHeading,\n              marginBottom: '32px',\n            }}\n          >\n            {intl.formatMessage({ id: 'pages.welcome.title' })}, <b>{currentUserName}</b>!\n          </div>\n\n          {/* Merchant Portal Header */}\n          <div style={{ marginBottom: '32px' }}>\n            \n            {/* Merchant Info Grid */}\n            <Row gutter={[24, 16]}>\n              <Col xs={24} sm={12} md={6}>\n                <InfoItem \n                  label={intl.formatMessage({ id: 'pages.welcome.merchantId' })} \n                  value={summaryData?.merchantId || '-'} \n                />\n              </Col>\n              <Col xs={24} sm={12} md={6}>\n                <InfoItem \n                  label={intl.formatMessage({ id: 'pages.welcome.feeStructure' })} \n                  value=\"Fixed Rate\" \n                />\n              </Col>\n              <Col xs={24} sm={12} md={6}>\n                <InfoItem \n                  label={intl.formatMessage({ id: 'pages.welcome.feeRate' })} \n                  value={summaryData?.feeRate || '-'} \n                />\n              </Col>\n              <Col xs={24} sm={12} md={6}>\n                <InfoItem \n                  label={intl.formatMessage({ id: 'pages.welcome.supportedCurrencies' })} \n                  value={summaryData?.supportedCurrencies || '-'} \n                />\n              </Col>\n            </Row>\n          </div>\n\n          {/* Summary Cards */}\n          <div style={{ marginTop: '32px' }}>\n            <Row gutter={[24, 16]} style={{ alignItems: 'stretch' }}>\n              <Col xs={24} sm={8}>\n                <div>\n                  <SummaryCard\n                    title={intl.formatMessage({ id: 'pages.welcome.totalOrders' })}\n                    value={summaryData?.totalOrderNumber || 0}\n                    loading={loading}\n                  />\n                  <OrderTrendChart />\n                </div>\n              </Col>\n              <Col xs={24} sm={8}>\n                <div>\n                  <SummaryCard\n                    title={intl.formatMessage({ id: 'pages.welcome.succeededOrders' })}\n                    value={summaryData?.succeededOrderNumber || 0}\n                    loading={loading}\n                  />\n                  <SuccessRateChart \n                    totalOrderNumber={summaryData?.totalOrderNumber || 0}\n                    succeededOrderNumber={summaryData?.succeededOrderNumber || 0}\n                  />\n                </div>\n              </Col>\n              <Col xs={24} sm={8}>\n                <BalanceDisplay\n                  balanceInfo={summaryData?.balanceInfo || '-'}\n                  loading={loading}\n                />\n              </Col>\n            </Row>\n          </div>\n        </div>\n      </Card>\n    </PageContainer>\n  );\n};\n\nexport default Welcome;\n",
       "__isJSFile": true,
       "__absFile": "/Users/danny.she/react/stripe_payment_merchant_portal/src/pages/Welcome.tsx"
     },

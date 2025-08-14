@@ -170,10 +170,12 @@ const Login: React.FC = () => {
       // 登录
       const msg = await login({ ...values, type });
       if (msg.status === 'ok') {
-        console.log('token::>> ', msg.token);
+        // 由于mock数据中没有token字段，我们使用用户名作为临时token
+        const token = msg.token || `temp_token_${values.username}_${Date.now()}`;
+        console.log('token::>> ', token);
         // 存储 token 到 cookie，过期时间为 1 天
         const expires = new Date(Date.now() + 24 * 60 * 60 * 1000).toUTCString();
-        document.cookie = `authorization=${msg.token}; expires=${expires}; path=/`;
+        document.cookie = `authorization=${token}; expires=${expires}; path=/`;
         const defaultLoginSuccessMessage = intl.formatMessage({
           id: 'pages.login.success',
           defaultMessage: '登录成功！',
@@ -181,13 +183,29 @@ const Login: React.FC = () => {
         //set username in LoginParams to initialState
         message.success(defaultLoginSuccessMessage);
 
-        const mid = values.username;
-        if (mid) {
-          await fetchUserInfo(mid);
-        }
+        // 直接设置用户信息，使用登录的用户名作为商户ID
+        const mockUserInfo = {
+          mid: values.username,
+          name: `Merchant ${values.username}`,
+          avatar: 'https://gw.alipayobjects.com/zos/rmsportal/BiazfanxmamNRoxxVxka.png',
+          currencies: ['USD', 'EUR'],
+          webhook: '',
+          feePercentage: 2.9,
+          access: 'admin'
+        };
         
-        const urlParams = new URL(window.location.href).searchParams;
-        history.push(urlParams.get('redirect') || '/');
+        flushSync(() => {
+          setInitialState((s) => ({
+            ...s,
+            currentUser: mockUserInfo,
+          }));
+        });
+        
+        // 确保用户信息设置完成后再跳转
+        setTimeout(() => {
+          const urlParams = new URL(window.location.href).searchParams;
+          history.push(urlParams.get('redirect') || '/');
+        }, 100);
         return;
       }
       //console.log(msg);
