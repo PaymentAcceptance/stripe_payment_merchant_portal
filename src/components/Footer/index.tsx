@@ -10,9 +10,9 @@ const Footer: React.FC = () => {
       }}
       links={[
         {
-          key: 'Powered by Tech Mart',
-          title: 'Powered by Tech Mart',
-          href: 'https://www.tech-mart.xyz',
+          key: 'Powered by GoGoPay',
+          title: 'Powered by GoGoPay',
+          href: 'https://api.gogopay.site',
           blankTarget: true,
         },
       ]}

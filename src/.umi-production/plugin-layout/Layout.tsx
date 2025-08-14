@@ -88,7 +88,7 @@ export default (props: any) => {
   "fixedHeader": false,
   "fixSiderbar": true,
   "colorWeak": false,
-  "title": "Merchant Center",
+  "title": "GoGoPay Merchant Center",
   "pwa": true,
   "logo": "./logo.png",
   "iconfontUrl": "",

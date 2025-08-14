@@ -2,7 +2,7 @@
 /* eslint-disable */
 import { request } from '@umijs/max';
 
-const API_BASE_URL = process.env.REACT_APP_API_BASE_URL || 'https://pay.tech-mart.xyz';
+const API_BASE_URL = process.env.REACT_APP_API_BASE_URL || 'https://api.gogopay.site';
 
 export async function currentUser(options?: { [key: string]: any }) {
   const mid = options?.mid
