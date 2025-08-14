@@ -12,7 +12,7 @@ const Footer: React.FC = () => {
         {
           key: 'Powered by GoGoPay',
           title: 'Powered by GoGoPay',
-          href: 'https://api.gogopay.site',
+          href: 'https://www.gogopay.site',
           blankTarget: true,
         },
       ]}
